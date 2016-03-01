@@ -23,7 +23,7 @@ session_start();
 <header>
     <div class="right">
         theB&Bhub.com
-    </div>
+
 
     <?php
     if ($_SESSION["user"] != null) {
@@ -53,6 +53,8 @@ session_start();
     function showOwnerSignInPage(){
 
         echo "
+
+         </div>
         </header>
 
 <div class='nav'>
