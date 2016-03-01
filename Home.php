@@ -108,53 +108,7 @@ NEWHTML;
                 </td>
             </tr>
 
-            <tr>
-                <td>
-                    <label for="date">Pick a date:</label></td>
-                <td><select id="date" class="inputform" name="date">
-                    <option value="">Select a date:</option>
-                    <option value="01/04/2016">01/04/2016</option>
-                    <option value="02/04/2016">02/04/2016</option>
-                    <option value="03/04/2016">03/04/2016</option>
-                    <option value="04/04/2016">04/04/2016</option>
-                </select>
-                </td>
-            </tr>
-            <tr><td>
-                <label for="duration">Number of Days:</label></td>
-                <td><select class="inputform" id="duration" name="numberofdays">
-                    <option value="">Select Number of Days:</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                </td>
-            </tr>
 
-            <tr><td>
-                <label for="numberofadults">Number of Adults:</label></td>
-                <td><select class="inputform" id="numberofadults" name="numberofadults">
-                    <option value="">Select Number of Adults:</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                </td>
-            </tr>
-
-            <tr><td>
-                <label for="numberofchildren">Number of Children:</label></td>
-                <td><select class="inputform" id="numberofchildren" name="numberofchildren">
-                    <option value="">Select Number of Children:</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                </td>
-            </tr>
             <tr>
 
             <td></td>
