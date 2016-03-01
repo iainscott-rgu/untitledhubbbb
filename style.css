@@ -16,7 +16,8 @@
     float: none;
     vertical-align: top;
     color: white;
-    margin-top: 0;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 .table2{
