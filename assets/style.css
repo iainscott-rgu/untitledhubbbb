@@ -60,3 +60,28 @@ main {
     color: black;
     text-align: right;
 }
+
+li{
+
+    float: right;
+}
+
+li a{
+
+    display: inline-block;
+    padding: 0 10px 10px 10px;
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.moveright{
+
+    text-align: right;
+    color: darkslategrey;
+}
