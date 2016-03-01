@@ -14,7 +14,7 @@
 <header>
     <section class="right">
         <div class="left">
-            <img src = "assets/b&blogotransparent.png" id="img">
+            <img src = "assets/b&blogotransparentcrop.png" id="img">
 
 
         </div>
