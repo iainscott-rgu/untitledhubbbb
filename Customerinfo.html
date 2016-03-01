@@ -12,9 +12,15 @@
 </head>
 
 <header>
-    <div class="right">
-        theB&Bhub.com
+    <section class="right">
+        <div class="left">
+            <img src = "assets/b&blogotransparent.png" id="img">
+
+
+        </div>
+        <div class="rightside">
     </div>
+        </section>
 </header>
 
 <div class="nav">

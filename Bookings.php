@@ -7,7 +7,19 @@
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 </head>
 
-<header>
+
+
+    <header>
+        <section class="right">
+            <div class="left">
+                <img src = "assets/b&blogotransparent.png" id="img">
+
+
+            </div>
+            <div class="rightside">
+
+                </div>
+            </section>
 
     <nav>
 

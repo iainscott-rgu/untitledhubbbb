@@ -16,9 +16,14 @@ session_start();
 </head>
 
 <header>
-    <div class="right">
-        theB&Bhub.com
-    </div>
+    <section class="right">
+        <div class="left">
+            <img src = "assets/b&blogotransparent.png" id="img">
+
+
+        </div>
+        <div class="rightside">
+
     <?php
     if ($_SESSION["user"] != null) {
         echo "<p id='loginText'>Currently signed in as: " . $_SESSION["user"];
@@ -33,6 +38,9 @@ session_start();
             window.location = "http://bbhubapp.azurewebsites.net/home.php?value=logout";
         }
     </script>
+
+        </div>
+        </section>
 </header>
 
 <div class="nav">
