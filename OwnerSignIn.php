@@ -152,7 +152,7 @@ session_start();
 </html>
 
         ";
-    }
+
 
 
 HTMLPAGE;
