@@ -10,13 +10,17 @@
     width: 100%;
     background-color: #2f4f4f;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12PT;
+    font-size: 10PT;
     padding: 10px;
-    float: none;
     vertical-align: top;
     color: white;
     margin-top: 0;
     margin-left: 0;
+}
+
+.logo{
+
+
 }
 
 .table2{

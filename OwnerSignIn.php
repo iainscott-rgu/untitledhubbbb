@@ -3,21 +3,21 @@ session_start();
 ?>
 
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Owner's Page: theb&bhub.com</title>
-        <link type="text/css" rel="stylesheet" href="style.css"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Owner's Page: theb&bhub.com</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
 
-        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 
 
-    </head>
+</head>
 
 <header>
     <div class="right">
@@ -47,13 +47,13 @@ session_start();
     </script>
 
 
-<?
+    <?
 
-function showOwnerSignInPage()
-{
+    function showOwnerSignInPage()
+    {
 
-    $htmlOwnerSignInPage =
-        <<<HTMLPAGE
+        $htmlOwnerSignInPage =
+<<<HTMLPAGE
 
         </header>
 
@@ -157,16 +157,16 @@ function showOwnerSignInPage()
 
 HTMLPAGE;
 
-    print($htmlOwnerSignInPage);
-}
+        print($htmlOwnerSignInPage);
+    }
 
-function showOwnerReviewPage()
-{
+    function showOwnerReviewPage()
+    {
 
 
-    $htmlOwnerReviewPage =
-        <<<HTMLPAGE
-                    </header>
+        $htmlOwnerReviewPage =
+<<<HTMLPAGE2
+                                </header>
 
 <div class='nav'>
 
@@ -256,13 +256,15 @@ function showOwnerReviewPage()
 
 
 
-HTMLPAGE;
+HTMLPAGE2;
 
-    print($htmlOwnerReviewPage);
-
-
-}
+        print($htmlOwnerReviewPage);
 
 
+    }
 
-?>
+
+
+    ?>
+
+
