@@ -67,16 +67,17 @@ session_start();
 
 <div class='nav'>
 
-    <nav>
+     <nav>
 
 
 
-        <ul class='moveright'><li><a href='B&Bregistration.html'>Help</a></li>
-            <li><a href='Customerinfo.html'>Contact</a></li>
-            <!-- <li><a href='B&Bregistration.html'>Register</a></li> -->
-            <li><a href='OwnerSignIn.php'>Owner's Page</a></li>
-            <li><a href='Home.php'>Search</a></li>
+        <ul class="moveright">
 
+            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
+            <li><a href="Customerinfo.html">Register</a></li>
+            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
+            <li><a href="OwnerSignIn.php">Owner's Page</a></li>
+            <li><a href="Home.php">Search</a></li>
 
 
         </ul>
