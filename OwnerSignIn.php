@@ -1,29 +1,28 @@
-
 <?php
 session_start();
 ?>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Owner's Page: theb&bhub.com</title>
-    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Owner's Page: theb&bhub.com</title>
+        <link type="text/css" rel="stylesheet" href="style.css"/>
 
-    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 
 
-</head>
+    </head>
 
 <header>
     <div class="right">
         theB&Bhub.com
-
+    </div>
 
     <?php
     if ($_SESSION["user"] != null) {
@@ -48,13 +47,14 @@ session_start();
     </script>
 
 
-    <?
+<?
 
-    function showOwnerSignInPage(){
+function showOwnerSignInPage()
+{
 
-        echo "
+    $htmlOwnerSignInPage =
+        <<<HTMLPAGE
 
-         </div>
         </header>
 
 <div class='nav'>
@@ -139,7 +139,7 @@ session_start();
             </table>
     </div>
 
-    <hr width='100%' align='left' size='1' color='#2f4f4f'>
+    <hr width='100%' align='left' size='1' color=''#2f4f4f'>
 
 
 </main>
@@ -155,14 +155,18 @@ session_start();
     }
 
 
+HTMLPAGE;
+
+    print($htmlOwnerSignInPage);
+}
+
+function showOwnerReviewPage()
+{
 
 
-
-    function showOwnerReviewPage(){
-
-
-        echo "
-        </header>
+    $htmlOwnerReviewPage =
+        <<<HTMLPAGE
+                    </header>
 
 <div class='nav'>
 
@@ -234,7 +238,7 @@ session_start();
             </table>
     </div>
 
-    <hr width='100%' align='left' size='1' color='#2f4f4f'>
+    <hr width='100%' align='left' size='1' color=''#2f4f4f'>
 
 
 </main>
@@ -252,12 +256,13 @@ session_start();
 
 
 
+HTMLPAGE;
+
+    print($htmlOwnerReviewPage);
+
+
+}
 
 
 
-
-    }
-
-
-    ?>
-
+?>
