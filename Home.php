@@ -20,7 +20,7 @@ session_start();
 <header>
     <section class="right">
     <div class="left">
-        <img src = "assets/logo.png" id="img">theB&Bhub.com
+        <img src = "assets/b&blogotransparent.png" id="img">
 
 
 </div>
