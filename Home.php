@@ -20,9 +20,9 @@ session_start();
 <header>
     <div class="right">
         theB&Bhub.com
-    </div>
 
-    <div></div>
+
+
     <?php
 
     if($_GET['value']=="logout"){
@@ -45,7 +45,7 @@ session_start();
             window.location = "http://bbhubapp.azurewebsites.net/home.php?value=logout";
         }
     </script>
-
+    </div>
 </header>
 <body>
 <div class="nav">
