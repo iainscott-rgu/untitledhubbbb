@@ -26,7 +26,7 @@ session_start();
 
 
         </div>
-        <div class=""rightside">
+        <div class=rightside">
 
 
     <?php
