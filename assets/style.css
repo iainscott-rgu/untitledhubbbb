@@ -1,5 +1,4 @@
 body {
-    background-color: cornflowerblue;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -19,26 +18,20 @@ main {
 }
 
 #cont1 {
-    background-color: gold;
+    background-color: darkslategrey;
     margin: 10px;
     width: 1200px;
 
 
 }
 #cont2 {
-    background-color: silver;
+
     margin: 10px;
 
 
 
 }
 
-#cont3 {
-    background-color: saddlebrown;
-    margin: 10px;
-
-
-}
 
 .banner{
     background-color: slategrey;
