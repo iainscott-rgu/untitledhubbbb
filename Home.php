@@ -18,12 +18,13 @@ session_start();
 </head>
 
 <header>
-    <div class="centre">
+    <section class="right">
+    <div class="left">
         <img src = "assets/logo.png" id="img">theB&Bhub.com
 
 
-
-
+</div>
+<div class=""rightside">
 
 
     <?php
@@ -49,6 +50,7 @@ session_start();
         }
     </script>
     </div>
+    </section>
 </header>
 <body>
 <div class="nav">
