@@ -18,7 +18,7 @@ session_start();
 </head>
 
 <header>
-    <div class="right">
+    <div class="centre">
         <img src = "assets/logo.png" id="img">theB&Bhub.com
 
 
