@@ -19,9 +19,9 @@ session_start();
 
 <header>
     <div class="right">
-        theB&Bhub.com
+        <img src = "#" id="img">theB&Bhub.com
 
-        </div>
+
 
 
 

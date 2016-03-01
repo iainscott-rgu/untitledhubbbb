@@ -16,12 +16,15 @@
     color: white;
     margin-top: 0;
     margin-left: 0;
+    text-align: right;
 }
 
-.logo{
+#logo{
 
-
+    align: left;
+    height: 100px;
 }
+
 
 .table2{
 
