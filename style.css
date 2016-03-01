@@ -1,6 +1,6 @@
 .left {
     float: left;
-    color: darkslategrey;
+    color: #558B14;
     font-size: 12PT;
     padding: 10px;
 
@@ -8,7 +8,7 @@
 .right {
 
     width: 100%;
-    background-color: #2f4f4f;
+    background-color: #558B14;
     font-family: 'Open Sans', sans-serif;
     font-size: 10PT;
     padding: 10px;
@@ -51,7 +51,7 @@ body{
 
 .t2{
 
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1px solid #558B14;
 }
 
 .tr2{
@@ -63,7 +63,7 @@ body{
 .nav{
 
     font-family: 'Poiret One', cursive;
-    color: darkslategrey;
+    color: #558B14;
     font-size: 14PT;
     padding: 10px;
     width: 100%;
@@ -80,7 +80,7 @@ section{
 header{
 
     font-family: 'Poiret One', cursive;
-    color: darkslategrey;
+    color: #558B14;
     font-size: 12PT;
     margin-left: 0;
     margin-top: 0;
@@ -132,7 +132,7 @@ form {
 .table1{
 
     float: left;
-    background-color: darkslategrey;
+    background-color: #75B12C;
     padding: 30px;
     font-family: 'Open Sans', sans-serif;
     -moz-border-radius:10px; /* Firefox */
@@ -169,7 +169,7 @@ ul {
 .moveright{
 
     text-align: right;
-    color: darkslategrey;
+    color: #558B14;
 }
 
 li{
@@ -244,8 +244,8 @@ nav{
 .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid darkslategrey;
-    border-bottom: 16px solid darkslategrey;
+    border-top: 16px solid #75B12C;
+    border-bottom: 16px solid #75B12C;
     width: 50px;
     height: 50px;
     -webkit-animation: spin 2s linear infinite;
