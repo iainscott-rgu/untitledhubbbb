@@ -21,6 +21,8 @@ session_start();
     <div class="right">
         theB&Bhub.com
     </div>
+
+    <div></div>
     <?php
 
     if($_GET['value']=="logout"){

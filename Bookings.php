@@ -11,11 +11,17 @@
 
     <nav>
 
-        <ul>
-            <li><a href="Home.php">Home page</a></li>
-            <li><a href="Bookings.php">Bookings</a></li>
-            <li><a href="OwnerSignIn.php">Owner Registration</a></li>
-            <li><a href="B&Bregistration.html">B&B Registration</a></li>
+
+
+        <ul class="moveright">
+
+            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
+            <li><a href="Customerinfo.html">Register</a></li>
+            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
+            <li><a href="OwnerSignIn.php">Owner's Page</a></li>
+            <li><a href="Home.php">Search</a></li>
+
+
         </ul>
 
     </nav>
