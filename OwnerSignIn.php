@@ -74,7 +74,7 @@ session_start();
         <ul class="moveright">
 
 
-            <li><a href="Customerinfo.html">Register</a></li>
+            <li><a href="B&Bregistration.html">Register</a></li>
             <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
             <li><a href="OwnerSignIn.php">Owner's Page</a></li>
             <li><a href="Home.php">Search</a></li>
