@@ -20,9 +20,14 @@ session_start();
 </head>
 
 <header>
-    <div class="right">
-        theB&Bhub.com!!!!
-    </div>
+    <section class="right">
+        <div class="left">
+            <img src = "assets/b&blogotransparent.png" id="img">
+
+
+        </div>
+        <div class=""rightside">
+
 
     <?php
     if ($_SESSION["user"] != null) {
@@ -55,6 +60,9 @@ session_start();
         $htmlOwnerSignInPage =
 <<<HTMLPAGE
 
+
+        </div>
+        </section>
         </header>
 
 <div class='nav'>
