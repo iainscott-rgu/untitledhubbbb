@@ -19,7 +19,7 @@ session_start();
 
 <header>
     <div class="right">
-        <img src = "#" id="img">theB&Bhub.com
+        <img src = "assets/logo.png" id="img">theB&Bhub.com
 
 
 
