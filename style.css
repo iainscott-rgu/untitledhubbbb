@@ -16,8 +16,8 @@
     float: none;
     vertical-align: top;
     color: white;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 .table2{
@@ -35,6 +35,11 @@
 
 
 
+}
+
+body{
+
+    margin-top: 0;
 }
 
 .t2{

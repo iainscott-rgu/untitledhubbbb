@@ -33,7 +33,7 @@ session_start();
     echo "<p id='loginText'>Currently signed in as: " . $_SESSION["user"];
         echo "    not you?</p><button id='logout()' onclick='logout()'>LOGOUT</button>";
     }else{
-    echo "<p id='loginText'>currently not logged in";
+    echo "<p id='loginText'>currently not logged in!";
         }
 
 
