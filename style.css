@@ -38,7 +38,7 @@
 
     float: right;
     width: 55%;
-    font-family: 'Poiret One', cursive;
+
     -moz-border-radius:10px; /* Firefox */
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -khtml-border-radius: 10px; /* KHTML */
@@ -80,7 +80,7 @@ body{
 
 header{
 
-    font-family: 'Poiret One', cursive;
+
     color: darkslategrey;
     font-size: 12PT;
     margin-left: 0;
@@ -288,7 +288,7 @@ h4{
 }
 
 body {
-    background-color: white;
+    background-color: darkslategrey;
 }
 main {
     max-width: 1200px;
