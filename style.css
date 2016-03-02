@@ -67,6 +67,7 @@ body{
 
     max-width: 1200px;
     border: 1px solid black;
+    height: 100px;
 }
 
 .nav{
