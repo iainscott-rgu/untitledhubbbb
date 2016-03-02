@@ -8,13 +8,13 @@
 
 
     <header>
-<section id = "banner2">
+<section class = "container" id = "banner2">
 
 1
 
 
 </section>
-    <section id = "navigation2">
+    <section class = "container" id = "navigation2">
 
 2
 
@@ -24,7 +24,7 @@
     </header>
 
 
-    <section id = "content2">
+    <section class = "container" id = "content2">
 
 3
 
@@ -38,7 +38,7 @@
 
 
 
-    <section id = "foot2">
+    <section class = "container" id = "foot2">
     <footer>
 
 4
