@@ -167,7 +167,7 @@ input.submit {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+
 
 }
 
@@ -188,6 +188,7 @@ li{
     float: right;
     background-color: lightgray;
     margin-right: 0;
+    padding: 10px;
 
 
 }
