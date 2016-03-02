@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Results</title>
+    <link rel="icon"
+          type="image/png"
+          href="assets/b&bicon.png">
     <link type="text/css" rel="stylesheet" href="style.css"/>
 
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
