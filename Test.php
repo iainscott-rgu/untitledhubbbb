@@ -72,7 +72,7 @@ session_start();
     <section class = "container" id = "navigation2">
 
         <section id="navbar">
-            <div class="nav">
+
 
                 <nav>
 
@@ -94,7 +94,7 @@ session_start();
 
 
 
-            </div>
+
 
     </section>
 
