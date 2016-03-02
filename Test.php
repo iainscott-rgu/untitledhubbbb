@@ -71,7 +71,30 @@ session_start();
 </section>
     <section class = "container" id = "navigation2">
 
-2
+        <section id="navbar">
+            <div class="nav">
+
+                <nav>
+
+
+
+                    <ul class="moveright">
+
+                        <!--<li><a href="B&Bregistration.html">Help</a></li>-->
+                        <li><a href="B&Bregistration.html">Register</a></li>
+                        <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
+                        <li><a href="OwnerSignIn.php">Owner's Page</a></li>
+                        <li><a href="Home.php">Search</a></li>
+
+
+                    </ul>
+
+                </nav>
+
+
+
+
+            </div>
 
     </section>
 
