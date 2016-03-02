@@ -71,7 +71,7 @@ session_start();
 </section>
     <section class = "container" id = "navigation2">
 
-        <section id="navbar">
+
 
 
                 <nav>
@@ -81,7 +81,7 @@ session_start();
                     <ul class="">
 
                         <!--<li><a href="B&Bregistration.html">Help</a></li>-->
-                        <li><a href="B&Bregistration.html">Register</a></li>
+                        <li><a href="B&Bregistration.html">Register!</a></li>
                         <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
                         <li><a href="OwnerSignIn.php">Owner's Page</a></li>
                         <li><a href="Home.php">Search</a></li>
