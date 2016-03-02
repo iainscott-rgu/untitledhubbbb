@@ -20,6 +20,9 @@ session_start();
 
 </head>
 
+<div class="container1">
+
+
 <header>
     <section class="right">
     <div class="left">
@@ -161,6 +164,10 @@ NEWHTML;
 
         <p>Copyright. Team D Solutions.</p>
     </footer></div>
+
+</div>
+
+
 </body>
 
 </html>
