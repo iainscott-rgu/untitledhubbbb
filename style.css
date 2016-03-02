@@ -63,6 +63,11 @@ body{
     border-bottom: 1px solid darkslategrey;
 }
 
+#navbar{
+
+    max-width: 1200px;
+}
+
 .nav{
 
     font-family: 'Poiret One', cursive;
