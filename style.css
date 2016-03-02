@@ -198,11 +198,6 @@ li a{
 
 }
 
-A:LINK{
-
-    COLOR: gold;
-}
-
 A:HOVER{
 
     background-color: darkslategrey;
@@ -213,6 +208,7 @@ A:HOVER{
 #nav{
 
     margin-top: 0;
+    padding: 10px;
 
 }
 
