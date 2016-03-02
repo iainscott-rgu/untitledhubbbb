@@ -167,7 +167,7 @@ input.submit {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0px;
+    padding: 10px;
 }
 
 .moveright{
@@ -177,7 +177,7 @@ ul {
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
-    padding: 10px;
+
 }
 
 li{
