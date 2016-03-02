@@ -70,6 +70,7 @@ body{
     font-size: 14PT;
     float: right;
     text-align: right;
+    max-width: 1200px;
 
 }
 
