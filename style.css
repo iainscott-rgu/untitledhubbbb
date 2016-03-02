@@ -186,6 +186,7 @@ li{
 
     float: right;
     background-color: #ff0006;
+    margin-right: 0;
 }
 
 li a{
