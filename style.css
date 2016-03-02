@@ -43,7 +43,7 @@
 .right2{
 
     font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 body{
@@ -193,9 +193,13 @@ A:HOVER{
     COLOR: red;
 }
 
+h2{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
 
 h4{
-
     color: white;
 }
 
