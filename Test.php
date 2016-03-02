@@ -1,8 +1,8 @@
 <html>
-
+<head>
 <link type="text/css" rel="stylesheet" href="style.css"/>
 
-
+</head>
 
 
 
@@ -22,7 +22,9 @@
 
 
     </header>
+<body>
 
+<main>
 
     <section class = "container" id = "content2">
 
@@ -32,7 +34,7 @@
     </section>
 
 
-
+</main>
 
 
 
@@ -55,7 +57,7 @@
 
 
 
-
+</body>
 </html>
 
 <?php
