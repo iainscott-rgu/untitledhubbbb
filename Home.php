@@ -20,7 +20,7 @@ session_start();
 
 </head>
 
-<div class="container1">
+
 
 
 <header>
@@ -165,7 +165,7 @@ NEWHTML;
         <p>Copyright. Team D Solutions.</p>
     </footer></div>
 
-</div>
+
 
 
 </body>
