@@ -80,7 +80,7 @@ session_start();
 
 
 
-                        rtyuui
+        <li><a href="B&Bregistration.html">Register</a></li>
 
 
 
