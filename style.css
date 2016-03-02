@@ -200,6 +200,14 @@ A:HOVER{
     COLOR: white;
 }
 
+#nav li:before {
+    content: " | ";
+}
+
+#nav li:first-child:before {
+    content: none;
+}
+
 h2{
 
     font-family: 'Open Sans', sans-serif;

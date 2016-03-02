@@ -59,7 +59,7 @@ session_start();
     </section>
 </header>
 <body>
-<div class="nav">
+<div id="nav">
 
     <nav>
 
