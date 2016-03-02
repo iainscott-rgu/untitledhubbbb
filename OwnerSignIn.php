@@ -227,8 +227,7 @@ HTMLPAGE;
 
             <table class="table2">
         <tr><td colspan="2"><p><strong>Example Message Board & User Information</strong></p></td></tr>
-        <tr class="tr2"><td class="t2"><p>Please sign in to access your user account on theB&Bhub.
-                    If you do not already have an account please click 'register' now...</p></td></tr>
+        <tr class="tr2"><td class="t2"><p>Welcome to theB&Bhub...</p></td></tr>
         <tr class="tr2"><td class="t2"><p>row 2</p></td></tr>
         <tr class="tr2"><td class="t2"><p>row 3</p></td></tr>
         <tr class="tr2"><td class="t2"><p>row 4</p></td></tr>
