@@ -140,7 +140,7 @@ NEWHTML;
 
         <table class="table2">
             <tr><td colspan="2"><p>Message Board - Spotlight - Services</p></td></tr>
-            <tr class="tr2"><td class="t2"><p>img src="assets/bnbthumb.jpg>Spotlight no. 1</p></td></tr>
+            <tr class="tr2"><td class="t2"><p><img src = "assets/bnbthumb.jpg" id="img" ></p></td></tr>
             <tr class="tr2"><td class="t2"><p>row 2</p></td></tr>
             <tr class="tr2"><td class="t2"><p>row 3</p></td></tr>
             <tr class="tr2"><td class="t2"><p>row 4</p></td></tr>
