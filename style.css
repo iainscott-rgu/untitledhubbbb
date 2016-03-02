@@ -177,6 +177,7 @@ ul {
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
+    padding: 10px;
 
 
 }
@@ -204,8 +205,6 @@ A:HOVER{
     COLOR: white;
     padding: 10px;
 }
-
-
 
 h2{
 
