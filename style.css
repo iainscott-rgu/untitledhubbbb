@@ -204,7 +204,7 @@ A:HOVER{
 
 #nav li:before {
     content: "";
-    marin: 0;
+    margin: 0;
 
 }
 
