@@ -5,9 +5,11 @@
 </head>
 
 
+<body>
+
+<main>
 
 
-    <header>
 <section class = "container" id = "banner2">
 
 1
@@ -21,10 +23,8 @@
     </section>
 
 
-    </header>
-<body>
 
-<main>
+
 
     <section class = "container" id = "content2">
 
