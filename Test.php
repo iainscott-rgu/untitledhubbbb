@@ -2,17 +2,21 @@
 
 <link type="text/css" rel="stylesheet" href="style.css"/>
 <section id = "container2">
-eeeeeeeeeee
+
+
+
+
+
     <header>
 <section id = "banner2">
 
-    eeeeeeeeeeee
+
 
 
 </section>
     <section id = "navigation2">
 
-        eeeeeeeeeeeeeee
+
 
     </section>
 
@@ -22,7 +26,7 @@ eeeeeeeeeee
 
     <section id = "content2">
 
-        eeeeeeeeeeeeee
+
 
 
     </section>
