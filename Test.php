@@ -10,13 +10,13 @@
     <header>
 <section id = "banner2">
 
-
+1
 
 
 </section>
     <section id = "navigation2">
 
-
+2
 
     </section>
 
@@ -26,7 +26,7 @@
 
     <section id = "content2">
 
-
+3
 
 
     </section>
@@ -41,7 +41,7 @@
     <section id = "foot2">
     <footer>
 
-        eeeeeeeeeeeeeeeeee
+4
 
     </footer>
 
