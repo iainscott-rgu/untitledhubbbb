@@ -69,7 +69,7 @@ body{
 
     width: 100%;
     border: 1px solid black;
-    height: 100px;
+    margin-right: 0;
 
 }
 
@@ -78,9 +78,9 @@ body{
     font-family: 'Poiret One', cursive;
     color: darkslategrey;
     font-size: 14PT;
-    float: right;
     text-align: right;
     border: 3px solid black;
+    margin-right: 0;
 
 }
 
