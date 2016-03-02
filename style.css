@@ -196,7 +196,8 @@ A:LINK{
 
 A:HOVER{
 
-    COLOR: red;
+    background-color: darkslategrey;
+    COLOR: white;
 }
 
 h2{
