@@ -1,8 +1,29 @@
-<html>
-<head>
-<link type="text/css" rel="stylesheet" href="style.css"/>
+<?php
+session_start();
 
-</head>
+?>
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Search: theB&Bhub</title>
+        <link rel="icon"
+              type="image/png"
+              href="assets/b&bicon.png">
+        <link type="text/css" rel="stylesheet" href="style.css"/>
+
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+
+
+    </head>
+
+
+
+
+
 
 
 <body>
@@ -12,7 +33,39 @@
 
 <section class = "container" id = "banner2">
 
-1
+    <section class="right">
+        <div id="left">
+            <img src = "assets/b&blogotransparentcrop.png" id="img">
+
+
+        </div>
+        <div class="rightside">
+
+
+            <?php
+
+            if($_GET['value']=="logout"){
+                session_unset();
+            }
+            if ($_POST['user'] != null) {
+                $_SESSION["user"] = $_POST['user'];
+            }
+            if ($_SESSION["user"] != null) {
+                echo "<p id='loginText'>Currently signed in as: " . $_SESSION["user"];
+                echo "    not you?</p><button id='logout()' onclick='logout()'>LOGOUT</button>";
+            }else{
+                echo "<p id='loginText'>currently not logged in!";
+            }
+
+
+            ?>
+            <script>
+                function logout() {
+                    window.location = "http://iainscott-rgu.azurewebsites.net/home.php?value=logout";
+                }
+            </script>
+        </div>
+
 
 
 </section>
