@@ -1,7 +1,7 @@
 <html>
 
 <link type="text/css" rel="stylesheet" href="style.css"/>
-<section id = "container2">
+
 
 
 
@@ -51,7 +51,7 @@
 
 
 
-</section>
+
 
 
 
