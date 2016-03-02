@@ -74,7 +74,7 @@ session_start();
 
 
 
-                <nav>
+
 
 
 
@@ -89,7 +89,7 @@ session_start();
 
                     </ul>
 
-                </nav>
+
 
 
 
