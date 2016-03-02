@@ -65,13 +65,7 @@ body{
     border-bottom: 1px solid darkslategrey;
 }
 
-#navbar{
 
-    width: 100%;
-    border: 1px solid black;
-    margin-right: 0;
-
-}
 
 .nav{
 
@@ -79,8 +73,7 @@ body{
     color: darkslategrey;
     font-size: 14PT;
     text-align: right;
-    border: 3px solid black;
-    margin-right: 0;
+
 
 }
 
