@@ -167,6 +167,7 @@ input.submit {
 ul {
     list-style-type: none;
     margin: 0;
+    background-color: #ff0006;
 
 }
 
@@ -208,7 +209,7 @@ A:HOVER{
 #nav{
 
     margin-top: 0;
-    background-color: #ff0006;
+
 }
 
 h2{
