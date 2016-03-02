@@ -25,7 +25,7 @@ session_start();
 
 <header>
     <section class="right">
-    <div class="left">
+    <div id="left">
         <img src = "assets/b&blogotransparentcrop.png" id="img">
 
 

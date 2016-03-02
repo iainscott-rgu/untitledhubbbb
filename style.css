@@ -1,8 +1,9 @@
-.left {
+#left {
 
     color: darkslategrey;
     font-size: 12PT;
     padding: 10px;
+    float: left;
 
 }
 .right {
