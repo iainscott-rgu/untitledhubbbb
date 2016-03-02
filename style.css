@@ -187,6 +187,7 @@ li{
     background-color: lightgray;
     margin-right: 0;
     padding: 10px;
+
 }
 
 li a{
@@ -206,6 +207,7 @@ A:HOVER{
 
     background-color: darkslategrey;
     COLOR: white;
+    padding: 10px;
 }
 
 #nav{
