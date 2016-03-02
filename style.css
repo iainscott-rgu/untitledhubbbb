@@ -26,6 +26,11 @@
    height: 50px;
 }
 
+#img2{
+
+    border: 1px solid darkslategrey;
+}
+
 .table2{
 
     float: right;
