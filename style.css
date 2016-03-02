@@ -7,7 +7,7 @@
 }
 .right {
 
-    width: 99%;
+    width: 98%;
     background-color: darkslategrey;
     font-family: 'Open Sans', sans-serif;
     font-size: 10PT;
@@ -167,7 +167,6 @@ input.submit {
 ul {
     list-style-type: none;
     margin: 0;
-    background-color: #ff0006;
 
 }
 
@@ -185,7 +184,7 @@ ul {
 li{
 
     float: right;
-    background-color: #ff0006;
+    background-color: lightgray;
     margin-right: 0;
 }
 
