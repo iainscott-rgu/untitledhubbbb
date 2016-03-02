@@ -285,6 +285,18 @@ h4{
 
 }
 
+body {
+    background-color: cornflowerblue;
+}
+main {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+
 #content2{
     max-width: 1200px;
     height: 100px;
