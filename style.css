@@ -177,6 +177,7 @@ ul {
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
+    background-color: #ff0006;
 
 }
 
@@ -206,17 +207,6 @@ A:HOVER{
 
 #nav{
 
-    margin-top: 0;
-}
-
-#nav li:before {
-    content: "";
-    margin-top: 0;
-
-}
-
-#nav li:first-child:after {
-    content: none;
     margin-top: 0;
 }
 
