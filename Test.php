@@ -78,7 +78,7 @@ session_start();
 
 
 
-                    <ul class="moveright">
+                    <ul class="">
 
                         <!--<li><a href="B&Bregistration.html">Help</a></li>-->
                         <li><a href="B&Bregistration.html">Register</a></li>
