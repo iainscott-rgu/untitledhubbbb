@@ -175,7 +175,7 @@ ul {
     text-align: right;
     color: darkslategrey;
     margin-right: 0;
-    padding: 0px;
+    padding: 5px;
 }
 
 li{
@@ -204,11 +204,13 @@ A:HOVER{
 
 #nav li:before {
     content: "";
-    padding: 5px;
+    marin: 0;
+
 }
 
 #nav li:first-child:after {
     content: none;
+    margin: 0;
 }
 
 h2{
