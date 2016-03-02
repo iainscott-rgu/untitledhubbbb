@@ -41,11 +41,7 @@
 
 
     <section class = "container" id = "foot2">
-    <footer>
 
-4
-
-    </footer>
 
     </section>
 
