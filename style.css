@@ -167,7 +167,7 @@ input.submit {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
 }
 
 .moveright{
@@ -175,6 +175,7 @@ ul {
     text-align: right;
     color: darkslategrey;
     margin-right: 0;
+    padding: 0px;
 }
 
 li{
