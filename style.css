@@ -201,10 +201,11 @@ A:HOVER{
 }
 
 #nav li:before {
-    content: " | ";
+    content: "|";
+    padding: 5px;
 }
 
-#nav li:first-child:before {
+#nav li:first-child:after {
     content: none;
 }
 
