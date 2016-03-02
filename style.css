@@ -188,7 +188,7 @@ li{
     float: right;
     background-color: lightgray;
     margin-right: 0;
-    padding: 10px;
+
 
 
 }
@@ -196,8 +196,9 @@ li{
 li a{
 
     display: inline-block;
-    padding: 0px 10px 10px 10px;
+    padding: 10px;
     text-decoration: none;
+
 
 }
 
