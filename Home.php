@@ -20,7 +20,7 @@ session_start();
 
 </head>
 
-
+<section id="container">
 
 
 <header>
@@ -166,7 +166,7 @@ NEWHTML;
     </footer></div>
 
 
-
+</section>
 
 </body>
 
