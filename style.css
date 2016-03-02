@@ -175,7 +175,9 @@ ul {
     text-align: right;
     color: darkslategrey;
     margin-top: 0;
-    padding: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 10px;
 }
 
 li{
