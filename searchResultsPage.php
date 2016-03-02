@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Results</title>
+    <title>Results: theB&Bhub</title>
     <link rel="icon"
           type="image/png"
           href="assets/b&bicon.png">

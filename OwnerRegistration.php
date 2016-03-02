@@ -6,7 +6,7 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Registration: theB&Bhub</title>
+    <title>Listing: theB&Bhub</title>
     <link rel="icon"
           type="image/png"
           href="assets/b&bicon.png">
