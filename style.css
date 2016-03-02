@@ -1,4 +1,4 @@
-#left {
+.left {
 
     color: darkslategrey;
     font-size: 12PT;
@@ -187,7 +187,7 @@ ul {
 
 li{
 
-    text-align: right;
+    float: right;
     margin-right: 0;
 
 
