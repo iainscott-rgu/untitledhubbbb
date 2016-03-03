@@ -2,64 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Results: theB&Bhub</title>
     <link rel="icon"
           type="image/png"
           href="assets/b&bicon.png">
     <link type="text/css" rel="stylesheet" href="style.css"/>
-
-    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-
-
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>Search: theB&Bhub</title>
 </head>
+<body>
 
-<header>
-    <section class="right">
-        <div class="left">
-            <img src = "assets/b&blogotransparentcrop.png" id="img">
-
-
-        </div>
-        <div class="rightside">
+<section class="container" id="banner">
+    <div class="floatleft">
+        <img src = "assets/b&blogotransparentcrop.png" id="img">
+    </div>
+    <div class="floatright">
     </div>
         </section>
 
 
+<section class="container" id="navigation">
+    <div>
+        <nav>
+            <ul>
+                <li><a href="B&Bregistration.html">Contact</a></li>
+                <li><a href="B&Bregistration.html">Register</a></li>
+                <li><a href="OwnerSignIn.php">Member Area</a></li>
+                <li><a href="SearchBB.php">Search</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
 
-
-
-
-</header>
-<div class="nav">
-
-    <nav>
-
-
-
-        <ul class="moveright">
-
-            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
-            <li><a href="B&Bregistration.html">Register</a></li>
-            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
-            <li><a href="OwnerSignIn.php">Owner's Page</a></li>
-            <li><a href="Home.php">Search</a></li>
-
-
-        </ul>
-
-    </nav>
-
-
-
-
-</div>
-<hr width="100%" align="left" size="1" color="#d3d3d3">
-
-<body>
-
-<main>
-
+<section class="container" id="content">
 
 
     <div class="main">
@@ -99,14 +73,16 @@ NEWHTML;
     {print"$e";}
     ?>
 </div>
-    <hr width="100%" align="left" size="1" color="#2f4f4f">
 
 
-</main>
-<div class="foot">
-    <footer>
+    <hr width="100%" size="1">
+</section>
 
-        <p>Copyright. Team D Solutions.</p>
-    </footer></div>
+<section class="container" id="foot">
+
+    <p>Copyright. Team D Solutions.</p>
+
+</section>
+
 </body>
 </html>
