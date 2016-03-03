@@ -1,29 +1,8 @@
 
 
-.right {
-
-    width: 99%;
-    background-color: darkslategrey;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10PT;
-    padding: 10px;
-    vertical-align: top;
-    color: white;
-    margin-top: 0;
-    margin-left: 0;
-    text-align: right;
-    height: 70px;
-
-
-}
 
 
 
-#img2{
-
-    border: 1px solid darkslategrey;
-    height: 100px;
-}
 
 .table2{
 
@@ -155,22 +134,9 @@ ul {
 
 }
 
-.moveright{
 
 
 
-
-
-}
-
-li{
-
-
-
-
-
-
-}
 
 
 
@@ -183,6 +149,8 @@ h2{
 h4{
     color: white;
 }
+
+
 
 #submit {
     -webkit-border-radius: 50px;
