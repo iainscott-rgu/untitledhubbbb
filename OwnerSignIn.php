@@ -12,6 +12,9 @@ session_start();
           href="assets/b&bicon.png">
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="script.js"></script>
     <title>Sign In: theB&Bhub</title>
 </head>
 <body>
