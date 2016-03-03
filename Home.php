@@ -59,7 +59,7 @@ session_start();
     </section>
 </header>
 
-<section id="navbar">
+<section class="navbar">
 <div class="nav">
 
     <nav>
