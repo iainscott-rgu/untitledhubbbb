@@ -80,17 +80,11 @@ body{
 
 
 
-    background-color: white;
+    background-color: lightgray;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12PT;
-
-    vertical-align: top;
-    color: darkslategrey;
-    margin-top: 0;
-    margin-left: 0;
+    font-size: 10PT;
     text-align: right;
-    height: 30px;
-    margin-right: 0;
+
 
 }
 
