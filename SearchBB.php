@@ -59,7 +59,7 @@
     <form action="searchResultsPage.php" method="post">
         <table class="tablesearch">
             <tr><td colspan="2"><h1>Search for a B&B:</h1></td></tr>
-            <tr><td class="smallfont">Search the UK for a B&B</td></tr>
+            <tr><td class="smallfont">Search across the UK and find a B&B</td></tr>
             <tr><td><label for="location">Pick a location:</label></td><td><select class="inputform" id="location" name="location">
 
                     <?php
