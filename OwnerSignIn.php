@@ -11,14 +11,8 @@ session_start();
           type="image/png"
           href="assets/b&bicon.png">
     <link type="text/css" rel="stylesheet" href="style.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-    <script src="script.js"></script>
-    <title>Sign-in: theB&Bhub</title>
-
-
+    <title>Sign In: theB&Bhub</title>
 </head>
 <body>
 
@@ -27,7 +21,6 @@ session_start();
         <img src = "assets/b&blogotransparentcrop.png" id="img">
     </div>
     <div class="floatright">
-
 
     <?php
     if ($_SESSION["user"] != null) {
@@ -71,17 +64,17 @@ session_start();
                     <li><a href="B&Bregistration.html">Contact</a></li>
                     <li><a href="B&Bregistration.html">Register</a></li>
                     <li><a href="OwnerSignIn.php">Member Area</a></li>
-                    <li><a href="Home.php">Search</a></li>
+                    <li><a href="SearchBB.php">Search</a></li>
                 </ul>
             </nav>
         </div>
 </section>
 
-<section class="container" id="content">
+<section class="container" id="content2">
    <table class='table1'>
             <tr><td colspan='2'>Owner's Page</td></tr>
 
-            <tr><td class='small'>* Required Fields</td></tr>
+            <tr><td><h4>* Required Fields</h4></td></tr>
 
             <tr><td>
                 <label for='email'>Email: *</label></td>
@@ -134,21 +127,19 @@ HTMLPAGE;
 
         $htmlOwnerReviewPage =
 <<<HTMLPAGE2
-                                </header>
-
-<section class="container" id="navigation">
+                                <section class="container" id="navigation">
         <div>
             <nav>
                 <ul>
                     <li><a href="B&Bregistration.html">Contact</a></li>
                     <li><a href="B&Bregistration.html">Register</a></li>
                     <li><a href="OwnerSignIn.php">Member Area</a></li>
-                    <li><a href="Home.php">Search</a></li>
+                    <li><a href="SearchBB.php">Search</a></li>
                 </ul>
             </nav>
         </div>
 </section>
-<section class="container" id="content">
+<section class="container" id="content2">
 
 
    <table class='table1'>
