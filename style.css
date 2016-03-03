@@ -305,9 +305,8 @@ h4{
 
 
 main {
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 99%;
+
     background-color: white;
 }
 
