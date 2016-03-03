@@ -19,7 +19,7 @@ session_start();
 
 
 </head>
-
+<body>
 <section id="container">
 
 
@@ -86,7 +86,7 @@ session_start();
 </section>
 <hr width="100%" align="left" size="1" color="#d3d3d3">
 
-    <body>
+
 
 <main>
     <form action="searchResultsPage.php" method="post">
