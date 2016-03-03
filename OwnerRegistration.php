@@ -6,26 +6,21 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Listing: theB&Bhub</title>
     <link rel="icon"
           type="image/png"
           href="assets/b&bicon.png">
     <link type="text/css" rel="stylesheet" href="style.css"/>
-
-    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-
-
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>Register: theB&Bhub</title>
 </head>
+<body>
 
-<header>
-    <section class="right">
-        <div class="left">
-            <img src = "assets/b&blogotransparentcrop.png" id="img">
-
-
-        </div>
-        <div class="rightside">
+<section class="container" id="banner">
+    <div class="floatleft">
+        <img src = "assets/b&blogotransparentcrop.png" id="img">
+    </div>
+    <div class="floatright">
 
     <?php
     if ($_SESSION["user"] != null) {
@@ -42,45 +37,31 @@ session_start();
         }
     </script>
 
-        </div>
-        </section>
-</header>
+    </div>
+</section>
 
-<div class="nav">
-
-    <nav>
-
-
-
-        <ul class="moveright">
-
-            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
-            <li><a href="B&Bregistration.html">Register</a></li>
-            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
-            <li><a href="OwnerSignIn.php">Owner's Page</a></li>
-            <li><a href="Home.php">Search</a></li>
-
-
-        </ul>
-
-    </nav>
+<section class="container" id="navigation">
+    <div>
+        <nav>
+            <ul>
+                <li><a href="B&Bregistration.html">Contact</a></li>
+                <li><a href="B&Bregistration.html">Register</a></li>
+                <li><a href="OwnerSignIn.php">Member Area</a></li>
+                <li><a href="Home.php">Search</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
 
 
 
 
-</div>
-<hr width="100%" align="left" size="1" color="#d3d3d3">
-<body>
-
-
-<main>
-
-    <div class="">
+<section class="container" id="content">
     <form action="ownerRegistrationResultPage.php" method="post" id="form">
 
         <table class="table1">
             <tr><td colspan="2">Register to List your Property!</td></tr>
-            <tr><td class="small">* Required Fields</td></tr>
+            <tr><td class="smallfont">* Required Fields</td></tr>
 
 
 
@@ -143,39 +124,13 @@ session_start();
                 <td><p align="right" ><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
             </tr>
         </table></form>
-</div>
+</section>
 
-<div class="right2">
+<section class="container" id="foot">
 
+    <p>Copyright. Team D Solutions.</p>
 
-    <table class="table2">
-        <tr><td colspan="2"><p><strong>Example Message Board & User Information</strong></p></td></tr>
-        <tr class="tr2"><td class="t2"><p>You have to register before you can list your property on theB&Bhub.
-                    If you have not already done so please register now. Otherwise please login... </p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 2</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 3</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 4</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 5</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 6</p></td></tr>
+</section>
 
-
-    </table>
-</div>
-
-
-    <div class="right2">
-
-    </div>
-
-    <hr width="100%" align="left" size="1" color="#2f4f4f">
-
-
-</main>
-<div class="foot">
-    <footer>
-
-        <p>Copyright. Team D Solutions.</p>
-    </footer></div>
 </body>
 </html>
-
