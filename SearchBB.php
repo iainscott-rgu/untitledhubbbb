@@ -110,7 +110,7 @@ NEWHTML;
           </tr>
       </table>
     </form>
-
+    <hr width="100%" align="left" size="1">
 </section>
 
 <section class="container" id="foot">
