@@ -22,8 +22,9 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="B&Bregistration.html">Register!</a></li>
-                    <li><a href="OwnerSignIn.php">Member Section</a></li>
+                    <li><a href="B&Bregistration.html">Contact</a></li>
+                    <li><a href="B&Bregistration.html">Register</a></li>
+                    <li><a href="OwnerSignIn.php">Member Area</a></li>
                     <li><a href="Home.php">Search</a></li>
                 </ul>
             </nav>
