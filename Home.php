@@ -122,49 +122,86 @@ session_start();
                 <td><select class="inputform" id="location" name="location">
 
 
-                    <?php
+                        <?php
                         $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
                         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-                    try{
-                    $st = $conn-> query("SELECT DISTINCT [city] FROM [B&B]");
-                    foreach($st->fetchAll() as $row) {
-                    $newhtml =
-                    <<<NEWHTML
-                    <option value="{$row[city]}">{$row[city]}</option>
+                        try{
+                            $st = $conn-> query("SELECT DISTINCT [city] FROM [B&B]");
+                            foreach($st->fetchAll() as $row) {
+                                $newhtml =
+                                    <<<NEWHTML
+                                    <option value="{$row[city]}">{$row[city]}</option>
 NEWHTML;
-                    print($newhtml);
-                    }
-                    }
-                    catch(PDOException $e)
-                    {print"$e";}
-                    ?>
+                                print($newhtml);
+                            }
+                        }
+                        catch(PDOException $e)
+                        {print"$e";}
+                        ?>
 
 
 
 
 
-                </select>
+                    </select>
                 </td>
             </tr>
 
-
-
-
             <tr>
-                <td><label for="firstname">First Name: *</label></td>
-                <td><input type="text" class="inputform" id="firstname" name="firstname" placeholder="Enter your First Name" required /></td>
+                <td>
+                    <label for="date">Pick a date:</label></td>
+                <td><select class="inputform" name="date">
+                        <option value="">Select a date:</option>
+                        <option value="01/04/2016">01/04/2016</option>
+                        <option value="02/04/2016">02/04/2016</option>
+                        <option value="03/04/2016">03/04/2016</option>
+                        <option value="04/04/2016">04/04/2016</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>
+                    <label for="duration">Number of Days:</label></td>
+                <td><select class="inputform" name="numberofdays">
+                        <option value="">Select Number of Days:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr><td>
+                    <label for="duration">Number of Adults:</label></td>
+                <td><select class="inputform" name="numberofadults">
+                        <option value="">Select Number of Adults:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr><td>
+                    <label for="duration">Number of Children:</label></td>
+                <td><select class="inputform" name="numberofchildren">
+                        <option value="">Select Number of Children:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
             </tr>
             <tr>
-                <td><label for="surname">Surname: *</label></td>
-                <td><input type="text" class="inputform" id="surname" name="surname" placeholder="Enter your Surname" required /></td>
+
+                <td></td>
+                <td><a href="Results.php"><p align="right" ><input id="submit" type="submit" value="Submit" class="submit" /></p></a></td>
             </tr>
-
-
-            <tr><td><a href="searchResultsPage.php"><p><input id="submit" type="submit" value="Submit" class="submit" /></p></a></td></tr>
 
 
         </table></form>
-
 
     <div class="right2">
 
