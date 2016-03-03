@@ -74,6 +74,5 @@ NEWHTML;
 
 </section>
 
-
 </body>
 </html>
