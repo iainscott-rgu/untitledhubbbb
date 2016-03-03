@@ -7,7 +7,7 @@
           href="assets/b&bicon.png">
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <title>Search: theB&Bhub</title>
+    <title>Search Results: theB&Bhub</title>
 </head>
 <body>
 
@@ -33,7 +33,7 @@
     </div>
 </section>
 
-<section class="container" id="content">
+<section class="container" id="content2">
 
 
     <div class="main">
