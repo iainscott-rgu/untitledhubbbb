@@ -59,7 +59,7 @@
 <section class="container" id="content">
     <form action="searchResultsPage.php" method="post">
         <table class="table1">
-            <tr><td colspan="2">Search:</td></tr>
+            <tr><td colspan="2">Search for a B&B:</td></tr>
             <tr><td class="smallfont">Let's get Started!</td></tr>
             <tr><td><label for="location">Pick a location:</label></td><td><select class="inputform" id="location" name="location">
 
@@ -86,14 +86,30 @@ NEWHTML;
 
 
 
-            <tr><td>
-                    <label for="date">Check In: </label></td>
-                <td><input type="text" id="datepicker" class="inputform" name="datepicker" placeholder=" Select Date" size="10" maxlength="10" required /></td>
-
+            <tr>
+                <td><label for="date">Check In Date:</label></td>
+                <td><label for="date">Check Out Date:</label></td>
+                </tr>
+            <tr>
+                <td><select id="day" class="inputform" name="date">
+                        <option value="day">Select Day:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
 
             <td>
-                    <label for="date">Check Out: </label></td>
-                <td><input type="text" id="datepicker" class="inputform" name="datepicker" placeholder=" Select Date" size="10" maxlength="10" required /></td>
+                    <label for="duration">Select Month:</label></td>
+                <td><select id="month" class="inputform" name="month">
+                        <option value="month">Select Month:</option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                    </select>
+                </td>
             </tr>
 
 
@@ -115,8 +131,3 @@ NEWHTML;
 
 </body>
 </html>
-
-<script src="pikaday.js"></script>
-<script>
-    var picker = new Pikaday({ field: document.getElementById('datepicker') });
-</script>
