@@ -38,7 +38,7 @@
 
     float: right;
     width: 55%;
-
+    font-family: 'Roboto', sans-serif;
     -moz-border-radius:10px; /* Firefox */
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -khtml-border-radius: 10px; /* KHTML */
@@ -171,11 +171,12 @@ form {
 
 
 .foot{
-    float: right;
-    text-align: right;
+
+    text-align: left;
     font-family: 'Open Sans', sans-serif;
     vertical-align: bottom;
     font-size: 10PT;
+    color: white;
 }
 
 input.submit {
@@ -211,7 +212,7 @@ li{
 }
 
 li a{
-
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     padding: 10px;
     text-decoration: none;
