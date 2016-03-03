@@ -288,48 +288,48 @@ h4{
 
 .container{
 
-    max-width: 1200px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
-    border: solid black;
+
 }
 
 #banner2{
 
-    max-width: 1200px;
+    max-width: 1500px;
     background-color: lightgray;
     height: 200px;
-    border: solid black;
+
 
 
 }
 
 #navigation2{
-    max-width: 1200px;
+    max-width: 1500px;
     background-color: beige;
     height: 200px;
-    border: solid black;
+
 
 
 }
 
 
 main {
-    max-width: 99%;
+    max-width: 1500px;
     border: solid black;
     background-color: aliceblue;
 }
 
 
 #content2{
-    max-width: 1200px;
-    border: solid black;
+    max-width: 1500px;
+    background-color: white;
 
 }
 
 #foot2{
-    max-width: 1200px;
-    border: solid black;
+    max-width: 1500px;
+    background-color: lightgray;
 
 
 }
