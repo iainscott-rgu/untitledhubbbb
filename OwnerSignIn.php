@@ -130,7 +130,9 @@ HTMLPAGE;
 
         $htmlOwnerReviewPage =
 <<<HTMLPAGE2
-                                <section class="container" id="navigation">
+
+
+      <section class="container" id="navigation">
         <div>
             <nav>
                 <ul>
