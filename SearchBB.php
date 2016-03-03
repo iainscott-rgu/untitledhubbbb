@@ -14,7 +14,29 @@
         <img src = "assets/b&blogotransparentcrop.png" id="img">
     </div>
     <div class="floatright">
-        Currently not logged in!
+
+        <?php
+
+        if($_GET['value']=="logout"){
+            session_unset();
+        }
+        if ($_POST['user'] != null) {
+            $_SESSION["user"] = $_POST['user'];
+        }
+        if ($_SESSION["user"] != null) {
+            echo "<p id='loginText'>Currently signed in as: " . $_SESSION["user"];
+            echo "    not you?</p><button id='logout()' onclick='logout()'>LOGOUT</button>";
+        }else{
+            echo "<p id='loginText'>currently not logged in!";
+        }
+
+
+        ?>
+        <script>
+            function logout() {
+                window.location = "http://iainscott-rgu.azurewebsites.net/home.php?value=logout";
+            }
+        </script>
     </div>
 </section>
 
