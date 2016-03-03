@@ -80,10 +80,11 @@ body{
 
 
 
-    background-color: lightgray;
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 10PT;
     text-align: right;
+
 
 
 }
@@ -216,7 +217,7 @@ li a{
 
 A:HOVER{
 
-    background-color: darkslategrey;
+    background-color: gray;
     COLOR: white;
     padding: 10px;
 }
