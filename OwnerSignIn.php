@@ -77,6 +77,7 @@ session_start();
         </div>
 </section>
 
+<section class="container" id="content">
    <table class='table1'>
             <tr><td colspan='2'>Owner's Page</td></tr>
 
@@ -107,20 +108,17 @@ session_start();
 
 
 
+</section>
 
 
-
-
-
-</main>
-<div class='foot'>
-<footer>
+<section class="container" id="foot">
 
     <p>Copyright. Team D Solutions.</p>
-</footer></div>
+
+</section>
+
 </body>
 </html>
-
 
 
 
@@ -150,10 +148,7 @@ HTMLPAGE;
             </nav>
         </div>
 </section>
-<body>
-
-
-<main>
+<section class="container" id="content">
 
 
    <table class='table1'>
@@ -174,18 +169,18 @@ HTMLPAGE;
 
 
 
+</section>
 
-
-</main>
-<div class='foot'>
-<footer>
+<section class="container" id="foot">
 
     <p>Copyright. Team D Solutions.</p>
-</footer></div>
+
+</section>
+
 </body>
 </html>
 
-        ";
+
 
 
 
