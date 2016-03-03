@@ -58,7 +58,7 @@
 
 <section class="container" id="content">
     <form action="searchResultsPage.php" method="post">
-        <table class="table1">
+        <table class="tablesearch">
             <tr><td colspan="2">Search for a B&B:</td></tr>
             <tr><td class="smallfont">Let's get Started!</td></tr>
             <tr><td><label for="location">Pick a location:</label></td><td><select class="inputform" id="location" name="location">
