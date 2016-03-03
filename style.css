@@ -55,7 +55,7 @@
 }
 
 body{
-    background-color: dimgrey;
+    background-color: lightgray;
     margin-top: 0;
     margin-left: 0;
 }
@@ -297,7 +297,7 @@ h4{
 #banner2{
 
     max-width: 1200px;
-    background-color: aqua;
+    background-color: lightgray;
     height: 200px;
     border: solid black;
 
