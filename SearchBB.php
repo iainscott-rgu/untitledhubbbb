@@ -89,7 +89,7 @@ NEWHTML;
             <tr><td>
                     <label for="date">Check In: </label></td>
                 <td><input type="text" id="datepicker" class="inputform" name="datepicker" placeholder=" Select Date" size="10" maxlength="10" required /></td>
-            </tr>
+
 
             <tr><td>
                     <label for="date">Check Out: </label></td>
