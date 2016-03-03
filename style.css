@@ -27,7 +27,8 @@ form {
 }
 
 .table1{
-    background-color: lightgreen;
+    background-color: yellowgreen;
+    padding: 25px;
     font-family: 'Open Sans', sans-serif;
     -moz-border-radius:10px; /* Firefox */
     -webkit-border-radius: 10px; /* Safari, Chrome */

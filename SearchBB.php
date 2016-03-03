@@ -77,7 +77,7 @@ NEWHTML;
             <tr>
 
                 <td></td>
-                <td><a href=""><p align="right" ><input id="submit" class="submit" type="submit" value="Submit"  /></p></a></td>
+                <td><href="searchResultsPage.php"><p align="right" ><input id="submit" class="submit" type="submit" value="Submit"  /></p></td>
             </tr>
 
 
