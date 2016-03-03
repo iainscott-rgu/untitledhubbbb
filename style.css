@@ -186,24 +186,7 @@ li{
 
 }
 
-li a{
 
-    float: right;
-    font-family: 'Roboto', sans-serif;
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-
-
-
-}
-
-A:HOVER{
-
-    background-color: whitesmoke;
-    COLOR: black;
-    padding: 10px;
-}
 
 h2{
 
@@ -258,7 +241,7 @@ h4{
 
 
 
-
+<!-- below is the new css code for the new layour-->
 
 
 
@@ -307,6 +290,20 @@ h4{
     font-family: 'Open Sans', sans-serif;
     font-size: 10PT;
     color: black;
+}
+
+li a{
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+A:HOVER{
+    background-color: whitesmoke;
+    COLOR: black;
+    padding: 10px;
 }
 
 
