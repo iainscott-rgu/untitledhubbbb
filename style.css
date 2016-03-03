@@ -16,7 +16,7 @@ form {
 }
 
 .table1{
-    padding: 10px;
+    padding: 100px;
     font-family: 'Open Sans', sans-serif;
     -moz-border-radius:10px; /* Firefox */
     -webkit-border-radius: 10px; /* Safari, Chrome */
@@ -103,7 +103,7 @@ ul {
 #content{
     max-width: 1500px;
     background-image: url("assets/bbsky.jpg");
-    min-height: 700px;
+
 }
 
 .floatleft {
