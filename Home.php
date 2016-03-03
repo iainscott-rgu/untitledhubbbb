@@ -67,15 +67,7 @@ session_start();
 
 
     <section class="right">
-        <div class="left">
-            <img src = "assets/b&blogotransparentcrop.png" id="img">
 
-
-        </div>
-        <div class="rightside">
-
-
-        </div>
     </section>
 
 
