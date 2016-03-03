@@ -105,7 +105,7 @@ ul {
 #banner{
 
     max-width: 1500px;
-    background-color: lightgray;
+    background-color: darkslategrey;
     font-family: 'Roboto', sans-serif;
     height: 70px;
     color: white;
@@ -134,7 +134,7 @@ ul {
 #foot{
 
     max-width: 1500px;
-    background-color: lightgray;
+    background-color: darkslategrey;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 10PT;
@@ -151,7 +151,7 @@ li a{
 }
 
 li a:HOVER{
-    background-color: lightgray;
+    background-color: darkslategrey;
     color: white;
     padding: 10px;
 }
@@ -162,7 +162,7 @@ li a:HOVER{
 }
 
 body{
-    background-color: lightgray;
+    background-color: darkslategrey;
     margin-top: 0;
 }
 
