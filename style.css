@@ -17,7 +17,7 @@ form {
 
 .table1{
     width: 100%;
-    background-image: url("assets/bbsky.jpg");
+
     padding: 10px;
     font-family: 'Open Sans', sans-serif;
     -moz-border-radius:10px; /* Firefox */
@@ -102,7 +102,7 @@ ul {
 
 #content{
     max-width: 1500px;
-    background-color: snow;
+    background-image: url("assets/bbsky.jpg");
 }
 
 .floatleft {
