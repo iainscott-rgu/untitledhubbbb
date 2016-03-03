@@ -151,7 +151,7 @@ NEWHTML;
             <tr>
 
             <td></td>
-                <td><a href="searchResultsPage.php"><p align="right" ><input id="submit" type="submit" value="Submit" class="submit" /></p></a></td>
+                <td><a href="searchResultsPage.php"><p align="left" ><input id="submit" type="submit" value="Submit" class="submit" /></p></a></td>
             </tr>
 
 
