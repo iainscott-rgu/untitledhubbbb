@@ -32,7 +32,7 @@
 </section>
 
 <section class="container" id="content2">
-    <form action="" method="post">
+    <form action="searchResultsPage.php" method="post">
         <table class="table1">
             <tr><td colspan="2">Search:</td></tr>
             <tr><td class="small">Let's get Started!</td></tr>
