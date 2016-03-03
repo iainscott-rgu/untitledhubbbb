@@ -83,6 +83,20 @@ NEWHTML;
                 </select>
               </td>
             </tr>
+
+
+
+            <tr>
+                <td>
+                    <label for="date">Pick a date:</label></td>
+
+                </td>
+
+            <td>
+                    <label for="duration">Number of Days:</label></td>
+
+
+            </tr>
            <tr>
               <td>
                  </td>
