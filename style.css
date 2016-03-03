@@ -134,7 +134,7 @@ li a{
     text-decoration: none;
 }
 
-ul li:HOVER{
+li a:HOVER{
     background-color: whitesmoke;
     COLOR: black;
     padding: 10px;
