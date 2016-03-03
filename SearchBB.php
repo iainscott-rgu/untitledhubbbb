@@ -32,21 +32,11 @@
 </section>
 
 <section class="container" id="content2">
-
-
-
-
     <form action="" method="post">
-
         <table class="table1">
             <tr><td colspan="2">Search:</td></tr>
             <tr><td class="small">Let's get Started!</td></tr>
-
-            <tr>
-                <td>
-                    <label for="location">Pick a location:</label></td>
-                <td><select class="inputform" id="location" name="location">
-
+            <tr><td><label for="location">Pick a location:</label></td><td><select class="inputform" id="location" name="location">
 
                     <?php
                         $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
@@ -65,28 +55,16 @@ NEWHTML;
                     {print"$e";}
                     ?>
 
-
-
-
-
                 </select>
-                </td>
+              </td>
             </tr>
-
-
-
-            <tr>
-
-                <td></td>
-                <td><a href="searchResultsPage.php"><input id="submit" class="submit" type="submit" value="Submit"  /></a></td>
-            </tr>
-
-
-        </table></form>
-
-
-
-
+           <tr>
+              <td>
+                 </td>
+              <td><a href="searchResultsPage.php"><input id="submit" class="submit" type="submit" value="Submit"  /></a></td>
+          </tr>
+      </table>
+    </form>
 
 </section>
 
