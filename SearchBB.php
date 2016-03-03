@@ -91,12 +91,12 @@ NEWHTML;
                 <td><input type="text" id="datepicker" class="inputform" name="datepicker" placeholder=" Select Date" size="10" maxlength="10" required /></td>
 
 
-            <tr><td>
+            <td>
                     <label for="date">Check Out: </label></td>
                 <td><input type="text" id="datepicker" class="inputform" name="datepicker" placeholder=" Select Date" size="10" maxlength="10" required /></td>
             </tr>
 
-            </tr>
+
            <tr>
                <td colspan="4">
 
@@ -115,3 +115,8 @@ NEWHTML;
 
 </body>
 </html>
+
+<script src="pikaday.js"></script>
+<script>
+    var picker = new Pikaday({ field: document.getElementById('datepicker') });
+</script>
