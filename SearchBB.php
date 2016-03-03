@@ -111,9 +111,9 @@ NEWHTML;
 
             </tr>
            <tr>
-              <td>
-                 </td>
-              <td><a href="searchResultsPage.php"><input id="submit" class="submit" type="submit" value="Submit"  /></a></td>
+               <td colspan="2">
+
+              <a href="searchResultsPage.php"><input align ="right" id="submit" class="submit" type="submit" value="Submit"  /></a></td>
           </tr>
       </table>
     </form>
