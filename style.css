@@ -55,14 +55,14 @@
 }
 
 body{
-    background-color: gray;
+    background-color: whitesmoke;
     margin-top: 0;
 
 }
 
 .t2{
 
-    border-bottom: 1px solid darkslategrey;
+
 }
 
 
@@ -212,7 +212,7 @@ li a{
 
 A:HOVER{
 
-    background-color: gray;
+    background-color: whitesmoke;
     COLOR: white;
     padding: 10px;
 }
@@ -296,7 +296,7 @@ h4{
 
 #navigation{
     max-width: 1500px;
-    background-color: lightgray;
+    background-color: white;
     height: 40px;
 
 
