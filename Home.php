@@ -150,9 +150,10 @@ NEWHTML;
 
             <tr>
 
+                <td></td>
 
-                <td><a href="searchResultsPage.php"><p><input id="submit" type="submit" value="Submit" class="submit" /></p></a></td>
-                <td></td>  </tr>
+                 </tr>
+            <tr><td><a href="searchResultsPage.php"><p><input id="submit" type="submit" value="Submit" class="submit" /></p></a></td></tr>
 
 
         </table></form>
