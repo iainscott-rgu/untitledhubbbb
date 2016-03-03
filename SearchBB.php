@@ -60,8 +60,8 @@
         <table class="tablesearch">
             <tr><td colspan="4"><h1>Search for a B&B</h1></td></tr>
             <tr><td colspan="4"><h4>Search across the UK for B&B's</h4></td></tr>
-            <tr><td><label for="location">Pick a location:</label></td></tr>
-            <tr><td><select class="inputform" id="location" name="location">
+            <tr><td colspan="2"><label for="location">Pick a location:</label></td></tr>
+            <tr><td colspan="2"><select class="inputform" id="location" name="location">
 
                     <?php
                         $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
