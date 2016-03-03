@@ -57,6 +57,36 @@ session_start();
     </script>
     </div>
     </section>
+
+
+
+
+
+
+
+
+
+    <section class="right">
+        <div class="left">
+            <img src = "assets/b&blogotransparentcrop.png" id="img">
+
+
+        </div>
+        <div class="rightside">
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
 </header>
 
 <section class="navbar">
