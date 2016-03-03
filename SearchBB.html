@@ -48,7 +48,7 @@
                 <ul>
 
 
-                    <li><a href="B&Bregistration.html">Register</a></li>
+                    <li><a href="B&Bregistration.html">Register!</a></li>
                     <li><a href="OwnerSignIn.php">Member Section</a></li>
                     <li><a href="Home.php">Search</a></li>
 
@@ -71,53 +71,7 @@
 <section class="container" id="content2">
 
 
-    <form action="searchResultsPage.php" method="post">
 
-        <table >
-            <tr><td colspan="2">Search:</td></tr>
-            <tr><td class="small">Let's get Started!</td></tr>
-
-            <tr>
-                <td>
-                    <label for="location">Pick a location:</label></td>
-                <td><select class="inputform" id="location" name="location">
-
-
-                    <?php
-                        $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
-                        $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-                    try{
-                    $st = $conn-> query("SELECT DISTINCT [city] FROM [B&B]");
-                    foreach($st->fetchAll() as $row) {
-                    $newhtml =
-                    <<<NEWHTML
-                    <option value="{$row[city]}">{$row[city]}</option>
-                    NEWHTML;
-                    print($newhtml);
-                    }
-                    }
-                    catch(PDOException $e)
-                    {print"$e";}
-                    ?>
-
-
-
-
-
-                </select>
-                </td>
-            </tr>
-
-
-
-            <tr>
-
-                <td></td>
-                <td><a href="searchResultsPage.php"><p align="right" ><input id="submit" class="submit" type="submit" value="Submit"  /></p></a></td>
-            </tr>
-
-
-        </table></form>
 
 
 
