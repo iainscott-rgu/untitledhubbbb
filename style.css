@@ -1,14 +1,4 @@
-.floatleft {
 
-
-   float: left;
-
-}
-
-.floatright{
-
-    float: right;
-}
 
 .right {
 
@@ -165,14 +155,8 @@ form {
 }
 
 
-.foot{
 
-    text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    vertical-align: bottom;
-    font-size: 10PT;
-    color: white;
-}
+
 
 input.submit {
     width: 6em;  height: 3em;
@@ -285,7 +269,6 @@ h4{
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 #banner{
@@ -293,37 +276,38 @@ h4{
     max-width: 1500px;
     background-color: whitesmoke;
     height: 70px;
-
-
-
 }
 
 #navigation{
     max-width: 1500px;
     background-color: white;
     height: 40px;
-
-
-
 }
-
-
-main {
-
-}
-
 
 #content2{
     max-width: 1500px;
     background-color: white;
     height: 500px;
-
 }
 
-#foot2{
+.floatleft {
+    float: left;
+}
+
+.floatright{
+    float: right;
+}
+
+#foot{
+
     max-width: 1500px;
-    background-color: lightgray;
+    background-color: whitesmoke;
     height: 50px;
-
-
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10PT;
+    color: black;
 }
+
+
+
