@@ -89,12 +89,25 @@ NEWHTML;
             <tr>
                 <td>
                     <label for="date">Pick a date:</label></td>
-
+                <td><select class="inputform" name="date">
+                        <option value="">Select a date:</option>
+                        <option value="01/04/2016">01/04/2016</option>
+                        <option value="02/04/2016">02/04/2016</option>
+                        <option value="03/04/2016">03/04/2016</option>
+                        <option value="04/04/2016">04/04/2016</option>
+                    </select>
                 </td>
 
-            <td>
-                    <label for="duration">Number of Days:</label></td>
-
+                <td>
+                    <label for="date">Pick a date:</label></td>
+                <td><select class="inputform" name="date">
+                        <option value="">Select a date:</option>
+                        <option value="01/04/2016">01/04/2016</option>
+                        <option value="02/04/2016">02/04/2016</option>
+                        <option value="03/04/2016">03/04/2016</option>
+                        <option value="04/04/2016">04/04/2016</option>
+                    </select>
+                </td>
 
             </tr>
            <tr>
