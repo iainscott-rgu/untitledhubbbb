@@ -16,6 +16,7 @@ session_start();
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
     <script src="script.js"></script>
+    <title>Sign-in: theB&Bhub</title>
 
 
 </head>
@@ -46,7 +47,7 @@ session_start();
     ?>
     <script>
         function logout() {
-            window.location = "http://iainscott-rgu.azurewebsites.net/home.php?value=logout";
+            window.location = "http://iainscott-rgu.azurewebsites.net/searchbb.php?value=logout";
         }
     </script>
 
@@ -75,27 +76,6 @@ session_start();
             </nav>
         </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </header>
-
-
-<body>
-
-
-<main>
-
 
    <table class='table1'>
             <tr><td colspan='2'>Owner's Page</td></tr>
@@ -127,22 +107,7 @@ session_start();
 
 
 
-    <div class='right2'>
 
-
-            <table class="table2">
-        <tr><td colspan="2"><p><strong>Example Message Board & User Information</strong></p></td></tr>
-        <tr class="tr2"><td class="t2"><p>Please sign in to access your user account on theB&Bhub.
-                    If you do not already have an account please click 'register' now...</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 2</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 3</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 4</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 5</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 6</p></td></tr>
-
-
-    </table>
-    </div>
 
     <hr width='100%' align='left' size='1' color=''#2f4f4f'>
 
