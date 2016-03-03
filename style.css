@@ -1,8 +1,8 @@
 form {
 
-    color: #ffffff;
+    color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12PT;
+    font-size: 15PT;
 }
 
 .inputform
@@ -16,8 +16,7 @@ form {
 }
 
 .table1{
-    padding: 100px;
-    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
     -moz-border-radius:10px; /* Firefox */
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -khtml-border-radius: 10px; /* KHTML */
@@ -25,14 +24,13 @@ form {
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 12px;
+
 
 }
 
 
 .tablesearch {
     padding: 100px;
-    font-family: 'Open Sans', sans-serif;
     -moz-border-radius: 10px; /* Firefox */
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -khtml-border-radius: 10px; /* KHTML */
@@ -40,7 +38,7 @@ form {
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 15px;
+
 }
 
 input.submit {
@@ -62,9 +60,7 @@ ul {
 
 .smallfont{
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 9px;
-    color: white;
 }
 
 .resultdisplay{
@@ -104,8 +100,10 @@ ul {
 #banner{
 
     max-width: 1500px;
-    background-color: whitesmoke;
+    background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
     height: 70px;
+    color: white;
 }
 
 #navigation{
@@ -133,9 +131,9 @@ ul {
     max-width: 1500px;
     background-color: whitesmoke;
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 10PT;
-    color: black;
+    color: darkslategrey;
 }
 
 li a{
@@ -148,8 +146,7 @@ li a{
 }
 
 li a:HOVER{
-    background-color: whitesmoke;
-    COLOR: seagreen;
+    background-color: lightgray;
     padding: 10px;
 }
 
@@ -159,7 +156,7 @@ li a:HOVER{
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: lightgray;
     margin-top: 0;
 }
 
