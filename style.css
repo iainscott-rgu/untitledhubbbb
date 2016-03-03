@@ -213,7 +213,7 @@ li a{
 A:HOVER{
 
     background-color: whitesmoke;
-    COLOR: white;
+    COLOR: black;
     padding: 10px;
 }
 
@@ -287,7 +287,7 @@ h4{
 #banner{
 
     max-width: 1500px;
-    background-color: gray;
+    background-color: whitesmoke;
     height: 70px;
 
 
