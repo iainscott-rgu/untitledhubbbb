@@ -36,7 +36,7 @@
 
         <table class="table1">
             <tr><td colspan="2">Search:</td></tr>
-            <tr><td class="small">Let's get Started!</td></tr>
+            <tr><td class="smallfont">Let's get Started!</td></tr>
 
             <tr>
                 <td>
@@ -44,22 +44,6 @@
                 <td><select class="inputform" id="location" name="location">
 
 
-                    <?php
-                        $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
-                        $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-                    try{
-                    $st = $conn-> query("SELECT DISTINCT [city] FROM [B&B]");
-                    foreach($st->fetchAll() as $row) {
-                    $newhtml =
-<<<NEWHTML
-                    <option value="{$row[city]}">{$row[city]}</option>
-NEWHTML;
-                    print($newhtml);
-                    }
-                    }
-                    catch(PDOException $e)
-                    {print"$e";}
-                    ?>
 
 
 
