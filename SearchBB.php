@@ -87,11 +87,11 @@ NEWHTML;
 
 
             <tr>
-                <td><label for="date">Check In Date:</label></td>
-                <td><label for="date">Check Out Date:</label></td>
+                <td colspan="2"><label for="dateday">Check In Date:</label></td>
+                <td colspan="2"><label for="datemonth">Check Out Date:</label></td>
                 </tr>
             <tr>
-                <td><select id="day" class="inputform" name="date">
+                <td><select id="date" class="inputform" name="date">
                         <option value="day">Select Day:</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -99,8 +99,6 @@ NEWHTML;
                         <option value="4">4</option>
                     </select>
                 </td>
-
-            <td>
 
                 <td><select id="month" class="inputform" name="month">
                         <option value="month">Select Month:</option>
@@ -110,6 +108,29 @@ NEWHTML;
                         <option value="4">April</option>
                     </select>
                 </td>
+
+
+
+                <td><select id="date" class="inputform" name="date">
+                        <option value="day">Select Day:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+
+                <td><select id="month" class="inputform" name="month">
+                        <option value="month">Select Month:</option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                    </select>
+                </td>
+
+
+
             </tr>
 
 
