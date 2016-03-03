@@ -121,7 +121,11 @@ h4{
 #content{
     max-width: 1500px;
     background-image: url("assets/banner2.jpg");
+}
 
+#content2{
+
+    background-color: white;
 }
 
 .floatleft {
