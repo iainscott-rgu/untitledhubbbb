@@ -105,31 +105,7 @@ session_start();
 
 </header>
 
-<section class="navbar">
-<div class="nav">
 
-    <nav>
-
-
-
-        <ul class="moveright">
-
-            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
-            <li><a href="B&Bregistration.html">Register</a></li>
-            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
-            <li><a href="OwnerSignIn.php">Owner's Page</a></li>
-            <li><a href="Home.php">Search</a></li>
-
-
-        </ul>
-
-    </nav>
-
-
-
-
-</div>
-</section>
 <hr width="100%" align="left" size="1" color="#d3d3d3">
 
 
