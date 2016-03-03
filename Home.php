@@ -150,54 +150,26 @@ NEWHTML;
             <tr>
                 <td>
                     <label for="date">Pick a date:</label></td>
-                <td><select class="inputform" name="date">
-                        <option value="">Select a date:</option>
-                        <option value="01/04/2016">01/04/2016</option>
-                        <option value="02/04/2016">02/04/2016</option>
-                        <option value="03/04/2016">03/04/2016</option>
-                        <option value="04/04/2016">04/04/2016</option>
-                    </select>
-                </td>
+
             </tr>
             <tr><td>
                     <label for="duration">Number of Days:</label></td>
-                <td><select class="inputform" name="numberofdays">
-                        <option value="">Select Number of Days:</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </td>
+
             </tr>
 
             <tr><td>
                     <label for="duration">Number of Adults:</label></td>
-                <td><select class="inputform" name="numberofadults">
-                        <option value="">Select Number of Adults:</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </td>
+
             </tr>
 
             <tr><td>
                     <label for="duration">Number of Children:</label></td>
-                <td><select class="inputform" name="numberofchildren">
-                        <option value="">Select Number of Children:</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </td>
+
             </tr>
             <tr>
 
                 <td></td>
-                <td><a href="searchResultsPage.php"><p align="right" ><input type="submit" value="Submit"  /></p></a></td>
+                <td><a href="searchResultsPage.php"><p align="right" ><input id="submit" class="submit" type="submit" value="Submit"  /></p></a></td>
             </tr>
 
 
