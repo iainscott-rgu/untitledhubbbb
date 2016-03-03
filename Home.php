@@ -66,7 +66,7 @@ session_start();
 
 
 
-    <section class="right">
+    <section class="right3">
 
     </section>
 
