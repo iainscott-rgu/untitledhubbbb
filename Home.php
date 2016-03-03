@@ -110,7 +110,9 @@ session_start();
 
 
 <main>
-    <form action="searchResultsPage.php" method="post">
+    <!--form action="searchResultsPage.php" method="post"-->
+
+        <form action="Results.php" method="post">
 
         <table class="table1">
             <tr><td colspan="2">Search:</td></tr>
