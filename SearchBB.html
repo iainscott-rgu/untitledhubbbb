@@ -10,7 +10,51 @@
 
 
 <body>
-<section class="container" id="banner">banner</section>
+<section class="container" id="banner">
+
+
+
+
+
+        <div class="left">
+            <img src = "assets/b&blogotransparentcrop.png" id="img">
+
+
+        </div>
+        <div class="rightside">
+
+
+            <?php
+
+    if($_GET['value']=="logout"){
+        session_unset();
+    }
+    if ($_POST['user'] != null) {
+    $_SESSION["user"] = $_POST['user'];
+    }
+    if ($_SESSION["user"] != null) {
+    echo "<p id='loginText'>Currently signed in as: " . $_SESSION["user"];
+            echo "    not you?<button id='logout()' onclick='logout()'>LOGOUT</button>";
+            }else{
+            echo "< id='loginText'>currently not logged in!";
+            }
+
+
+            ?>
+            <script>
+                function logout() {
+                    window.location = "http://iainscott-rgu.azurewebsites.net/home.php?value=logout";
+                }
+            </script>
+        </div>
+
+
+
+
+
+
+
+   </section>
 <section class="container" id="navigation">
 
 
