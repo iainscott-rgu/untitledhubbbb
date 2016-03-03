@@ -298,7 +298,7 @@ h4{
 
     max-width: 1500px;
     background-color: gray;
-    height: 100px;
+    height: 70px;
 
 
 
@@ -307,7 +307,7 @@ h4{
 #navigation2{
     max-width: 1500px;
     background-color: lightgray;
-    height: 50px;
+    height: 40px;
 
 
 
@@ -322,12 +322,14 @@ main {
 #content2{
     max-width: 1500px;
     background-color: white;
+    height: 500px;
 
 }
 
 #foot2{
     max-width: 1500px;
     background-color: lightgray;
+    height: 50px;
 
 
 }
