@@ -1,6 +1,6 @@
 form {
 
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 12PT;
 }
@@ -8,6 +8,7 @@ form {
 h1{
 
     font-size: 30px;
+    color: white;
 }
 
 .inputform
