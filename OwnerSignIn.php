@@ -109,7 +109,7 @@ session_start();
 
 
 
-    <hr width='100%' align='left' size='1' color=''#2f4f4f'>
+
 
 
 </main>
@@ -174,23 +174,6 @@ HTMLPAGE;
 
 
 
-    <div class='right2'>
-
-
-            <table class="table2">
-        <tr><td colspan="2"><p><strong>Example Message Board & User Information</strong></p></td></tr>
-        <tr class="tr2"><td class="t2"><p>Welcome to theB&Bhub...</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 2</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 3</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 4</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 5</p></td></tr>
-        <tr class="tr2"><td class="t2"><p>row 6</p></td></tr>
-
-
-    </table>
-    </div>
-
-    <hr width='100%' align='left' size='1' color=''#2f4f4f'>
 
 
 </main>
