@@ -13,7 +13,7 @@
 
 
 </head>
-
+<body>
 <header>
     <section class="right">
         <div class="left">
@@ -61,7 +61,7 @@
 
 
 
-<body>
+
 <main>
 
 
