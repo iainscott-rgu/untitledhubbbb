@@ -43,7 +43,7 @@ session_start();
     ?>
     <script>
         function logout() {
-            window.location = "http://iainscott-rgu.azurewebsites.net/searchbb.php?value=logout";
+            window.location = "http://iainscott-rgu.azurewebsites.net/SearchBB.php?value=logout";
         }
     </script>
 
@@ -177,7 +177,7 @@ HTMLPAGE;
 </html>
 
 
-
+";
 
 
 
