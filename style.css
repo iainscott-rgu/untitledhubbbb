@@ -19,12 +19,6 @@ form {
 }
 
 
-#form{
-
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-}
 
 .table1{
     background-color: yellowgreen;
@@ -86,14 +80,6 @@ ul {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-
-
-
-
-
-
-
-
 
 .container{
 
