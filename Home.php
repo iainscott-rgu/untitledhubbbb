@@ -129,7 +129,7 @@ session_start();
                             $st = $conn-> query("SELECT DISTINCT [city] FROM [B&B]");
                             foreach($st->fetchAll() as $row) {
                                 $newhtml =
-                                    <<<NEWHTML
+<<<NEWHTML
                                     <option value="{$row[city]}">{$row[city]}</option>
 NEWHTML;
                                 print($newhtml);
@@ -147,25 +147,8 @@ NEWHTML;
                 </td>
             </tr>
 
-            <tr>
-                <td>
-                    <label for="date">Pick a date:</label></td>
 
-            </tr>
-            <tr><td>
-                    <label for="duration">Number of Days:</label></td>
 
-            </tr>
-
-            <tr><td>
-                    <label for="duration">Number of Adults:</label></td>
-
-            </tr>
-
-            <tr><td>
-                    <label for="duration">Number of Children:</label></td>
-
-            </tr>
             <tr>
 
                 <td></td>
