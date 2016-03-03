@@ -17,10 +17,7 @@
 
 }
 
-#img{
 
-   height: 50px;
-}
 
 #img2{
 
@@ -42,22 +39,11 @@
 
 }
 
-.right2{
 
 
-    font-size: 20px;
-}
-
-body{
-    background-color: whitesmoke;
-    margin-top: 0;
-
-}
-
-.t2{
 
 
-}
+
 
 
 .nav{
@@ -306,5 +292,14 @@ A:HOVER{
     padding: 10px;
 }
 
+#img{
+
+    height: 50px;
+}
+
+body{
+    background-color: whitesmoke;
+    margin-top: 0;
+}
 
 
