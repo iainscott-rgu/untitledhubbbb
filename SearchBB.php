@@ -101,7 +101,7 @@ NEWHTML;
                 </td>
 
             <td>
-                    <label for="duration">Select Month:</label></td>
+
                 <td><select id="month" class="inputform" name="month">
                         <option value="month">Select Month:</option>
                         <option value="1">January</option>
