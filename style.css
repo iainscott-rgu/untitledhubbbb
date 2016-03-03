@@ -25,6 +25,7 @@ form {
     border-radius: 10px; /* CSS3 */
     margin-bottom: 5%;
     margin-left: 2%;
+    font-size: 12px;
 }
 
 input.submit {
@@ -100,7 +101,6 @@ ul {
 #content{
     max-width: 1500px;
     background-color: snow;
-
 }
 
 .floatleft {
