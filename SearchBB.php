@@ -31,7 +31,7 @@
         </div>
 </section>
 
-<section class="container" id="content2">
+<section class="container" id="content">
     <form action="searchResultsPage.php" method="post">
         <table class="table1">
             <tr><td colspan="2">Search:</td></tr>
