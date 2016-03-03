@@ -148,11 +148,18 @@ NEWHTML;
             </tr>
 
 
+
+
             <tr>
+                <td><label for="firstname">First Name: *</label></td>
+                <td><input type="text" class="inputform" id="firstname" name="firstname" placeholder="Enter your First Name" required /></td>
+            </tr>
+            <tr>
+                <td><label for="surname">Surname: *</label></td>
+                <td><input type="text" class="inputform" id="surname" name="surname" placeholder="Enter your Surname" required /></td>
+            </tr>
 
-                <td><p></p>tgtgtgtgtg</p></td>
 
-                 </tr>
             <tr><td><a href="searchResultsPage.php"><p><input id="submit" type="submit" value="Submit" class="submit" /></p></a></td></tr>
 
 
