@@ -1,7 +1,7 @@
 form {
 
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12PT;
 }
 
@@ -134,11 +134,11 @@ ul {
 #foot{
 
     max-width: 1500px;
-    background-color: whitesmoke;
+    background-color: lightgray;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 10PT;
-    color: darkslategrey;
+    color: white;
 }
 
 li a{

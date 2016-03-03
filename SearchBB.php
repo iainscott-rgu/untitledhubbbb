@@ -6,7 +6,6 @@
           type="image/png"
           href="assets/b&bicon.png">
     <link type="text/css" rel="stylesheet" href="style.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <title>Search: theB&Bhub</title>
 </head>
@@ -137,7 +136,7 @@ NEWHTML;
            <tr>
                <td colspan="4">
 
-              <a href="searchResultsPage.php"><input id="submit" class="submit" type="submit" value="Submit"  /></a></td>
+              <a href="searchResultsPage.php"><input id="submit" class="submit" type="submit" value="Search"  /></a></td>
           </tr>
       </table>
     </form>
