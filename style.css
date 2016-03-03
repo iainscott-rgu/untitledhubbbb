@@ -42,6 +42,7 @@ ul {
     -moz-border-radius: 50px;
     border-radius: 50px;
     float: right;
+    background-color: blue;
 }
 
 .smallfont{
