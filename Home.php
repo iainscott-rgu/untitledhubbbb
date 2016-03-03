@@ -110,11 +110,9 @@ session_start();
 
 
 <main>
-    <!--form action="searchResultsPage.php" method="post"-->
+    <form action="searchResultsPage.php" method="post">
 
-        <form action="Results.php" method="post">
-
-        <table class="table1">
+       <table class="table1">
             <tr><td colspan="2">Search:</td></tr>
             <tr><td class="small">Let's get Started!</td></tr>
 
@@ -199,7 +197,7 @@ NEWHTML;
             <tr>
 
                 <td></td>
-                <td><a href="Results.php"><p align="right" ><input id="submit" type="submit" value="Submit" class="submit" /></p></a></td>
+                <td><a href="searchResultsPage.php"><p align="right" ><input type="submit" value="Submit"  /></p></a></td>
             </tr>
 
 
