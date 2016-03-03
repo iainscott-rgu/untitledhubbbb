@@ -4,6 +4,12 @@
    float: left;
 
 }
+
+.rightside{
+
+    float: right;
+}
+
 .right {
 
     width: 99%;
