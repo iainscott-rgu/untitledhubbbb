@@ -55,7 +55,7 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color: gray;
     margin-top: 0;
     margin-left: 0;
 }
@@ -297,7 +297,7 @@ h4{
 #banner2{
 
     max-width: 1500px;
-    background-color: lightgray;
+    background-color: gray;
     height: 200px;
 
 
@@ -306,7 +306,7 @@ h4{
 
 #navigation2{
     max-width: 1500px;
-    background-color: beige;
+    background-color: lightgray;
     height: 200px;
 
 
