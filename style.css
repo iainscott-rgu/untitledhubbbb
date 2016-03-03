@@ -103,7 +103,7 @@ ul {
 #content{
     max-width: 1500px;
     background-image: url("assets/bbsky.jpg");
-    max-height: 700px;
+    min-height: 700px;
 }
 
 .floatleft {
