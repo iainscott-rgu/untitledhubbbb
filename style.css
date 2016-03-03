@@ -16,6 +16,7 @@ form {
 }
 
 .table1{
+    max-width: 1500px;
     background-image: url("assets/bbsky.jpg");
     padding: 10px;
     font-family: 'Open Sans', sans-serif;
