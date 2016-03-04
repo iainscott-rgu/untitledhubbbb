@@ -106,7 +106,7 @@ h4{
 #banner{
 
     max-width: 1500px;
-    background-color: floralwhite;
+    background-color: snow;
     font-family: 'Roboto', sans-serif;
     height: 80px;
     color: white;
@@ -115,7 +115,7 @@ h4{
 
 #navigation{
     max-width: 1500px;
-    background-color: snow;
+    background-color: lightgray;
     height: 40px;
 }
 
@@ -163,8 +163,8 @@ li a{
 }
 
 li a:HOVER{
-    background-color: darkslategrey;
-    color: white;
+    background-color: snow;
+    color: darkslategrey;
     padding: 10px;
 }
 
@@ -175,7 +175,7 @@ li a:HOVER{
 }
 
 body{
-    background-color: darkslategrey;
+    background-color: snow;
     margin-top: 0;
 }
 
