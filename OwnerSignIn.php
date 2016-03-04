@@ -103,8 +103,15 @@ session_start();
             </form>
 
 
+<div class="moveright">
+<h1>Welcome.</h1><p>
+<h2>Enjoy your stay.</h2></p>
+<div>
+
 
 </section>
+
+
 
 
 <section class="container" id="foot">
