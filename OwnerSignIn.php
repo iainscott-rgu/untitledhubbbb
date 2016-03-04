@@ -103,12 +103,12 @@ session_start();
             </form>
 
 
-
+<div>
 <table class="table4">
 <tr><td><h1>Welcome.</h1></td></tr>
 <tr><td><h2>Enjoy your stay.</h2></td></tr>
 </table>
-
+</div>
 </section>
 
 <section class="container" id="foot">
@@ -166,12 +166,12 @@ HTMLPAGE;
     <tr><td colspan='2'><p id='result' style='color: #ff0006'></p></td></tr>
 </table>
             </form>
-
+<div>
 <table class="table4">
 <tr><td><h1>Welcome.</h1></td></tr>
 <tr><td><h2>Enjoy your stay.</h2></td></tr>
 </table>
-
+</div>
 
 </section>
 
