@@ -109,11 +109,11 @@ session_start();
 </section>
 
 <section class="container" id="content4>
-<div>
+
 <h1>Welcome.</h1><p>
 <h2>Enjoy your stay.</h2></p>
-<div>
-</section
+
+</section>
 
 
 <section class="container" id="foot">
