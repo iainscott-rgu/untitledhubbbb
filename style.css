@@ -110,7 +110,7 @@ h4{
     font-family: 'Roboto', sans-serif;
     height: 80px;
     color: white;
-    float: right;
+
 }
 
 #navigation{
@@ -122,6 +122,12 @@ h4{
 #content{
     max-width: 1500px;
     background-image: url("assets/banner2.jpg");
+}
+
+button{
+
+    float: right;
+
 }
 
 #content2{
