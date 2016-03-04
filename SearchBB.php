@@ -36,7 +36,7 @@
         ?>
         <script>
             function logout() {
-                window.location = "http://iainscott-rgu.azurewebsites.net/home.php?value=logout";
+                window.location = "http://iainscott-rgu.azurewebsites.net/SearchBB.php?value=logout";
             }
         </script>
     </div>
