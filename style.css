@@ -24,7 +24,7 @@ h1{
 .table1{
 
     padding: 25px;
-    background-color: #dadada;
+    background-color: #f8f8ff;
     -moz-border-radius:10px; /* Firefox */
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -khtml-border-radius: 10px; /* KHTML */
@@ -118,7 +118,7 @@ h4{
 
 #navigation{
     max-width: 1500px;
-    background-color: #f8f8ff;
+    background-color: #dadada;
     height: 40px;
 }
 
