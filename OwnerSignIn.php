@@ -103,15 +103,15 @@ session_start();
             </form>
 
 
-<div class="floatright">
-<h1>Welcome.</h1><p>
-<h2>Enjoy your stay.</h2></p>
-<div>
+
 
 
 </section>
 
-
+<div class="floatright">
+<h1>Welcome.</h1><p>
+<h2>Enjoy your stay.</h2></p>
+<div>
 
 
 <section class="container" id="foot">
