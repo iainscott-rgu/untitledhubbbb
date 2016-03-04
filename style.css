@@ -158,6 +158,11 @@ button{
     float: right;
 }
 
+#spotlight{
+
+    color: darkslategrey;
+}
+
 #foot{
 
     max-width: 1500px;

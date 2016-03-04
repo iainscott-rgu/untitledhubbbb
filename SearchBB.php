@@ -144,6 +144,12 @@ NEWHTML;
     <hr width="100%" size="1">
 </section>
 
+<section class="container" id="spotlight">
+<div>
+    <h1>We might Spolight here!!!!</h1>
+</div>
+</section>
+
 <section class="container" id="foot">
 
     <p>Copyright. Team D Solutions.</p>
