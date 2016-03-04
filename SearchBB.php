@@ -162,9 +162,10 @@ NEWHTML;
             </ul>
         </nav>
     </div>
-
+<div id="copyright">
     <hr width="100%" size="1">
     <p>Copyright. Team D Solutions.</p>
+    </div>
 
 </section>
 

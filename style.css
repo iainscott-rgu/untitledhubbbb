@@ -168,7 +168,7 @@ button{
 
     max-width: 1500px;
     background-image: url("assets/footerbg.jpg");
-    text-align: right;
+
     font-family: 'Roboto', sans-serif;
     font-size: 10PT;
     color: white;
@@ -179,6 +179,11 @@ button{
 #footernav{
 
     text-align: left;
+}
+
+#copyright{
+
+    text-align: right;
 }
 
 li a{
