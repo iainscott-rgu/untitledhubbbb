@@ -74,6 +74,7 @@ session_start();
 </section>
 
 <section class="container" id="content3">
+<div class="floatleft">
    <table class='table2'>
             <tr><td colspan='2'><h1>Owner's Area</h1></td></tr>
 
@@ -101,9 +102,9 @@ session_start();
     <tr><td colspan='2'><p id='result' style='color: #ff0006'></p></td></tr>
 </table>
             </form>
+</div>
 
-
-<div>
+<div class="floatright">
 <table class="table4">
 <tr><td><h1>Welcome.</h1></td></tr>
 <tr><td><h2>Enjoy your stay.</h2></td></tr>
@@ -149,7 +150,7 @@ HTMLPAGE;
         </div>
 </section>
 <section class="container" id="content3">
-
+<div class="floatleft">
 
    <table class='table2'>
             <tr><td colspan='2'><h1>Owner's Area</h1></td></tr>
@@ -166,7 +167,9 @@ HTMLPAGE;
     <tr><td colspan='2'><p id='result' style='color: #ff0006'></p></td></tr>
 </table>
             </form>
-<div>
+
+            </div>
+<div class="floatright">
 <table class="table4">
 <tr><td><h1>Welcome.</h1></td></tr>
 <tr><td><h2>Enjoy your stay.</h2></td></tr>
