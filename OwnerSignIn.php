@@ -105,11 +105,7 @@ session_start();
 </div>
 </section>
 
-<section class="container" id="foot">
 
-    <p>Copyright. Team D Solutions.</p>
-
-</section>
 
 </body>
 </html>
