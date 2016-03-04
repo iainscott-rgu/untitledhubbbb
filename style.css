@@ -161,11 +161,11 @@ button{
 #foot{
 
     max-width: 1500px;
-    background-color: #666699;
-    text-align: left;
+    background-image: url("assets/footerbg.jpg");
+    text-align: right;
     font-family: 'Roboto', sans-serif;
     font-size: 10PT;
-    color: darkslategrey;
+    color: white;
     height: 50px;
 }
 
