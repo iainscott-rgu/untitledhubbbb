@@ -110,6 +110,7 @@ h4{
     font-family: 'Roboto', sans-serif;
     height: 80px;
     color: white;
+    float: right;
 }
 
 #navigation{
