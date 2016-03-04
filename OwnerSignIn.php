@@ -73,8 +73,8 @@ session_start();
         </div>
 </section>
 
-<section class="container" id="content2">
-   <table class='table1'>
+<section class="container" id="content3">
+   <table class='table2'>
             <tr><td colspan='2'>Owner's Page</td></tr>
 
             <tr><td><h4>* Required Fields</h4></td></tr>
@@ -144,10 +144,10 @@ HTMLPAGE;
             </nav>
         </div>
 </section>
-<section class="container" id="content2">
+<section class="container" id="content3">
 
 
-   <table class='table1'>
+   <table class='table2'>
             <tr><td colspan='2'>Owner's Page</td></tr>
 
 
