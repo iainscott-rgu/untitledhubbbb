@@ -74,7 +74,7 @@ session_start();
 </section>
 
 <section class="container" id="content3">
-<div class="floatright">
+<div class="floatleft">
    <table class='table2'>
             <tr><td colspan='2'><h1>Owner's Area</h1></td></tr>
 
@@ -143,7 +143,7 @@ HTMLPAGE;
         </div>
 </section>
 <section class="container" id="content3">
-<div class="floatleft">
+
 
    <table class='table2'>
             <tr><td colspan='2'><h1>Owner's Area</h1></td></tr>
@@ -162,7 +162,7 @@ HTMLPAGE;
             </form>
 
 
-</div>
+
 </section>
 
 
