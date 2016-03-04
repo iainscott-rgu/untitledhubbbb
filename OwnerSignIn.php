@@ -75,7 +75,7 @@ session_start();
 
 <section class="container" id="content3">
    <table class='table2'>
-            <tr><td colspan='2'>Owner's Page</td></tr>
+            <tr><td colspan='2'><h1>Owner's Area</h1></td></tr>
 
             <tr><td><h4>* Required Fields</h4></td></tr>
 
@@ -104,14 +104,16 @@ session_start();
 
 
 
-<div id="welcome">
-<h1>Welcome.</h1><p>
-<h2>Enjoy your stay.</h2></p>
-<div>
+
 
 </section>
 
-
+<section class="container" id="content4>
+<div>
+<h1>Welcome.</h1><p>
+<h2>Enjoy your stay.</h2></p>
+<div>
+</section
 
 
 <section class="container" id="foot">
@@ -155,7 +157,7 @@ HTMLPAGE;
 
 
    <table class='table2'>
-            <tr><td colspan='2'>Owner's Page</td></tr>
+            <tr><td colspan='2'><h1>Owner's Area</h1></td></tr>
 
 
 
