@@ -124,6 +124,7 @@ session_start();
                 <td><p align="right" ><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
             </tr>
         </table></form>
+    <hr width="100%" size="1">
 </section>
 
 <section class="container" id="foot">
