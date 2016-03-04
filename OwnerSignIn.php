@@ -104,17 +104,12 @@ session_start();
 
 
 
-
-
-</section>
-
-<section class="container" id="content4>
-
-<h1>Welcome.</h1><p>
-<h2>Enjoy your stay.</h2></p>
+<table class="table4">
+<tr><td><h1>Welcome.</h1></td></tr>
+<tr><td><h2>Enjoy your stay.</h2></td></tr>
+</table>
 
 </section>
-
 
 <section class="container" id="foot">
 
@@ -172,16 +167,15 @@ HTMLPAGE;
 </table>
             </form>
 
+<table class="table4">
+<tr><td><h1>Welcome.</h1></td></tr>
+<tr><td><h2>Enjoy your stay.</h2></td></tr>
+</table>
 
 
 </section>
 
-<section class="container" id="content4>
 
-<h1>Welcome.</h1><p>
-<h2>Enjoy your stay.</h2></p>
-
-</section>
 
 <section class="container" id="foot">
 
