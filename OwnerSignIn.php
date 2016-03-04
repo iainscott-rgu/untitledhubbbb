@@ -74,7 +74,7 @@ session_start();
 </section>
 
 <section class="container" id="content3">
-<div class="floatleft">
+
    <table class='table2'>
             <tr><td colspan='2'><h1>Owner's Area</h1></td></tr>
 
@@ -102,10 +102,14 @@ session_start();
     <tr><td colspan='2'><p id='result' style='color: #ff0006'></p></td></tr>
 </table>
             </form>
-</div>
+
 </section>
 
+<section class="container" id="foot">
 
+    <p>Copyright. Team D Solutions.</p>
+
+</section>
 
 </body>
 </html>
