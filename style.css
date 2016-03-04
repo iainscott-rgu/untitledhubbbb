@@ -161,11 +161,12 @@ button{
 #foot{
 
     max-width: 1500px;
-    background-color: lightgray;
+    background-color: #666699;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 10PT;
     color: darkslategrey;
+    height: 50px;
 }
 
 li a{
