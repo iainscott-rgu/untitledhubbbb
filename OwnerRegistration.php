@@ -56,7 +56,7 @@ session_start();
 
 
 
-<section class="container" id="content">
+<section class="container" id="content2">
     <form action="ownerRegistrationResultPage.php" method="post" id="form">
 
         <table class="table1">
@@ -80,7 +80,7 @@ session_start();
                 <td><label for="password2">Retype Password: *</label></td>
                 <td>    <input type="password" class="inputform" id="password2" name="password2" placeholder="enter password again" required>
                 </td>
-            </tr><td>
+            </tr><tr><td>
             <label for="title">Title: *</label></td>
             <td><select class="inputform" id="title" name="title">
                 <option value="">Select Title</option>
@@ -90,7 +90,7 @@ session_start();
                 <option value="Ms">Ms</option>
             </select>
             </td>
-
+</tr>
 
             <tr>
                 <td><label for="firstname">First Name: *</label></td>
