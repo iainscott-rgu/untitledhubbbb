@@ -103,6 +103,7 @@ session_start();
 </table>
             </form>
 
+<h1>Welcome. Enjoy your stay!</h1>
 </section>
 
 <section class="container" id="foot">
