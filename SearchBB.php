@@ -146,11 +146,23 @@ NEWHTML;
 
 <section class="container" id="spotlight">
 <div>
-    <h1>We might Spolight here!!!!</h1>
+    We might Spolight here!!!!
 </div>
 </section>
 
 <section class="container" id="foot">
+
+    <div id="footernav">
+        <nav>
+            <ul>
+                <li><a href="B&Bregistration.html">Contact</a></li>
+                <li><a href="B&Bregistration.html">Register</a></li>
+                <li><a href="OwnerSignIn.php">Member Area</a></li>
+                <li><a href="SearchBB.php">Search</a></li>
+            </ul>
+        </nav>
+    </div>
+
     <hr width="100%" size="1">
     <p>Copyright. Team D Solutions.</p>
 
