@@ -151,7 +151,7 @@ NEWHTML;
 </section>
 
 <section class="container" id="foot">
-
+    <hr width="100%" size="1">
     <p>Copyright. Team D Solutions.</p>
 
 </section>
