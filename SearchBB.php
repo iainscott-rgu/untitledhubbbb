@@ -144,7 +144,7 @@ NEWHTML;
 
 </section>
 <main>
-<section class="container" id="spotlight">
+<section class="container2" id="spotlight">
 <div id="subheading">
     <p>Featured bed and breakfast destinations!!</p>
 </div>
