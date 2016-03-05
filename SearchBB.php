@@ -158,15 +158,14 @@ NEWHTML;
 
 
 <section class="container2" id="spotlight">
-    <img src="assets/london.jpg" id="img2">
-    <p>London, England</p>
-    <p>click to view</p>
-    <img src="assets/edinburgh.jpg" id="img2">
-    <p>Edinburgh, Scotland</p>
-    <p>click to view</p>
+    Regional
+
 </section>
 
     <section class="container2" id="spotlight2">
+        <img src="assets/london.jpg" id="img2">
+        <p>London, England</p>
+        <p>click to view</p>
         <img src="assets/glasgow.jpg" id="img2">
         <p>Glasgow, Scotland</p>
         <p>click to view</p>
@@ -176,6 +175,9 @@ NEWHTML;
     </section>
 
     <section class="container2" id="spotlight3">
+        <img src="assets/edinburgh.jpg" id="img2">
+        <p>Edinburgh, Scotland</p>
+        <p>click to view</p>
         <img src="assets/dundee.jpeg" id="img2">
         <p>Dundee, Scotland</p>
         <p>click to view</p>
