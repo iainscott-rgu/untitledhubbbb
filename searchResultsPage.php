@@ -75,7 +75,7 @@ NEWHTML;
 </div>
 
 
-    <hr width="100%" size="1">
+
 </section>
 
 <section class="container" id="foot">
