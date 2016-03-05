@@ -194,7 +194,7 @@ NEWHTML;
 <section class="container" id="featured">
     <div class="centre">
 
-        Search bed and breackfast's by Region
+        Search bed and breackfast's by Region<p>rrrrrr</p>
     </div>
 </section>
 
