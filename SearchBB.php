@@ -265,8 +265,7 @@ NEWHTML;
         <li><a href='#'>Harlow</a></li>
         <li><a href='#'>Harpenden</a></li>
         <li><a href='#'>Hatfield</a></li>
-        <li><a href='#'>Haverhill</a></li></ul>
-    <ul>
+        <li><a href='#'>Haverhill</a></li>
         <li><a href='#'>Hemel Hempstead</a></li>
         <li><a href='#'>Hemsby</a></li>
         <li><a href='#'>Hertford</a></li>
