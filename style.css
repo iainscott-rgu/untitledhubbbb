@@ -163,20 +163,13 @@ button{
     color: darkslategrey;
     height: 400px;
     max-width: 1500px;
-    margin-left: 0;
-    margin-right: 0;
-
-}
-
-main{
-    max-width: 1500px;
-    height:350px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
 
 }
+
 
 #img2{
 
