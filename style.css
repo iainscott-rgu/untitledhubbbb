@@ -195,7 +195,7 @@ main{
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
     color: darkslategrey;
-    background-color: #99CC33;
+    background-color: lightgray;
     padding-top: 20px;
 }
 
@@ -220,7 +220,7 @@ main{
 .centre{
 
     text-align: center;
-    color: #666666;
+    color: #99CC33;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }
