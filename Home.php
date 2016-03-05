@@ -160,21 +160,56 @@ NEWHTML;
 
     <div class="right2">
 
-
-        <table class="table2">
-            <tr><td colspan="2"><p><strong>Example B&B Spotlight</strong></p></td></tr>
-            <tr class="tr2"><td class="t2"><p><img src = "assets/bnbthumb.jpg" id="img2" > Example Spotlight no. 1</p></td></tr>
-            <tr class="tr2"><td class="t2"><p><img src = "assets/bnbthumb.jpg" id="img2" > Example Spotlight no. 2</p></td></tr>
-            <tr class="tr2"><td class="t2"><p><img src = "assets/bnbthumb.jpg" id="img2" > Example Spotlight no. 3</p></td></tr>
-            <tr class="tr2"><td class="t2"><p><img src = "assets/bnbthumb.jpg" id="img2" > Example Spotlight no. 4</p></td></tr>
-
-
-
-
-
-
-
+        <table border="1">
+            <tr>
+                <td class="noBG" colspan="3">
+                    <select id="displayText" onchange="javascript:toggle();">
+                        <option>2</option>
+                        <option>4</option>
+                    </select>Items
+                </td>
+            </tr>
+            <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Time</th>
+                <th>Person</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>12/3</td>
+                <td>12:45</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>12/4</td>
+                <td>12:45</td>
+                <td>James Doe</td>
+            </tr>
+            <tr id="toggleText" style="display: none">
+                <td>12/4</td>
+                <td>12:45</td>
+                <td>Janey Doe</td>
+            </tr>
+            <tr id="toggleText" style="display: none">
+                <td>12/4</td>
+                <td>12:45</td>
+                <td>Janey Doe</td>
+            </tr>
         </table>
+
+        <script language="javascript">
+            function toggle() {
+                var ele = document.getElementById("toggleText");
+                if(ele.style.display == "block") {
+                    ele.style.display = "none";
+                }
+                else {
+                    ele.style.display = "block";
+                }
+            }
+        </script>
+        ​
     </div>
 
 
