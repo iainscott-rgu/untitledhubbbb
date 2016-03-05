@@ -36,6 +36,7 @@
     /* Create an active/current tablink class */
     ul.tab li a:focus, .active {
         background-color: #ccc;
+        text-decoration: none;
     }
 
     /* Style the tab content */
@@ -44,7 +45,7 @@
         padding: 6px 12px;
         border: 1px solid #ccc;
         border-top: none;
-        text-decoration: none;
+
     }
 </style>
 <body>
