@@ -49,10 +49,68 @@
 <p>Click on the links inside the tabbed menu:</p>
 
 <ul class="tab">
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'East')">East</a></li>
     <li><a href="#" class="tablinks" onclick="openCity(event, 'London')">London</a></li>
-    <li><a href="#" class="tablinks" onclick="openCity(event, 'Paris')">Paris</a></li>
-    <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'North%20East')">North East</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'North%20West')">North West</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Northern%20Ireland')">Northern Ireland</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Scotland')">Scotland</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'South%20East')">South East</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'East%20Midlands')">East Midlands</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'South%20West')">South West</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Wales')">Wales</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'West%20Midlands')">West Midlands</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Yorkshire%20and%20the%20Humber')">Yorkshire and the Humber</a></li>
+
+
+
+
 </ul>
+
+<div id="East" class="tabcontent">
+    <h3>East</h3>
+    <p>List...</p>
+</div>
+
+<div id="London" class="tabcontent">
+    <h3>London</h3>
+    <p>List...</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="London" class="tabcontent">
+    <h3>London</h3>
+    <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="London" class="tabcontent">
+    <h3>London</h3>
+    <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+</div>
 
 <div id="London" class="tabcontent">
     <h3>London</h3>
