@@ -164,7 +164,7 @@ button{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     background-color: white;
-    padding: 15px;
+    padding: 25px;
 }
 
 #spotlight2 {
@@ -206,8 +206,6 @@ main{
 #featured{
 
     margin-top: 0;
-
-
 }
 
 .centre{
