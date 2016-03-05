@@ -195,7 +195,7 @@ main{
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
     color: darkslategrey;
-    background-color: #FFCCFF;
+    background-color: #CCCCCC;
 }
 
 
@@ -214,11 +214,6 @@ main{
     color: #666699;
     font-size: 25px;
     margin-top: 0;
-
-}
-
-.container3{
-    background-color: #FFCCFF;
 
 }
 
