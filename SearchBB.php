@@ -146,7 +146,7 @@ NEWHTML;
 <main>
 <section class="container2" id="spotlight">
 <div id="subheading">
-    <p>Featured bed and breakfast destinations!!</p>
+
 </div>
 
     <img src="assets/london.jpg" id="img2">
