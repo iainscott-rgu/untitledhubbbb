@@ -189,7 +189,7 @@ main{
     max-width: 1500px;
     margin-right: auto;
     margin-left: auto;
-    height:650px;
+    height:600px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -200,7 +200,7 @@ main{
 
 .container2{
 
-    height: 400px;
+
 
 }
 
@@ -208,7 +208,11 @@ main{
 #img2{
 
     height: 200px;
-    border: 1px solid darkslategrey;
+    border: 2px solid darkslategrey;
+    -moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+    border-radius: 5px; /* CSS3 */
 }
 
 #foot{
