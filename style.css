@@ -161,7 +161,7 @@ button{
 #spotlight {
 
     color: darkslategrey;
-    height: 100px;
+    height: 400px;
     background-color: #ff0006;
 
 
@@ -170,7 +170,7 @@ button{
 #spotlight2 {
 
     color: darkslategrey;
-    height: 100px;
+    height: 400px;
     background-color: #ff0006;
     border: 1px solid black;
 
@@ -180,7 +180,7 @@ button{
 #spotlight3 {
 
     color: darkslategrey;
-    height: 100px;
+    height: 400px;
     background-color: #ff0006;
 
 
@@ -201,14 +201,14 @@ main{
 
 .container2{
 
-    height: 200px;
+    height: 400px;
     background-color: aqua;
 }
 
 
 #img2{
 
-    height: 50px;
+    height: 200px;
     border: 1px solid darkslategrey;
 }
 
