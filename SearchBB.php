@@ -146,7 +146,7 @@ NEWHTML;
 <main>
 <section class="container" id="spotlight">
 <div id="subheading">
-    <p>Featured bed and breakfast destinations</p>
+    <p>Featured bed and breakfast destinations!!</p>
 </div>
 
     <img src="assets/bnbthumb.jpg" id="img2">
