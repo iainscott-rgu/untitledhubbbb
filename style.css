@@ -160,7 +160,7 @@ button{
 
 #spotlight {
 
-    color: darkslategrey;
+    color: #666699;
     height: 400px;
 
 
@@ -169,7 +169,7 @@ button{
 
 #spotlight2 {
 
-    color: darkslategrey;
+    color: #666699;
     height: 400px;
 
 
@@ -178,7 +178,7 @@ button{
 
 #spotlight3 {
 
-    color: darkslategrey;
+    color: #666699;
     height: 400px;
 
 
@@ -203,7 +203,7 @@ main{
 #img2{
 
     height: 200px;
-    border: 2px solid darkslategrey;
+    border: 2px solid orange;
     -moz-border-radius:5px; /* Firefox */
     -webkit-border-radius: 5px; /* Safari, Chrome */
     -khtml-border-radius: 5px; /* KHTML */
@@ -220,7 +220,7 @@ main{
 .centre{
 
     text-align: center;
-    color: orange;
+    color: #ffa500;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }

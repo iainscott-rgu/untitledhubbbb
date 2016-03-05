@@ -13,7 +13,7 @@
 
 <section class="container" id="banner">
     <div class="floatleft">
-        <img src = "assets/b&blogotransparentcrop.png" id="img">
+        <img src = "assets/bnblogocroporange.png" id="img">
     </div>
     <div class="floatright">
 
@@ -148,7 +148,7 @@ NEWHTML;
  <section class="container" id="featured">
 <div class="centre">
 
-    Featured bed and breakfast destinations by <img src="assets/b&blogotransparentcrop.png" id="img3">
+    Featured bed and breakfast destinations by <img src="assets/bnblogocroppurple.png" id="img3">
 </div>
  </section>
 
