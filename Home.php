@@ -35,15 +35,15 @@
 
     /* Create an active/current tablink class */
     ul.tab li a:focus, .active {
-        background-color: #ccc;
-        text-decoration: none;
+        background-color: orange;
+
     }
 
     /* Style the tab content */
     .tabcontent {
         display: none;
         padding: 6px 12px;
-        border: 1px solid #ccc;
+        border: 1px solid orange;
         border-top: none;
 
     }
