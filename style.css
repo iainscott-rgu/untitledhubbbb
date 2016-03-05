@@ -162,6 +162,9 @@ button{
 
     color: darkslategrey;
     height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
 
@@ -170,9 +173,7 @@ main{
     margin-right: auto;
     margin-left: auto;
     height:350px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+
 
 
 }
