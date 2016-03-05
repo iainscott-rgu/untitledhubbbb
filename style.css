@@ -161,9 +161,11 @@ button{
 #spotlight{
 
     color: darkslategrey;
-    height: 200px;
+    height: 300px;
     flex: auto;
     flex-direction: row;
+
+
 }
 
 #img2{
