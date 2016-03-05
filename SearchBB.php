@@ -158,7 +158,7 @@ NEWHTML;
 
 
 <section class="container2" id="spotlight">
-    Regional
+    Search by Region
 
 </section>
 
