@@ -144,16 +144,16 @@ NEWHTML;
 
 </section>
 
-<main>
+
  <section class="container" id="featured">
-
+<div class="centre">
      <p>Featured bed and breakfast destinations</p>
-
+</div>
  </section>
 
 
 
-
+<main>
 
 
 <section class="container2" id="spotlight">

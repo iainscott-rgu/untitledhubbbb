@@ -218,6 +218,12 @@ main{
 
 }
 
+.centre{
+
+    text-align: center;
+    background-color: #dadada;
+}
+
 #foot{
 
     max-width: 1500px;
