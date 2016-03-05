@@ -183,17 +183,28 @@ button{
 
 #copyright{
 
-
+    text-align: right;
 }
 
-li a{
+nav ul li {
+
+
+}
+nav[role="main"] ul li {
+    display:inline-block;
     float: right;
     font-family: 'Roboto', sans-serif;
-    display: inline-block;
     padding: 10px;
     text-decoration: none;
     color: white;
+
 }
+nav[role="sub"] ul li {
+    text-align: left;
+}
+
+
+
 
 li a:HOVER{
     background-color: snow;

@@ -44,7 +44,7 @@
 
 <section class="container" id="navigation">
         <div>
-            <nav>
+            <nav role="main">
                 <ul>
                     <li><a href="B&Bregistration.html">Contact</a></li>
                     <li><a href="B&Bregistration.html">Register</a></li>
@@ -153,7 +153,7 @@ NEWHTML;
 <section class="container" id="foot">
 
     <div id="footernav">
-        <nav>
+        <nav role="sub">
             <ul>
                 <li><a href="B&Bregistration.html">Contact</a></li>
                 <li><a href="B&Bregistration.html">Register</a></li>
