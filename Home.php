@@ -10,7 +10,7 @@
         overflow: hidden;
         border: 1px solid #ccc;
         background-color: #666699;
-        color: white;
+
     }
 
     /* Float the list items side by side */
@@ -19,7 +19,7 @@
     /* Style the links inside the list items */
     ul.tab li a {
         display: inline-block;
-        color: black;
+        color: white;
         text-align: center;
         padding: 12px 14px;
         text-decoration: none;
@@ -49,7 +49,7 @@
 </style>
 <body>
 
-<p>Click on the links inside the tabbed menu:</p>
+<p>Search by Region</p>
 
 <ul class="tab">
     <li><a href="#" class="tablinks" onclick="openCity(event, 'East')">East</a></li>
