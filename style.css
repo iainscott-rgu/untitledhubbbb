@@ -172,6 +172,7 @@ button{
     color: darkslategrey;
     height: 100px;
     background-color: #ff0006;
+    border: 1px solid black;
 
 
 }
@@ -201,6 +202,7 @@ main{
 .container2{
 
     height: 200px;
+    background-color: aqua;
 }
 
 
