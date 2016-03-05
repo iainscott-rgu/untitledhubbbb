@@ -167,9 +167,7 @@ button{
 
 main{
     max-width: 1500px;
-    margin-right: auto;
-    margin-left: auto;
-
+    height:350px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
