@@ -66,12 +66,80 @@
 
 <div id="East" class="tabcontent">
     <h3>East</h3>
-    <ul><li><a href="#">Ampthill&Flitwick</a></li>
-        <li><a href='http://groups.freecycle.org/BasildonUK'>Basildon</a></li>
-        <li><a href='http://groups.freecycle.org/freecyclebedford'>Bedford</a></li>
-        <li><a href='http://groups.freecycle.org/BenfleetUK'>Benfleet</a></li>
-        <li><a href='http://groups.freecycle.org/Berkofreecycle'>Berkhamsted</a></li>  <li><a href='http://groups.freecycle.org/Biggleswade'>Biggleswade</a></li>  <li><a href='http://groups.freecycle.org/BillericayUK'>Billericay</a></li>  <li><a href='http://groups.freecycle.org/BishopsStortfordUK'>Bishops Stortford</a></li>  <li><a href='http://groups.freecycle.org/BraintreeUK'>Braintree</a></li>  <li><a href='http://groups.freecycle.org/freecycleBreckland'>Breckland</a></li>  <li><a href='http://groups.freecycle.org/BrentwoodUK'>Brentwood</a></li>  <li><a href='http://groups.freecycle.org/BroadlandFreecycle'>Broadland District</a></li>  <li><a href='http://groups.freecycle.org/BuryStEdmundsUK'>Bury St Edmunds</a></li>  <li><a href='http://groups.freecycle.org/BusheyUK'>Bushey</a></li>  <li><a href='http://groups.freecycle.org/cambridgefreecycle'>Cambridge</a></li>  <li><a href='http://groups.freecycle.org/CanveyIslandUK'>Canvey Island</a></li>  <li><a href='http://groups.freecycle.org/ChelmsfordFreecycleUK'>Chelmsford</a></li>  <li><a href='http://groups.freecycle.org/CheshuntWalthamCrossUK'>Cheshunt Waltham Cross</a></li>  <li><a href='http://groups.freecycle.org/ChorleywoodUK'>Chorleywood</a></li>  <li><a href='http://groups.freecycle.org/Clacton-on-SeaUK'>Clacton-on-Sea</a></li>  <li><a href='http://groups.freecycle.org/ColchesterUK'>Colchester</a></li>  <li><a href='http://groups.freecycle.org/Debenham-Framlingham'>Debenham - Framlingham</a></li>  <li><a href='http://groups.freecycle.org/DengiePeninsulaUK'>Dengie Peninsula</a></li>  <li><a href='http://groups.freecycle.org/FreecycleDunstable'>Dunstable</a></li>  <li><a href='http://groups.freecycle.org/eppingforestfreecycle'>Epping Forest</a></li>  <li><a href='http://groups.freecycle.org/fenlandfreecycle'>Fenland</a></li>  <li><a href='http://groups.freecycle.org/greatdunmow'>Great Dunmow</a></li>  <li><a href='http://groups.freecycle.org/greatyarmouthfreecycle'>Great Yarmouth</a></li>  <li><a href='http://groups.freecycle.org/HarlowUK'>Harlow</a></li>  <li><a href='http://groups.freecycle.org/HarpendenUK'>Harpenden</a></li>  <li><a href='http://groups.freecycle.org/HatfieldHerts'>Hatfield</a></li>  <li><a href='http://groups.freecycle.org/Haverhill'>Haverhill</a></li>  <li><a href='http://groups.freecycle.org/Hemel_UK'>Hemel Hempstead</a></li>  <li><a href='http://groups.freecycle.org/hemsby'>Hemsby</a></li>  <li><a href='http://groups.freecycle.org/hertford_freecycle'>Hertford</a></li>  <li><a href='http://groups.freecycle.org/HunstantonHeachamUK'>Hunstanton and Heacham</a></li>  <li><a href='http://groups.freecycle.org/freecycle_hunts'>Huntingdon</a></li>  <li><a href='http://groups.freecycle.org/Ipswich_Freecycle'>Ipswich</a></li>  <li><a href='http://groups.freecycle.org/freecyclekingslynn'>King's Lynn</a></li>  <li><a href='http://groups.freecycle.org/leighonseaUK'>Leigh on sea UK</a></li>  <li><a href='http://groups.freecycle.org/freecycleleighton-buzzard'>Leighton Buzzard</a></li>  <li><a href='http://groups.freecycle.org/letchworth'>Letchworth</a></li>  <li><a href='http://groups.freecycle.org/LintonUK'>Linton UK</a></li>  <li><a href='http://groups.freecycle.org/FreecycleLuton'>Luton</a></li>  <li><a href='http://groups.freecycle.org/NewmarketUK'>Newmarket</a></li>  <li><a href='http://groups.freecycle.org/FreecycleNorthNorfolk'>North Norfolk</a></li>  <li><a href='http://groups.freecycle.org/norwichukfreecycle'>Norwich</a></li>  <li><a href='http://groups.freecycle.org/freecyclepboro'>Peterborough</a></li>  <li><a href='http://groups.freecycle.org/PottersBar'>Potters Bar</a></li>  <li><a href='http://groups.freecycle.org/rayleighfreecycle'>Rayleigh</a></li>  <li><a href='http://groups.freecycle.org/freecycle_rickmansworth'>Rickmansworth</a></li>  <li><a href='http://groups.freecycle.org/RoystonUK'>Royston</a></li>  <li><a href='http://groups.freecycle.org/Freecycle_SaffronWalden'>Saffron Walden</a></li>  <li><a href='http://groups.freecycle.org/sandypottonUK'>Sandy and Potton UK</a></li>  <li><a href='http://groups.freecycle.org/Sawston'>Sawston</a></li>  <li><a href='http://groups.freecycle.org/SheffordandHenlow'>Shefford and Henlow</a></li>  <li><a href='http://groups.freecycle.org/southnorfolkfreecycle'>South Norfolk</a></li>  <li><a href='http://groups.freecycle.org/SouthendUK'>Southend-on-Sea</a></li>  <li><a href='http://groups.freecycle.org/StAlbansfreecycle'>St Albans</a></li>  <li><a href='http://groups.freecycle.org/stneotsfreecycle'>St. Neots</a></li>  <li><a href='http://groups.freecycle.org/stevenagefreecycle'>Stevenage</a></li>  <li><a href='http://groups.freecycle.org/stowmarket_freecycle'>Stowmarket</a></li>  <li><a href='http://groups.freecycle.org/SudburyUK'>Sudbury & Hadleigh</a></li>  <li><a href='http://groups.freecycle.org/Thurrock_West_Freecycle'>Thurrock(West) - Grays, South Ockendon & Tilbury</a></li>  <li><a href='http://groups.freecycle.org/Tring'>Tring</a></li>  <li><a href='http://groups.freecycle.org/WalthamAbbey'>Waltham Abbey</a></li>  <li><a href='http://groups.freecycle.org/freecycle_watford'>Watford</a></li>  <li><a href='http://groups.freecycle.org/waveneyfreecycle'>Waveney</a></li>  <li><a href='http://groups.freecycle.org/wgcfreecycle'>Welwyn Garden City</a></li>  <li><a href='http://groups.freecycle.org/wosfreecycle'>Westcliff-on-Sea</a></li>  <li><a href='http://groups.freecycle.org/WickfordUK'>Wickford</a></li>  <li><a href='http://groups.freecycle.org/wixamsUK'>Wixams Bedfordshire UK</a></li>  </ul>
-    <p></p>
+    <ul><li><a href='#'>Ampthill&Flitwick</a></li>
+        <li><a href='#'>Basildon</a></li>
+        <li><a href='#'>Bedford</a></li>
+        <li><a href='#'>Benfleet</a></li>
+        <li><a href='#'>Berkhamsted</a></li>  
+        <li><a href='#'>Biggleswade</a></li>  
+        <li><a href='#'>Billericay</a></li>  
+        <li><a href='#'>Bishops Stortford</a></li>  
+        <li><a href='#'>Braintree</a></li>  
+        <li><a href='#'>Breckland</a></li>  
+        <li><a href='#'>Brentwood</a></li>  
+        <li><a href='#'>Broadland District</a></li>  
+        <li><a href='#'>Bury St Edmunds</a></li>  
+        <li><a href='#'>Bushey</a></li>
+        <li><a href='#'>Cambridge</a></li>
+        <li><a href='#'>Canvey Island</a></li>
+        <li><a href='#'>Chelmsford</a></li>
+        <li><a href='#'>Cheshunt Waltham Cross</a></li>
+        <li><a href='#'>Chorleywood</a></li>
+        <li><a href='#'>Clacton-on-Sea</a></li>
+        <li><a href='#'>Colchester</a></li>
+        <li><a href='#'>Debenham - Framlingham</a></li>
+        <li><a href='#'>Dengie Peninsula</a></li>
+        <li><a href='#'>Dunstable</a></li>
+        <li><a href='#'>Epping Forest</a></li>
+        <li><a href='#'>Fenland</a></li>
+        <li><a href='#'>Great Dunmow</a></li>
+        <li><a href='#'>Great Yarmouth</a></li>
+        <li><a href='#'>Harlow</a></li>
+        <li><a href='#'>Harpenden</a></li>
+        <li><a href='#'>Hatfield</a></li>
+        <li><a href='#'>Haverhill</a></li>
+        <li><a href='#'>Hemel Hempstead</a></li>
+        <li><a href='#'>Hemsby</a></li>
+        <li><a href='#'>Hertford</a></li>
+        <li><a href='#'>Hunstanton and Heacham</a></li>
+        <li><a href='#'>Huntingdon</a></li>
+        <li><a href='#'>Ipswich</a></li>
+        <li><a href='#'>King's Lynn</a></li>
+        <li><a href='#'>Leigh on sea UK</a></li>
+        <li><a href='#'>Leighton Buzzard</a></li>
+        <li><a href='#'>Letchworth</a></li>
+        <li><a href='#'>Linton UK</a></li>
+        <li><a href='#'>Luton</a></li>
+        <li><a href='#'>Newmarket</a></li>
+        <li><a href='#'>North Norfolk</a></li>
+        <li><a href='#'>Norwich</a></li>
+        <li><a href='#'>Peterborough</a></li>
+        <li><a href='#'>Potters Bar</a></li>
+        <li><a href='#'>Rayleigh</a></li>
+        <li><a href='#'>Rickmansworth</a></li>
+        <li><a href='#'>Royston</a></li>
+        <li><a href='#'>Saffron Walden</a></li>
+        <li><a href='#'>Sandy and Potton UK</a></li>
+        <li><a href='#'>Sawston</a></li>
+        <li><a href='#'>Shefford and Henlow</a></li>
+        <li><a href='#'>South Norfolk</a></li>
+        <li><a href='#'>Southend-on-Sea</a></li>
+        <li><a href='#'>St Albans</a></li>
+        <li><a href='#'>St. Neots</a></li>
+        <li><a href='#'>Stevenage</a></li>
+        <li><a href='#'>Stowmarket</a></li>
+        <li><a href='#'>Sudbury & Hadleigh</a></li>
+        <li><a href='#'>Thurrock(West) - Grays, South Ockendon & Tilbury</a></li>
+        <li><a href='#'>Tring</a></li>
+        <li><a href='#'>Waltham Abbey</a></li>
+        <li><a href='#'>Watford</a></li>
+        <li><a href='#'>Waveney</a></li>
+        <li><a href='#'>Welwyn Garden City</a></li>
+        <li><a href='#'>Westcliff-on-Sea</a></li>
+        <li><a href='#'>Wickford</a></li>
+        <li><a href='#'>Wixams Bedfordshire</a></li>
+    </ul>
+    
 </div>
 
 <div id="London" class="tabcontent">
@@ -81,52 +149,52 @@
 
 <div id="North%20East" class="tabcontent">
     <h3>North East</h3>
-    <p>Tokyo is the capital of Japan.</p>
+    <p>List of towns..</p>
 </div>
 
 <div id="North%20West" class="tabcontent">
     <h3>North West</h3>
-    <p>London is the capital city of England.</p>
+    <p>List of towns..</p>
 </div>
 
 <div id="Northern%20Ireland" class="tabcontent">
     <h3>Northern Ireland</h3>
-    <p>Paris is the capital of France.</p>
+    <p>List of towns..</p>
 </div>
 
 <div id="Scotland" class="tabcontent">
     <h3>Scotland</h3>
-    <p>Tokyo is the capital of Japan.</p>
+    <p>List of towns..</p>
 </div>
 
 <div id="South%20East" class="tabcontent">
     <h3>South East</h3>
-    <p>London is the capital city of England.</p>
+    <p>List of towns..</p>
 </div>
 
 <div id="East%20Midlands" class="tabcontent">
     <h3>East Midlands</h3>
-    <p>Paris is the capital of France.</p>
+    <p>List of towns..</p>
 </div>
 
 <div id="South%20West" class="tabcontent">
     <h3>South West</h3>
-    <p>Tokyo is the capital of Japan.</p>
+    <p>List of towns..</p>
 </div>
 
 <div id="Wales" class="tabcontent">
     <h3>Wales</h3>
-    <p>London is the capital city of England.</p>
+    <p>List of towns..</p>
 </div>
 
 <div id="West%20Midlands" class="tabcontent">
     <h3>West Midlands</h3>
-    <p>Paris is the capital of France.</p>
+    <p>List of towns..</p>
 </div>
 
 <div id="Yorkshire" class="tabcontent">
     <h3>Yorkshire</h3>
-    <p>Tokyo is the capital of Japan.</p>
+    <p>List of towns..</p>
 </div>
 
 <script>
