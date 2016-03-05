@@ -50,8 +50,12 @@
 
     #East{
 
+
+    }
+
+    li a{
+
         text-decoration: none;
-        color: orange;
     }
 </style>
 <body>
