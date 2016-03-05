@@ -209,6 +209,14 @@ main{
     border-radius: 5px; /* CSS3 */
 }
 
+#featured{
+
+    font-family: 'Roboto', sans-serif;
+    color: #666699;
+    font-size: 25px;
+
+}
+
 #foot{
 
     max-width: 1500px;
