@@ -9,7 +9,7 @@
         padding: 0;
         overflow: hidden;
         border: 1px solid #ccc;
-        background-color: #f1f1f1;
+        background-color: #666699;
     }
 
     /* Float the list items side by side */
@@ -42,6 +42,7 @@
         padding: 6px 12px;
         border: 1px solid #ccc;
         border-top: none;
+        text-decoration: none;
     }
 </style>
 <body>
