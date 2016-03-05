@@ -145,7 +145,7 @@ NEWHTML;
 </section>
  <section class="container" id="featured">
 
-     Featured bed and breakfast destinations
+     <p>Featured bed and breakfast destinations</p>
 
  </section>
 
