@@ -143,10 +143,10 @@ NEWHTML;
     </form>
 
 </section>
-
+<main>
 <section class="container" id="spotlight">
 <div id="subheading">
-    <p><h1>Featured bed and breakfast destinations</h1></p>
+    <p>Featured bed and breakfast destinations</p>
 </div>
 
     <img src="assets/bnbthumb.jpg" id="img2">
@@ -155,7 +155,7 @@ NEWHTML;
 
 
 </section>
-
+</main>
 <section class="container" id="foot">
 
     <div id="footernav">

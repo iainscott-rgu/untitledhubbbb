@@ -158,10 +158,14 @@ button{
     float: right;
 }
 
-#spotlight{
+#spotlight {
 
     color: darkslategrey;
     height: 300px;
+
+}
+
+main{
     flex: auto;
     flex-direction: row;
     justify-content: space-around;
