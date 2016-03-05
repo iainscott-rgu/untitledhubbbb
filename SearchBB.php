@@ -194,9 +194,11 @@ NEWHTML;
 <section class="container" id="featured">
     <div class="centre">
 
-        Search bed and breackfast's by Region<p>rrrrrr</p>
+        Search bed and breackfast's by Region
     </div>
 </section>
+
+ppppppp
 
 <section class="container" id="foot">
 
