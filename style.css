@@ -212,7 +212,7 @@ main{
 #featured{
     font-family: 'Roboto', sans-serif;
     color: darkslategrey;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 0;
 
 
@@ -221,12 +221,12 @@ main{
 .centre{
 
     text-align: center;
-    color: green;
+    color: limegreen;
 }
 
 #img3{
 
-    height: 50px;
+    height: 75px;
 }
 
 #foot{
