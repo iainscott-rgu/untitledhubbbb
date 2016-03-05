@@ -143,7 +143,7 @@ NEWHTML;
     </form>
 
 
- <section class="container" id="featured">
+ <section class="container2" id="featured">
 
      Featured bed and breakfast destinations
      <hr width="100%" size="1">
