@@ -10,6 +10,7 @@
         overflow: hidden;
         border: 1px solid #ccc;
         background-color: #666699;
+        color: white;
     }
 
     /* Float the list items side by side */
@@ -28,7 +29,8 @@
 
     /* Change background color of links on hover */
     ul.tab li a:hover {
-        background-color: #ddd;
+        background-color: snow;
+        color: orange;
     }
 
     /* Create an active/current tablink class */
