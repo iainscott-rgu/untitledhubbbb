@@ -20,10 +20,10 @@
         display: inline-block;
         color: black;
         text-align: center;
-        padding: 14px 16px;
+        padding: 12px 14px;
         text-decoration: none;
         transition: 0.3s;
-        font-size: 17px;
+        font-size: 12px;
     }
 
     /* Change background color of links on hover */
@@ -60,7 +60,7 @@
     <li><a href="#" class="tablinks" onclick="openCity(event, 'South%20West')">South West</a></li>
     <li><a href="#" class="tablinks" onclick="openCity(event, 'Wales')">Wales</a></li>
     <li><a href="#" class="tablinks" onclick="openCity(event, 'West%20Midlands')">West Midlands</a></li>
-    <li><a href="#" class="tablinks" onclick="openCity(event, 'Yorkshire%20and%20the%20Humber')">Yorkshire and the Humber</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Yorkshire')">Yorkshire</a></li>
 
 
 
