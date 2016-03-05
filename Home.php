@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+
+
 <style>
     body {font-family: "Lato", sans-serif;}
 
@@ -84,15 +86,15 @@
         <li><a href='#'>Basildon</a></li>
         <li><a href='#'>Bedford</a></li>
         <li><a href='#'>Benfleet</a></li>
-        <li><a href='#'>Berkhamsted</a></li>  
-        <li><a href='#'>Biggleswade</a></li>  
-        <li><a href='#'>Billericay</a></li>  
-        <li><a href='#'>Bishops Stortford</a></li>  
-        <li><a href='#'>Braintree</a></li>  
-        <li><a href='#'>Breckland</a></li>  
-        <li><a href='#'>Brentwood</a></li>  
-        <li><a href='#'>Broadland District</a></li>  
-        <li><a href='#'>Bury St Edmunds</a></li>  
+        <li><a href='#'>Berkhamsted</a></li>
+        <li><a href='#'>Biggleswade</a></li>
+        <li><a href='#'>Billericay</a></li>
+        <li><a href='#'>Bishops Stortford</a></li>
+        <li><a href='#'>Braintree</a></li>
+        <li><a href='#'>Breckland</a></li>
+        <li><a href='#'>Brentwood</a></li>
+        <li><a href='#'>Broadland District</a></li>
+        <li><a href='#'>Bury St Edmunds</a></li>
         <li><a href='#'>Bushey</a></li>
         <li><a href='#'>Cambridge</a></li>
         <li><a href='#'>Canvey Island</a></li>
@@ -153,7 +155,7 @@
         <li><a href='#'>Wickford</a></li>
         <li><a href='#'>Wixams Bedfordshire</a></li>
     </ul>
-    
+
 </div>
 
 <div id="London" class="tabcontent">

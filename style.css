@@ -269,3 +269,79 @@ body{
     margin-top: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {font-family: "Lato", sans-serif;}*/
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #666699;
+
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 12px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: snow;
+    color: orange;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: orange;
+
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid orange;
+    border-top: none;
+
+}
+
+#East{
+
+
+}
+
+li a{
+
+    text-decoration: none;
+}
