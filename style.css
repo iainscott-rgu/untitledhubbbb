@@ -132,7 +132,6 @@ h2{
 #content{
     max-width: 1500px;
     background-image: url("assets/banner2.jpg");
-    border: 2px solid black;
 }
 
 button{
@@ -196,8 +195,6 @@ main{
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
     color: darkslategrey;
-    border: 2px solid black;
-
 }
 
 
@@ -212,15 +209,10 @@ main{
 }
 
 #featured{
-
     font-family: 'Roboto', sans-serif;
     color: #666699;
     font-size: 25px;
     margin-top: 0;
-    margin-left: 20px;
-    border: 2px solid black;
-
-
 }
 
 #foot{
