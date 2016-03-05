@@ -201,12 +201,16 @@ nav[role="main"] ul li a{
 }
 nav[role="sub"] ul li a{
     text-align: left;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
 }
 
 
 
 
-li a:HOVER{
+nav[role="main"] li a:HOVER{
     background-color: snow;
     color: darkslategrey;
     padding: 10px;
