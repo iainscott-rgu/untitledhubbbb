@@ -1,165 +1,89 @@
-<?php
-session_start();
-
-?>
-
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Search: theB&Bhub</title>
-    <link rel="icon"
-          type="image/png"
-          href="assets/b&bicon.png">
-    <link type="text/css" rel="stylesheet" href="style.css"/>
+<html>
+<style>
+    body {font-family: "Lato", sans-serif;}
 
-    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-
-
-</head>
-
-
-
-    <?php
-
-    if($_GET['value']=="logout"){
-        session_unset();
+    ul.tab {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
     }
-    if ($_POST['user'] != null) {
-    $_SESSION["user"] = $_POST['user'];
+
+    /* Float the list items side by side */
+    ul.tab li {float: left;}
+
+    /* Style the links inside the list items */
+    ul.tab li a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 17px;
     }
-    if ($_SESSION["user"] != null) {
-    echo "<p id='loginText'>Currently signed in as: " . $_SESSION["user"];
-        echo "    not you?</p><button id='logout()' onclick='logout()'>LOGOUT</button>";
-    }else{
-    echo "<p id='loginText'>currently not logged in!";
+
+    /* Change background color of links on hover */
+    ul.tab li a:hover {
+        background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    ul.tab li a:focus, .active {
+        background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+</style>
+<body>
+
+<p>Click on the links inside the tabbed menu:</p>
+
+<ul class="tab">
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'London')">London</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Paris')">Paris</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</a></li>
+</ul>
+
+<div id="London" class="tabcontent">
+    <h3>London</h3>
+    <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
         }
-
-
-        ?>
-    <script>
-        function logout() {
-            window.location = "http://iainscott-rgu.azurewebsites.net/home.php?value=logout";
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tabcontent.length; i++) {
+            tablinks[i].classList.remove("active");
         }
-    </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</header>
-
-
-
-
-<main>
-    <form action="searchResultsPage.php" method="post">
-
-       <table class="table1">
-            <tr><td colspan="2">Search:</td></tr>
-            <tr><td class="small">Let's get Started!</td></tr>
-
-            <tr>
-                <td>
-                    <label for="location">Pick a location:</label></td>
-                <td><select class="inputform" id="location" name="location">
-
-
-                        <?php
-                        $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
-                        $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-                        try{
-                            $st = $conn-> query("SELECT DISTINCT [city] FROM [B&B]");
-                            foreach($st->fetchAll() as $row) {
-                                $newhtml =
-<<<NEWHTML
-                                    <option value="{$row[city]}">{$row[city]}</option>
-NEWHTML;
-                                print($newhtml);
-                            }
-                        }
-                        catch(PDOException $e)
-                        {print"$e";}
-                        ?>
-
-
-
-
-
-                    </select>
-                </td>
-            </tr>
-
-
-
-            <tr>
-
-                <td></td>
-                <td><a href="searchResultsPage.php"><p align="right" ><input id="submit" class="submit" type="submit" value="Submit"  /></p></a></td>
-            </tr>
-
-
-        </table></form>
-
-    <div class="right2">
-
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
-        </div>
-
-
-        function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-        }
-
-        window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-        }
-        }
-        }
-        }
-        ​
-    </div>
-
-
-
-    <hr width="100%" align="left" size="1" color="#2f4f4f">
-
-</main>
-<div class="foot">
-    <footer>
-
-        <p>Copyright. Team D Solutions.</p>
-    </footer></div>
-
-
-</section>
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.classList.add("active");
+    }
+</script>
 
 </body>
-
 </html>
