@@ -149,9 +149,9 @@ NEWHTML;
     <p>Featured bed and breakfast destinations!!</p>
 </div>
 
-    <img src="assets/bnbthumb.jpg" id="img2">
-    <img src="assets/bnbthumb.jpg" id="img2">
-    <img src="assets/bnbthumb.jpg" id="img2">
+    <img src="assets/london.jpg" id="img2">
+    <img src="assets/london.jpg" id="img2">
+    <img src="assets/london.jpg" id="img2">
 
 
 </section>
