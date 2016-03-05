@@ -190,7 +190,7 @@ nav ul li {
 
 
 }
-nav[role="main"] ul li {
+nav[role="main"] ul li a{
     display:inline-block;
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -199,7 +199,7 @@ nav[role="main"] ul li {
     color: white;
 
 }
-nav[role="sub"] ul li {
+nav[role="sub"] ul li a{
     text-align: left;
 }
 
