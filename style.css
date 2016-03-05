@@ -41,7 +41,7 @@ h1{
 }
 
 .tablesearch {
-    padding: 100px;
+    padding: 90px;
     -moz-border-radius: 10px; /* Firefox */
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -khtml-border-radius: 10px; /* KHTML */
@@ -216,8 +216,8 @@ main{
     font-family: 'Roboto', sans-serif;
     color: #666699;
     font-size: 25px;
-    padding: 20px;
     margin-top: 0;
+    margin-left: 20px;
     border: 2px solid black;
 
 
