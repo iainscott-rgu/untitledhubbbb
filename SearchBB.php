@@ -173,7 +173,7 @@ NEWHTML;
     </section>
 
     <section class="container2" id="spotlight3">
-        <img src="assets/dundee.jpg" id="img2">
+        <img src="assets/dundee.jpeg" id="img2">
         <p>Dundee, Scotland</p>
         <p>click to view</p>
         <img src="assets/manchester.jpg" id="img2">
