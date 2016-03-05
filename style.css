@@ -186,10 +186,6 @@ button{
     text-align: right;
 }
 
-nav ul li {
-
-
-}
 nav[role="main"] ul li a{
     display:inline-block;
     float: right;
@@ -200,15 +196,19 @@ nav[role="main"] ul li a{
 
 }
 nav[role="sub"] ul li a{
-    text-align: left;
+    display: inline-block;
+    float: left;
     color: white;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     padding: 10px;
 }
 
+nav[role="sub"] li a:HOVER{
 
+    color:darkslategrey;
 
+}
 
 nav[role="main"] li a:HOVER{
     background-color: snow;
