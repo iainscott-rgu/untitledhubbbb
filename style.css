@@ -185,7 +185,7 @@ main{
     color: darkslategrey;
     background-color: snow;
     padding-top: 30px;
-    border-top: 1px double #666699;
+
 
 }
 
@@ -203,6 +203,7 @@ main{
 #featured{
 
     margin-top: 0;
+    border-bottom: 1px double #666699;
 }
 
 .centre{
