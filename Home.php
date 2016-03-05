@@ -20,18 +20,7 @@ session_start();
 
 
 </head>
-<body>
-<section id="container">
 
-
-<header>
-    <section class="right">
-    <div class="left">
-        <img src = "assets/b&blogotransparentcrop.png" id="img">
-
-
-</div>
-<div class="rightside">
 
 
     <?php
@@ -56,44 +45,11 @@ session_start();
             window.location = "http://iainscott-rgu.azurewebsites.net/home.php?value=logout";
         }
     </script>
-    </div>
-    </section>
 
 
 
 
 
-
-
-
-
-    <section class="right3">
-        <div class="nav">
-
-            <nav>
-
-
-
-                <ul class="moveright">
-
-                    <!--<li><a href="B&Bregistration.html">Help</a></li>-->
-                    <li><a href="B&Bregistration.html">Register</a></li>
-                    <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
-                    <li><a href="OwnerSignIn.php">Owner's Page</a></li>
-                    <li><a href="Home.php">Search</a></li>
-
-
-                </ul>
-
-            </nav>
-
-
-
-
-        </div>
-
-
-    </section>
 
 
 
@@ -170,7 +126,6 @@ NEWHTML;
         </div>
 
 
-        toggle between hiding and showing the dropdown content */
         function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
         }
