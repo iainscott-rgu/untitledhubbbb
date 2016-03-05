@@ -143,6 +143,8 @@ NEWHTML;
     </form>
 
 </section>
+
+<main>
  <section class="container" id="featured">
 
      <p>Featured bed and breakfast destinations</p>
@@ -153,7 +155,7 @@ NEWHTML;
 
 
 
-<main>
+
 <section class="container2" id="spotlight">
     <img src="assets/london.jpg" id="img2">
     <p>London, England</p>
