@@ -143,18 +143,22 @@ NEWHTML;
     </form>
 
 </section>
+
+
 <main>
 <section class="container2" id="spotlight">
-<div id="subheading">
-
-</div>
-
     <img src="assets/london.jpg" id="img2">
-    <img src="assets/london.jpg" id="img2">
-    <img src="assets/london.jpg" id="img2">
-
-
 </section>
+
+    <section class="container2" id="spotlight2">
+        <img src="assets/london.jpg" id="img2">
+    </section>
+
+    <section class="container2" id="spotlight3">
+        <img src="assets/london.jpg" id="img2">
+    </section>
+
+
 </main>
 <section class="container" id="foot">
 

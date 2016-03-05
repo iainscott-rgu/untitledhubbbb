@@ -161,10 +161,27 @@ button{
 #spotlight {
 
     color: darkslategrey;
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    height: 100px;
+    background-color: #ff0006;
+
+
+}
+
+#spotlight2 {
+
+    color: darkslategrey;
+    height: 100px;
+    background-color: #ff0006;
+
+
+}
+
+#spotlight3 {
+
+    color: darkslategrey;
+    height: 100px;
+    background-color: #ff0006;
+
 
 }
 
@@ -172,10 +189,18 @@ main{
     max-width: 1500px;
     margin-right: auto;
     margin-left: auto;
-    height:350px;
+    height:450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 
 
+}
+
+.container2{
+
+    height: 200px;
 }
 
 
