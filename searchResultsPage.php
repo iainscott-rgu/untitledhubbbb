@@ -34,6 +34,28 @@
     </div>
 </section>
 
+
+
+<section class="googlemap" id="mapapi">
+
+
+    <h1>My First Google Map</h1>
+
+    <div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+
+
+    <script>
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+            center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+    </script>
+</section>
+
+
+
 <section class="container" id="content2">
 
 
@@ -91,26 +113,6 @@ NEWHTML;
             </ul>
         </nav>
     </div>
-
-
-    <section class="googlemap" id="mapapi">
-
-
-        <h1>My First Google Map</h1>
-
-        <div id="map" style="width:400px;height:400px;background:yellow"></div>
-
-
-
-        <script>
-            var mapCanvas = document.getElementById("map");
-            var mapOptions = {
-                center: new google.maps.LatLng(51.5, -0.2), zoom: 10
-            }
-            var map = new google.maps.Map(mapCanvas, mapOptions);
-        </script>
-    </section>
-
 
 
 
