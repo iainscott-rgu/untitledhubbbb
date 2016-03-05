@@ -195,7 +195,8 @@ main{
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
     color: darkslategrey;
-    background-color: #dadada;
+    background-color: lightgreen;
+    padding-top: 20px;
 }
 
 
@@ -211,7 +212,6 @@ main{
 
 #featured{
     font-family: 'Roboto', sans-serif;
-    color: darkslategrey;
     font-size: 30px;
     margin-top: 0;
 
@@ -221,7 +221,7 @@ main{
 .centre{
 
     text-align: center;
-    color: limegreen;
+    color: olivedrab;
 }
 
 #img3{
