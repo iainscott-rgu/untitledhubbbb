@@ -47,6 +47,12 @@
         border-top: none;
 
     }
+
+    #East{
+
+        text-decoration: none;
+        color: orange;
+    }
 </style>
 <body>
 
