@@ -163,8 +163,12 @@ button{
     color: #666699;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    background-color: white;
+    background-color: #f8f8ff;
     padding: 25px;
+    -moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+    border-radius: 5px; /* CSS3 */
 }
 
 #spotlight2 {
