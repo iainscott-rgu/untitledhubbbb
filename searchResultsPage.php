@@ -7,6 +7,7 @@
           href="assets/b&bicon.png">
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <title>Search Results: theB&Bhub</title>
 </head>
 <body>
@@ -90,12 +91,39 @@ NEWHTML;
             </ul>
         </nav>
     </div>
+
+
+    <section>
+
+
+        <h1>My First Google Map</h1>
+
+        <div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+
+
+        <script>
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+        </script>
+    </section>
+
+
+
+
     <div id="copyright">
         <hr width="100%" size="1">
         <p>Copyright. Team D Solutions.</p>
     </div>
 
 </section>
+
+
+
+
 
 </body>
 </html>
