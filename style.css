@@ -189,7 +189,7 @@ main{
     max-width: 1500px;
     margin-right: auto;
     margin-left: auto;
-    height:800px;
+    height:950px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -228,7 +228,7 @@ main{
 
 #img3{
 
-    height: 60px;
+    height: 50px;
 }
 
 #foot{
