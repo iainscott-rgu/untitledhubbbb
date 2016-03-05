@@ -159,6 +159,7 @@ NEWHTML;
 
 <section class="container2" id="spotlight">
     Search by Region
+    <hr width="100%" size="1">
 
 </section>
 
