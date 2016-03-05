@@ -168,17 +168,11 @@ button{
 
     max-width: 1500px;
     background-image: url("assets/footerbg.jpg");
-
     font-family: 'Roboto', sans-serif;
     font-size: 10PT;
     color: white;
-    height: 200px;
-    padding: 50px;
-}
-
-#footernav{
-
-    text-align: left;
+    height: 150px;
+    padding: 25px;
 }
 
 #copyright{
