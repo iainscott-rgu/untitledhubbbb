@@ -167,17 +167,17 @@ NEWHTML;
         <img src="assets/glasgow.jpg" id="img2">
         <p>Glasgow, Scotland</p>
         <p>click to view</p>
-        <img src="assets/london.jpg" id="img2">
-        <p>London, England</p>
+        <img src="assets/Aberdeen.jpg" id="img2">
+        <p>Aberdeen, Scotland</p>
         <p>click to view</p>
     </section>
 
     <section class="container2" id="spotlight3">
-        <img src="assets/london.jpg" id="img2">
-        <p>London, England</p>
+        <img src="assets/dundee.jpg" id="img2">
+        <p>Dundee, Scotland</p>
         <p>click to view</p>
-        <img src="assets/london.jpg" id="img2">
-        <p>London, England</p>
+        <img src="assets/manchester.jpg" id="img2">
+        <p>Manchester, England</p>
         <p>click to view</p>
     </section>
 
