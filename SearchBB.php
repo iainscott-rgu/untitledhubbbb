@@ -142,15 +142,15 @@ NEWHTML;
       </table>
     </form>
 
-
- <section class="container2" id="featured">
+</section>
+ <section class="container" id="featured">
 
      Featured bed and breakfast destinations
      <hr width="100%" size="1">
  </section>
 
 
-</section>
+
 
 
 <main>
