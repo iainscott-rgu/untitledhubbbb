@@ -148,14 +148,17 @@ NEWHTML;
 <main>
 <section class="container2" id="spotlight">
     <img src="assets/london.jpg" id="img2">
+    LONDON
 </section>
 
     <section class="container2" id="spotlight2">
         <img src="assets/london.jpg" id="img2">
+        LONDON
     </section>
 
     <section class="container2" id="spotlight3">
         <img src="assets/london.jpg" id="img2">
+        LONDON
     </section>
 
 
