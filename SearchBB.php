@@ -143,7 +143,7 @@ NEWHTML;
     </form>
 
 </section>
- <section class="container" id="featured">
+ <section class="container3" id="featured">
 
      <p>Featured bed and breakfast destinations</p>
 
