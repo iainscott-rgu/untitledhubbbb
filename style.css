@@ -193,14 +193,8 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-
-
-}
-
-.container2{
-
-
+    font-family: 'Roboto', sans-serif;
+    color: darkslategrey;
 
 }
 

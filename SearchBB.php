@@ -148,23 +148,29 @@ NEWHTML;
 <main>
 <section class="container2" id="spotlight">
     <img src="assets/london.jpg" id="img2">
-    <p>LONDON</p>
+    <p>London, England</p>
+    <p>click to view</p>
     <img src="assets/london.jpg" id="img2">
-    <p>LONDON</p>
+    <p>London, England</p>
+    <p>click to view</p>
 </section>
 
     <section class="container2" id="spotlight2">
         <img src="assets/london.jpg" id="img2">
-        <p>LONDON</p>
+        <p>London, England</p>
+        <p>click to view</p>
         <img src="assets/london.jpg" id="img2">
-        <p>LONDON</p>
+        <p>London, England</p>
+        <p>click to view</p>
     </section>
 
     <section class="container2" id="spotlight3">
         <img src="assets/london.jpg" id="img2">
-        <p>LONDON</p>
+        <p>London, England</p>
+        <p>click to view</p>
         <img src="assets/london.jpg" id="img2">
-        <p>LONDON</p>
+        <p>London, England</p>
+        <p>click to view</p>
     </section>
 
 
