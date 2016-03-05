@@ -158,7 +158,7 @@ NEWHTML;
 
 
 <section class="container2" id="spotlight">
-    Search by Region
+    Search all B&B's by Region
 
 
 </section>
