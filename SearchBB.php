@@ -147,8 +147,8 @@ NEWHTML;
 
  <section class="container" id="featured">
 <div class="centre">
-     <img src="assets/b&blogotransparentcrop.png" id="img3">
-    <p><strong>Featured bed and breakfast destinations</strong></p>
+
+    Featured bed and breakfast destinations by <img src="assets/b&blogotransparentcrop.png" id="img3">
 </div>
  </section>
 
