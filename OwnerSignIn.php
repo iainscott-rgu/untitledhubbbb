@@ -62,7 +62,7 @@ session_start();
 
 <section class="container" id="navigation">
         <div>
-            <nav>
+            <nav role="main>
                 <ul>
                     <li><a href="B&Bregistration.html">Contact</a></li>
                     <li><a href="B&Bregistration.html">Register</a></li>
@@ -107,6 +107,12 @@ session_start();
 
 </section>
 
+<section class="container" id="spotlight">
+<div>
+    We might add something here here!!!!
+</div>
+</section>
+
 <section class="container" id="foot">
 
     <p>Copyright. Team D Solutions.</p>
@@ -134,7 +140,7 @@ HTMLPAGE;
 
       <section class="container" id="navigation">
         <div>
-            <nav>
+            <nav role="main">
                 <ul>
                     <li><a href="B&Bregistration.html">Contact</a></li>
                     <li><a href="B&Bregistration.html">Register</a></li>
@@ -169,10 +175,27 @@ HTMLPAGE;
 </section>
 
 
-
+<section class="container" id="spotlight">
+<div>
+    We might add something here!!!!
+</div>
+</section>
 <section class="container" id="foot">
 
+    <div id="footernav">
+        <nav role="sub">
+            <ul>
+                <li><a href="B&Bregistration.html">Contact</a></li>
+                <li><a href="B&Bregistration.html">Register</a></li>
+                <li><a href="OwnerSignIn.php">Member Area</a></li>
+                <li><a href="SearchBB.php">Search</a></li>
+            </ul>
+        </nav>
+    </div>
+<div id="copyright">
+    <hr width="100%" size="1">
     <p>Copyright. Team D Solutions.</p>
+    </div>
 
 </section>
 

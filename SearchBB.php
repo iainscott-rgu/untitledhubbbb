@@ -146,7 +146,7 @@ NEWHTML;
 
 <section class="container" id="spotlight">
 <div>
-    We might Spolight here!!!!
+    We might Spolight Cities or B&B's here!!!!
 </div>
 </section>
 
