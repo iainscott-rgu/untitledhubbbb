@@ -197,13 +197,14 @@ main{
     color: darkslategrey;
     background-color: snow;
     padding-top: 30px;
+    border-top: 2px ridge #666699;
 }
 
 
 #img2{
 
     height: 200px;
-    border: 2px solid orange;
+    border: 1px solid #666699;
     -moz-border-radius:5px; /* Firefox */
     -webkit-border-radius: 5px; /* Safari, Chrome */
     -khtml-border-radius: 5px; /* KHTML */
