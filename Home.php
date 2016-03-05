@@ -160,53 +160,35 @@ NEWHTML;
 
     <div class="right2">
 
-        <table border="1">
-            <tr>
-                <td class="noBG" colspan="3">
-                    <select id="displayText" onchange="javascript:toggle();">
-                        <option>2</option>
-                        <option>4</option>
-                    </select>Items
-                </td>
-            </tr>
-            <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Time</th>
-                <th>Person</th>
-            </tr>
-            </thead>
-            <tr>
-                <td>12/3</td>
-                <td>12:45</td>
-                <td>John Doe</td>
-            </tr>
-            <tr>
-                <td>12/4</td>
-                <td>12:45</td>
-                <td>James Doe</td>
-            </tr>
-            <tr id="toggleText" style="display: none">
-                <td>12/4</td>
-                <td>12:45</td>
-                <td>Janey Doe</td>
-            </tr>
-            <tr id="toggleText" style="display: none">
-                <td>12/4</td>
-                <td>12:45</td>
-                <td>Janey Doe</td>
-            </tr>
-        </table>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
 
-        <script language="javascript">
-            function toggle() {
-                var rows = document.getElementsByName("toggleText");
-                for(var i=0; i<rows.length; i++)
-                {
-                    rows[i].className = (rows[i].className == "hiddenRow") ? "" : "hiddenRow";
-                }
-            }
-        </script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+        }
+        }
+        }
+        }
         ​
     </div>
 
