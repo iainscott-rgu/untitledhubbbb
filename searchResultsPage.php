@@ -93,7 +93,7 @@ NEWHTML;
     </div>
 
 
-    <section>
+    <section class="googlemap" id="mapapi">
 
 
         <h1>My First Google Map</h1>
