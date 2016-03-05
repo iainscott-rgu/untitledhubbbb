@@ -224,6 +224,11 @@ main{
     color: green;
 }
 
+#img3{
+
+    height: 50px;
+}
+
 #foot{
 
     max-width: 1500px;
