@@ -214,6 +214,7 @@ main{
     color: darkslategrey;
     font-size: 25px;
     margin-top: 0;
+    border: 2px solid black;
 
 }
 
