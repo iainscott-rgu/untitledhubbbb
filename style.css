@@ -160,10 +160,10 @@ button{
 
 #spotlight {
 
-    color: orange;
+    color: #666699;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    background-color: #666699;
+    background-color: snow;
     padding: 25px;
     -moz-border-radius:5px; /* Firefox */
     -webkit-border-radius: 5px; /* Safari, Chrome */
@@ -199,7 +199,7 @@ main{
 
 #img2{
 
-    height: 175px;
+    height: 150px;
     border: 1px solid #666699;
     -moz-border-radius:5px; /* Firefox */
     -webkit-border-radius: 5px; /* Safari, Chrome */
