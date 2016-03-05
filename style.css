@@ -162,6 +162,13 @@ button{
 
     color: darkslategrey;
     height: 200px;
+    flex: auto;
+    flex-direction: row;
+}
+
+#img2{
+
+    height: 150px;
 }
 
 #foot{

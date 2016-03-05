@@ -145,9 +145,15 @@ NEWHTML;
 </section>
 
 <section class="container" id="spotlight">
-<div>
-    We might Spolight Cities or B&B's here!!!!
+<div id="subheading">
+    <p><h1>Featured bed and breakfast destinations</h1></p>
 </div>
+
+    <img src="assets/bnbthumb.jpg" id="img2">
+    <img src="assets/bnbthumb.jpg" id="img2">
+    <img src="assets/bnbthumb.jpg" id="img2">
+
+
 </section>
 
 <section class="container" id="foot">
