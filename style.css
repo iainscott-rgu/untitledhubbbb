@@ -161,7 +161,7 @@ button{
 #spotlight {
 
     color: darkslategrey;
-    height: 300px;
+    height: 400px;
 
 }
 
@@ -169,7 +169,7 @@ main{
     max-width: 1500px;
     margin-right: auto;
     margin-left: auto;
-    height: 00px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
