@@ -62,7 +62,7 @@ session_start();
 
 <section class="container" id="navigation">
         <div>
-            <nav role="main>
+            <nav role="main">
                 <ul>
                     <li><a href="B&Bregistration.html">Contact</a></li>
                     <li><a href="B&Bregistration.html">Register</a></li>
