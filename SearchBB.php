@@ -150,14 +150,14 @@ NEWHTML;
     <img src="assets/london.jpg" id="img2">
     <p>London, England</p>
     <p>click to view</p>
-    <img src="assets/london.jpg" id="img2">
-    <p>London, England</p>
+    <img src="assets/edinburgh.jpg" id="img2">
+    <p>Edinburgh, Scotland</p>
     <p>click to view</p>
 </section>
 
     <section class="container2" id="spotlight2">
-        <img src="assets/london.jpg" id="img2">
-        <p>London, England</p>
+        <img src="assets/glasgow.jpg" id="img2">
+        <p>Glasgow, Scotland</p>
         <p>click to view</p>
         <img src="assets/london.jpg" id="img2">
         <p>London, England</p>
