@@ -219,11 +219,14 @@ NEWHTML;
 
 </section>
 
+<section>
 
+    Here is some text
+</section>
 
 
     <body onload="init()">
-    <h1>JavaScript tabs example</h1>
+
 
     <ul id="tabs">
         <li><a href="#about">About JavaScript tabs</a></li>
@@ -258,7 +261,10 @@ NEWHTML;
 
 
 
+<section>
 
+    here is some more text
+</section>
 
 
 
