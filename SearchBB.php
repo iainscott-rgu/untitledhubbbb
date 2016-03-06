@@ -219,7 +219,7 @@ NEWHTML;
 
 </section>
 
-<section class="container" id="tabs">
+
 
 
     <body onload="init()">
@@ -259,7 +259,7 @@ NEWHTML;
 
 
 
-</section>
+
 
 
 
