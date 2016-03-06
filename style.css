@@ -23,7 +23,7 @@ h1{
 
 .table1{
     border: 1px solid darkslategrey;
-    padding: 25px;
+    padding: 0px;
     background-color: #f8f8ff;
     -moz-border-radius:10px; /* Firefox */
     -webkit-border-radius: 10px; /* Safari, Chrome */
