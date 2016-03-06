@@ -365,21 +365,21 @@ NEWHTML;
     <p>List of towns..</p>
 </div>
 
-<script>
-    function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tabcontent.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.classList.add("active");
         }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tabcontent.length; i++) {
-            tablinks[i].classList.remove("active");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.classList.add("active");
-    }
-</script>
+    </script>
 
 
 
@@ -396,7 +396,8 @@ NEWHTML;
 
 
 
-<section class="container" id="foot">
+
+    <section class="container" id="foot">
 
     <div id="footernav">
         <nav role="sub">
