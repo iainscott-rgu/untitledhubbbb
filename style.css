@@ -179,18 +179,21 @@ button{
 }
 
 #spotlight {
-
+    text-decoration: none;
+    color: #666699;
 
 }
 
 #spotlight2 {
 
     color: #666699;
+    text-decoration: none;
 }
 
 #spotlight3 {
 
     color: #666699;
+    text-decoration: none;
 }
 
 main{
