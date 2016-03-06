@@ -236,6 +236,10 @@ main{
     color: white;
     height: 125px;
     padding: 25px;
+    -moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -khtml-border-radius: 10px; /* KHTML */
+    border-radius: 10px; /* CSS3 */
 }
 
 #foot2{
@@ -246,6 +250,10 @@ main{
     color: white;
     height: 125px;
     padding: 25px;
+    -moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -khtml-border-radius: 10px; /* KHTML */
+    border-radius: 10px; /* CSS3 */
 
 }
 
