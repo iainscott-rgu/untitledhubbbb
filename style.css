@@ -320,6 +320,29 @@ h3{
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+
+
+
+
+
+
+ul#tabs { list-style-type: none; margin: 30px 0 0 0; padding: 0 0 0.3em 0; }
+ul#tabs li { display: inline; }
+ul#tabs li a { color: #42454a; background-color: #dedbde; border: 1px solid #c9c3ba; border-bottom: none; padding: 0.3em; text-decoration: none; }
+ul#tabs li a:hover { background-color: #f1f0ee; }
+ul#tabs li a.selected { color: #000; background-color: #f1f0ee; font-weight: bold; padding: 0.7em 0.3em 0.38em 0.3em; }
+div.tabContent { border: 1px solid #c9c3ba; padding: 0.5em; background-color: #f1f0ee; }
+div.tabContent.hide { display: none; }
+
+
+
+
+
+
+
+/*
 ul.tab {
     list-style-type: none;
     margin: 0;
@@ -329,10 +352,10 @@ ul.tab {
     background-color: #f1f1f1;
 }
 
-/* Float the list items side by side */
+
 ul.tab li {float: left;}
 
-/* Style the links inside the list items */
+
 ul.tab li a {
     display: inline-block;
     color: black;
@@ -344,17 +367,16 @@ ul.tab li a {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Change background color of links on hover */
 ul.tab li a:hover {
     background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
+
 ul.tab li a:focus, .active {
     background-color: #ccc;
 }
 
-/* Style the tab content */
+
 .tabcontent {
     display: none;
     padding: 6px 12px;
@@ -372,6 +394,10 @@ ul.tab li a:focus, .active {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
+
+
+*/
 
 li a{
 
