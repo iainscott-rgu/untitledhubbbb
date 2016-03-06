@@ -387,3 +387,8 @@ div.panel.show {
     opacity: 1;
     max-height: 500px;
 }
+
+.region{
+
+    margin-bottom: 200px;
+}
