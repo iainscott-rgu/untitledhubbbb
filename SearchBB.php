@@ -288,10 +288,10 @@ NEWHTML;
 <section class="container2" id="spotlight">
     <img src="assets/london.jpg" id="img2">
     <p>London, England</p>
-    <p>click to view</p>
+    <p><a href="#">click to view</a></p>
     <img src="assets/edinburgh.jpg" id="img2">
     <p>Edinburgh, Scotland</p>
-    <p>click to view</p>
+    <p><a href="#">click to view</a></p>
 
 
 </section>
@@ -300,20 +300,20 @@ NEWHTML;
 
         <img src="assets/glasgow.jpg" id="img2">
         <p>Glasgow, Scotland</p>
-        <p>click to view</p>
+        <p><a href="#">click to view</a></p>
         <img src="assets/Aberdeen.jpg" id="img2">
         <p>Aberdeen, Scotland</p>
-        <p>click to view</p>
+        <p><a href="#">click to view</a></p>
     </section>
 
     <section class="container2" id="spotlight3">
 
         <img src="assets/dundee.jpeg" id="img2">
         <p>Dundee, Scotland</p>
-        <p>click to view</p>
+        <p><a href="#">click to view</a></p>
         <img src="assets/manchester.jpg" id="img2">
         <p>Manchester, England</p>
-        <p>click to view</p>
+        <p><a href="#">click to view</a></p>
     </section>
 
 
