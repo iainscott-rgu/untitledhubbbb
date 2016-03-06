@@ -230,7 +230,7 @@ main{
 #foot{
 
     max-width: 1500px;
-    background-image: url("assets/footer2.jpg");
+    background-image: url("assets/footerbg.jpg");
     font-family: 'Roboto', sans-serif;
     font-size: 10PT;
     color: white;
@@ -240,7 +240,7 @@ main{
 
 #foot2{
     max-width: 1500px;
-    background-image: url("assets/footerbg2.jpg");
+    background-image: url("assets/footer2.jpg");
     font-family: 'Roboto', sans-serif;
     font-size: 10PT;
     color: white;
