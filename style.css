@@ -123,12 +123,6 @@ h2{
     100% { transform: rotate(360deg); }
 }
 
-.container2{
-
-    text-decoration: none;
-}
-
-
 .container{
 
     max-width: 1500px;
@@ -190,9 +184,10 @@ button{
     float: right;
 }
 
-.spot{
+#spot{
 
     text-decoration: none;
+    color: orange;
 }
 
 main{
