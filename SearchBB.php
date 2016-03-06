@@ -222,7 +222,7 @@ NEWHTML;
 
 
 
-<section class="container" id=" featured">
+<section class="container" id="featured">
 <div class="centre">
     Search for a bed and breakfast by region
      </div>
