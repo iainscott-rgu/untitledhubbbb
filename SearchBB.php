@@ -219,13 +219,18 @@ NEWHTML;
 
 </section>
 
-<section>
 
-    Here is some text
+
+
+<section class="container" id=" featured">
+
+    Search for a bed and breakfast by region
 </section>
 
 
-    <body onload="init()">
+
+
+<body onload="init()">
 
 
     <ul id="tabs">
@@ -261,22 +266,10 @@ NEWHTML;
 
 
 
-<section>
-
-    here is some more text
-</section>
-
-
-
-
-
-
-
-
  <section class="container" id="featured">
 <div class="centre">
 
-    Featured bed and breakfast destinations
+    <p>Featured bed and breakfast destinations</p>
 </div>
  </section>
 
