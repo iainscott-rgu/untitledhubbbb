@@ -144,6 +144,9 @@ h2{
     max-width: 1500px;
     background-color: #666699;
     height: 40px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -khtml-border-radius: 10px 10px 0px 0px;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -151,6 +154,9 @@ h2{
     max-width: 1500px;
     background-image: url("assets/banner2.jpg");
     height: 550px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -khtml-border-radius: 0px 0px 10px 10px;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -178,7 +184,10 @@ button{
     float: right;
 }
 
+#spot{
 
+    text-decoration: none;
+}
 
 main{
     max-width: 1500px;
@@ -197,7 +206,7 @@ main{
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-    text-decoration: none;
+
 
 
 }
