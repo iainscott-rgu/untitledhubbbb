@@ -223,7 +223,7 @@ NEWHTML;
 
 
     <body onload="init()">
-    <h5>JavaScript tabs example</h5>
+    <h1>JavaScript tabs example</h1>
 
     <ul id="tabs">
         <li><a href="#about">About JavaScript tabs</a></li>
