@@ -224,7 +224,7 @@ NEWHTML;
 
 <section class="container" id="featured">
 <div class="centre">
-    Search for a bed and breakfast by region
+    <p>Search for a bed and breakfast by region</p>
      </div>
 </section>
 
