@@ -109,7 +109,12 @@ session_start();
 
 <section class="container" id="spotlight">
 <div>
-    We might add something here here!!!!
+    <p>Welcome to the Members Area. If you have already regiseter then please sign in otherwise click the register button to register.
+    You can then advertise your B&B on the site and have access to our member services...</p>
+
+    <p>We hope you enjoy your stay and theB&Bhub.</p>
+
+    <p>Thank you.</p>
 </div>
 </section>
 
