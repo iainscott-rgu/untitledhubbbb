@@ -234,6 +234,12 @@ NEWHTML;
 
 
 
+<section class="container" id="tabs">
+<div>
+
+
+
+
 
 <body onload="init()">
 
@@ -267,6 +273,13 @@ NEWHTML;
         </div>
     </div>
 
+
+
+
+
+
+    </div>
+    </section>
 <section class="spacer" id="spacer">
 
 
