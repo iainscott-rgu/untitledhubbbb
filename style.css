@@ -1,3 +1,5 @@
+/*
+
 form {
 
     color: black;
@@ -297,13 +299,13 @@ nav[role="main"] li a:HOVER{
     height: 50px;
     margin-top: 10px;
 }
-/*
+
 body{
     background-color: snow;
     margin-top: 0;
     font-family: 'Roboto', sans-serif;
 }
-*/
+
 .googlemap{
 
     float: right;
@@ -321,13 +323,15 @@ h3{
 }
 
 
+*/
 
 
 
-
-
+/*
 
 body { font-size: 80%; font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; }
+
+*/
 ul#tabs { list-style-type: none; margin: 30px 0 0 0; padding: 0 0 0.3em 0; }
 ul#tabs li { display: inline; }
 ul#tabs li a { color: #42454a; background-color: #dedbde; border: 1px solid #c9c3ba; border-bottom: none; padding: 0.3em; text-decoration: none; }
@@ -397,7 +401,7 @@ ul.tab li a:focus, .active {
 
 
 
-*/
+
 
 li a{
 
