@@ -201,7 +201,7 @@ main{
     font-family: 'Roboto', sans-serif;
     color: darkslategrey;
     background-color: snow;
-    padding-top: 30px;
+    padding-top: 10px;
 
 
 }
@@ -219,7 +219,7 @@ main{
 
 #spacer{
 
-    height: 40px;
+    height: 50px;
 }
 
 #featured{
