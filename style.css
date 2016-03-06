@@ -204,6 +204,10 @@ main{
     background-color: #f1f0ee;
     padding-top: 10px;
     border: 1px solid orange;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
 
 
 }
