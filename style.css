@@ -189,7 +189,7 @@ main{
     flex-direction: row;
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
-    color: darkslategrey;
+    color: #666699;
     background-color: #f1f0ee;
     padding-top: 10px;
     border: 1px solid orange;
@@ -197,6 +197,7 @@ main{
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
+    text-decoration: none;
 
 
 }
