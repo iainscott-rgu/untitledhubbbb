@@ -237,9 +237,9 @@ NEWHTML;
 
 
     <ul id="tabs">
-        <li><a href="#about">Regional Areas</a></li>
-        <li><a href="#advantages">Towns & Citys</a></li>
-        <li><a href="#usage">Popular Destinations</a></li>
+        <li><a href="#about">Regional Area's</a></li>
+        <li><a href="#advantages">Town's & City's</a></li>
+        <li><a href="#usage">Most Popular</a></li>
     </ul>
 
     <div class="tabContent" id="about">
