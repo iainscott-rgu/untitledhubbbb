@@ -149,7 +149,7 @@ h2{
 #content{
     max-width: 1500px;
     background-image: url("assets/banner2.jpg");
-    max-height: 600px;
+    height: 600px;
 }
 
 button{
