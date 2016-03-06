@@ -267,12 +267,8 @@ nav[role="main"] li a:HOVER{
 body{
     background-color: snow;
     margin-top: 0;
+    font-family: 'Roboto', sans-serif;
 }
-
-
-
-
-
 
 .googlemap{
 
@@ -284,16 +280,6 @@ body{
     margin-right: 20px;
     border: 1px solid #666699;
 }
-
-
-
-
-
-
-
-
-
-
 
 ul.tab {
     list-style-type: none;
@@ -352,14 +338,6 @@ li a{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
-
-
-
-
-
-
-
-
 
 button.accordion {
     background-color: #eee;
