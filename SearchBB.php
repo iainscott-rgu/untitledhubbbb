@@ -219,11 +219,11 @@ NEWHTML;
 
 </section>
 
-
+<section class="container" id="tabs">
 
 
     <body onload="init()">
-    <h1>JavaScript tabs example</h1>
+    <h5>JavaScript tabs example</h5>
 
     <ul id="tabs">
         <li><a href="#about">About JavaScript tabs</a></li>
@@ -259,7 +259,7 @@ NEWHTML;
 
 
 
-
+</section>
 
 
 
@@ -312,20 +312,6 @@ NEWHTML;
 
 
 </main>
-
-<section class="container" id="featured">
-    <div class="centre">
-
-        Search bed and breackfast's by Region
-    </div>
-</section>
-
-
-
-
-
-
-
 
 
 
