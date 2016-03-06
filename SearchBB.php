@@ -223,8 +223,9 @@ NEWHTML;
 
 
 <section class="container" id=" featured">
-
+<div class="centre">
     Search for a bed and breakfast by region
+     </div>
 </section>
 
 
@@ -234,13 +235,13 @@ NEWHTML;
 
 
     <ul id="tabs">
-        <li><a href="#about">About JavaScript tabs</a></li>
-        <li><a href="#advantages">Advantages of tabs</a></li>
-        <li><a href="#usage">Using tabs</a></li>
+        <li><a href="#about">Regional Areas</a></li>
+        <li><a href="#advantages">Towns & City</a></li>
+        <li><a href="#usage">Popular Areas</a></li>
     </ul>
 
     <div class="tabContent" id="about">
-        <h2>About JavaScript tabs</h2>
+        <h5>About JavaScript tabs</h5>
         <div>
             <p>JavaScript tabs partition your Web page content into tabbed sections. Only one section at a time is visible.</p>
             <p>The code is written in such a way that the page degrades gracefully in browsers that don't support JavaScript or CSS.</p>
