@@ -236,12 +236,12 @@ NEWHTML;
 
     <ul id="tabs">
         <li><a href="#about">Regional Areas</a></li>
-        <li><a href="#advantages">Towns & City</a></li>
-        <li><a href="#usage">Popular Areas</a></li>
+        <li><a href="#advantages">Towns & Citys</a></li>
+        <li><a href="#usage">Popular Destinations</a></li>
     </ul>
 
     <div class="tabContent" id="about">
-        <h5>About JavaScript tabs</h5>
+
         <div>
             <p>JavaScript tabs partition your Web page content into tabbed sections. Only one section at a time is visible.</p>
             <p>The code is written in such a way that the page degrades gracefully in browsers that don't support JavaScript or CSS.</p>
@@ -249,7 +249,7 @@ NEWHTML;
     </div>
 
     <div class="tabContent" id="advantages">
-        <h2>Advantages of tabs</h2>
+
         <div>
             <p>JavaScript tabs are great if your Web page contains a large amount of content.</p>
             <p>They're also good for things like multi-step Web forms.</p>
@@ -257,7 +257,7 @@ NEWHTML;
     </div>
 
     <div class="tabContent" id="usage">
-        <h2>Using tabs</h2>
+
         <div>
             <p>Click a tab to view the tab's content. Using tabs couldn't be easier!</p>
         </div>
