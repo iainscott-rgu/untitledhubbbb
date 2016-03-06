@@ -149,6 +149,7 @@ h2{
 #content{
     max-width: 1500px;
     background-image: url("assets/banner2.jpg");
+    max-height: 500px;
 }
 
 button{
@@ -225,7 +226,7 @@ main{
 #featured{
 
     margin-top: 0;
-    border-top: 2px double #666699;
+    border-top: 1px double #666699;
 }
 
 .centre{
