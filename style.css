@@ -217,6 +217,11 @@ main{
     border-radius: 5px;
 }
 
+#spacer{
+
+    height: 40px;
+}
+
 #featured{
 
     margin-top: 0;
