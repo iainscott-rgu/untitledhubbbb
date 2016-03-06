@@ -23,14 +23,14 @@ h1{
 
 .table1{
     border: 1px solid darkslategrey;
-    padding: 0px;
+    padding: 25px;
     background-color: #f8f8ff;
     -moz-border-radius:10px; /* Firefox */
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -khtml-border-radius: 10px; /* KHTML */
     border-radius: 10px; /* CSS3 */
     color: darkslategrey;
-    margin: 5%;
+    margin: 1%;
     }
 
 .table2{
