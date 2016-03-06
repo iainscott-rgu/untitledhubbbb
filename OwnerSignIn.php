@@ -100,7 +100,7 @@ session_start();
 
     <!-- The result of the search will be rendered inside this div -->
     <tr><td colspan='2'><p id='result' style='color: #ff0006'></p></td></tr>
-    <tr><td colspan="2"><h1>Welcome... Enjoy your stay!</h1></td></tr>
+
 </table>
             </form>
 
