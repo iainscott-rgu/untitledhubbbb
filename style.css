@@ -144,6 +144,7 @@ h2{
     max-width: 1500px;
     background-color: #666699;
     height: 40px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 #content{
