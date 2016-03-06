@@ -40,6 +40,21 @@ h1{
 
 }
 
+.table3{
+    border: 1px solid darkslategrey;
+    padding: 25px;
+    background-image: url("assets/footerbg2.jpg");
+    -moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -khtml-border-radius: 10px; /* KHTML */
+    border-radius: 10px; /* CSS3 */
+    color: darkslategrey;
+    margin: 0%;
+}
+
+
+
+
 .tablesearch {
     padding: 90px;
     -moz-border-radius: 10px; /* Firefox */
@@ -221,6 +236,17 @@ main{
     color: white;
     height: 125px;
     padding: 25px;
+}
+
+#foot2{
+    max-width: 1500px;
+    background-image: url("assets/footerbg2.jpg");
+    font-family: 'Roboto', sans-serif;
+    font-size: 10PT;
+    color: white;
+    height: 125px;
+    padding: 25px;
+
 }
 
 #copyright{
