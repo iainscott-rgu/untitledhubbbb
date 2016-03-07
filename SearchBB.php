@@ -323,7 +323,10 @@ NEWHTML;
 
 </main>
 
+    <section class="spacer" id="spacer">
 
+
+    </section>
 
     <section class="container" id="foot">
 
