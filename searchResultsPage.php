@@ -21,7 +21,7 @@
         </section>
 
 
-<section class="container" id="navigation">
+<section class="container" id="navigation2">
     <div>
         <nav role="main">
             <ul>
