@@ -226,11 +226,11 @@ NEWHTML;
 </section>
 
 
-<section class="container" id="featured">
+<section class="mycontainer" id="featured">
 <div class="centre">
     <p>Search for a bed and breakfast by region</p>
      </div>
-</section>
+
 
 
 <body onload="init()">
@@ -265,7 +265,7 @@ NEWHTML;
         </div>
     </div>
 
-
+</section>
 <section class="spacer" id="spacer">
 
 
