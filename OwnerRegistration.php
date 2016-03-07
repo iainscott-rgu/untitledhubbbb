@@ -123,8 +123,8 @@ session_start();
                 <td><input type="text" class="inputform" id="telephone" name="telephone" placeholder=" Enter your telephone number" size="20" maxlength="20" required /></td>
             </tr>
 
-            <tr>
-                <td><p><input id="submit" type="submit" value="Submit!" class="submit" /></p></td>
+            <tr><td></td>
+                <td><p><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
             </tr>
         </table></form>
 
