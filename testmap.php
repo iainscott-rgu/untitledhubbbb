@@ -1,3 +1,7 @@
+<html>
+<head>
+
+
 <?php
 
 function parseToXML($htmlStr)
@@ -44,10 +48,8 @@ echo '</markers>';
 
 ?>
 
-<html>
-<head>
 
-
+here is some text
 </head>
 
 </body>
