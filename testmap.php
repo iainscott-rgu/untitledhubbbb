@@ -48,7 +48,7 @@ if (!$result) {
     die('Invalid query: ' . sql_error());
 }
 
-header("Content-type: text/xml");
+
 
 // Iterate through the rows, adding XML nodes for each
 
