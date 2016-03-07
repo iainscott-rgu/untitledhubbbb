@@ -433,7 +433,7 @@ div.panel {
 
 .lastpanel{
 
-    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
     border-right: 1px solid orange;
     border-left: 1px solid orange;
 
