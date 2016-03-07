@@ -18,7 +18,7 @@ session_start();
 
 <section class="container" id="banner">
     <div class="floatleft">
-        <img src = "assets/b&blogotransparentcrop.png" id="img">
+        <img src = "assets/bnblogocroporange.png" id="img">
     </div>
     <div class="floatright">
 

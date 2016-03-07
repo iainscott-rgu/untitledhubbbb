@@ -39,7 +39,6 @@
 <section class="googlemap" id="mapapi">
 
 
-    <h1>My First Google Map</h1>
 
     <div id="map" style="width:400px;height:400px;background:snow"></div>
 
