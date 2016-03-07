@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="icon"
@@ -59,7 +59,8 @@
     < class="centre">
         <p>Here are your search results...</p>
 
-
+</div>
+</section>
 
     <?php
     $city = $_POST['location'];
@@ -94,11 +95,7 @@ NEWHTML;
     catch(PDOException $e)
     {print"$e";}
     ?>
-</div>
 
-
-
-</section>
 
 
 
