@@ -89,6 +89,9 @@
     <p><strong>{$row[bbname]}</strong></p>
     <p><strong>{$row[address]}</strong></p>
     <p><strong>{$row[email]}</strong></p>
+    <p><strong>{$row[lat]}</strong></p>
+    <p><strong>{$row[long]}</strong></p>
+
 
 
 
