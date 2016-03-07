@@ -3,56 +3,43 @@
 
     <?php
 
+    function parseToXML($htmlStr)
+    {
+        $xmlStr=str_replace('<','&lt;',$htmlStr);
+        $xmlStr=str_replace('>','&gt;',$xmlStr);
+        $xmlStr=str_replace('"','&quot;',$xmlStr);
+        $xmlStr=str_replace("'",'&#39;',$xmlStr);
+        $xmlStr=str_replace("&",'&amp;',$xmlStr);
+        return $xmlStr;
+    }
+
     $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
-        $st = $conn->query("SELECT * FROM [B&B] WHERE [city] = 'Aberdeen'");
+    $st = $conn->query("SELECT [latitude], [longitude] FROM [B&B] WHERE [city] = 'Aberdeen'");
 
-    foreach($st->fetchAll() as $row)
 
-    $maplocation = array();
-    $maplocation [] = array(
-        'lat' => '$row[latitude]',
-        'lng' => '$row[longitude]',
+    echo '<markers>';
 
-    );
-    $maplocation [] = array(
-        'lat' => '$row[latitude]',
-        'lng' => '$row[longitude]',
+    foreach ($st->fetchAll() as $row) {
 
-    );
-
-    $doc = new DOMDocument();
-    $doc->formatOutput = true;
-
-    $r = $doc->createElement( "maplocation" );
-    $doc->appendChild( $r );
-
-    foreach( $maplocation as $maplocation )
-    {
-        $b = $doc->createElement( "location" );
-
-        $lat = $doc->createElement( "lat" );
-        $lat->appendChild(
-            $doc->createTextNode( $location['lat'] )
-        );
-        $b->appendChild( $lat );
-
-        $lng = $doc->createElement( "lng" );
-        $lng->appendChild(
-            $doc->createTextNode( $location['lng'] )
-        );
-        $b->appendChild( $lng );
-
-        $r->appendChild( $b );
+        echo '<marker ';
+        echo 'name="' . parseToXML($row['bbname']) . '" ';
+        echo 'address="' . parseToXML($row['address']) . '" ';
+        echo 'lat="' . $row['latitude'] . '" ';
+        echo 'lng="' . $row['longitude'] . '" ';
+        echo '/>';
     }
 
-    echo $doc->saveXML();
+
+    echo '</markers>';
+
+
 
     ?>
 
 </head>
-
+<body>
 </body>
 
 </html>
