@@ -59,13 +59,13 @@ h1{
 .table4{
 
     padding: 25px;
-    background-color: white;
+    background-color: snow;
     -moz-border-radius:10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
     color: darkslategrey;
-    margin: 5%;
+    margin-left: 5%;
     margin-right: auto;
     margin-left: auto;
 }
