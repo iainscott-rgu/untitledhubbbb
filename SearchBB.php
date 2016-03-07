@@ -307,13 +307,13 @@ NEWHTML;
     </section>
 
     <section class="container2" id="spotlight3">
-
+        <nav role="sub2">
         <img src="assets/dundee.jpeg" id="img2">
         <p>Dundee, Scotland</p>
         <p><li><strong><a href="#">click to view</a></strong></li></p>
         <img src="assets/manchester.jpg" id="img2">
         <p>Manchester, England</p>
-        <nav role="sub2">
+
         <p><li><strong><a href="#">click to view</a></strong></li></p>
 </nav>
     </section>
