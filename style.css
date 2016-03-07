@@ -386,7 +386,9 @@ button.accordion {
     outline: none;
     font-size: 14px;
     transition: 0.4s;
-    border: 1px solid orange;
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+    border-left: 1px solid orange;
     -moz-border-radius:10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
