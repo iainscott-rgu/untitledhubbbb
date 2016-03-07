@@ -387,6 +387,10 @@ button.accordion {
     font-size: 14px;
     transition: 0.4s;
     border: 1px solid orange;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
 }
 
 button.accordion.active, button.accordion:hover {
