@@ -14,8 +14,8 @@ $connection = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; 
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
 
-$connection=sql_connect ('localhost', $username, $password);
-if (!$connection) {  die('Not connected : ' . sql_error());}
+//$connection=sql_connect ('localhost', $username, $password);
+//if (!$connection) {  die('Not connected : ' . sql_error());}
 
 // Set the active MySQL database
 
