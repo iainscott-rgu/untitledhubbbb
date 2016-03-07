@@ -314,7 +314,7 @@ NEWHTML;
         <img src="assets/manchester.jpg" id="img2">
         <p>Manchester, England</p>
         <nav role="sub2">
-        <p><li><strong><a href="#">click to view</a></strong></li></p>
+        <p><ul><li><strong><a href="#">click to view</a></strong></li></ul></p>
 </nav>
     </section>
 
