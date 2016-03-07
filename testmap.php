@@ -50,7 +50,7 @@
 
     ?>
 
-here is some text
+
 </head>
 
 </body>
