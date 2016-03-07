@@ -53,9 +53,19 @@ session_start();
     </div>
 </section>
 
+
 <section class="spacer" id="spacer">
 
 
+</section>
+
+
+
+<section class="container" id="featured">
+    <div class="centre">
+
+        <p>Register to List your Property</p>
+    </div>
 </section>
 
 
@@ -63,8 +73,8 @@ session_start();
     <form action="ownerRegistrationResultPage.php" method="post" id="form">
 
         <table class="table1">
-            <tr><td colspan="2">Register to List your Property!</td></tr>
-            <tr><td class="smallfont">* Required Fields</td></tr>
+
+            <tr><td class="smallfont"><p>* Required Fields</p></td></tr>
 
 
 
