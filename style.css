@@ -403,6 +403,7 @@ button.accordion {
     border-top: 1px solid orange;
     border-right: 1px solid orange;
     border-left: 1px solid orange;
+    border-bottom: none;
     -moz-border-radius:10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
@@ -444,6 +445,7 @@ div.panel {
     border-top: 1px solid orange;
     border-right: 1px solid orange;
     border-left: 1px solid orange;
+    border-bottom: none;
 }
 
 .lastpanel{
