@@ -286,24 +286,27 @@ NEWHTML;
 
 
 <section class="container2" id="spotlight">
+    <nav role="sub2">
     <img src="assets/london.jpg" id="img2">
     <p>London, England</p>
     <p><li><strong><a href="#">click to view</a></strong></li></p>
     <img src="assets/edinburgh.jpg" id="img2">
     <p>Edinburgh, Scotland</p>
     <p><li><strong><a href="#">click to view</a></strong></li></p>
+        </nav>
 
 
 </section>
 
     <section class="container2" id="spotlight2">
-
+        <nav role="sub2">
         <img src="assets/glasgow.jpg" id="img2">
         <p>Glasgow, Scotland</p>
         <p><li><strong><a href="#">click to view</a></strong></li></p>
         <img src="assets/Aberdeen.jpg" id="img2">
         <p>Aberdeen, Scotland</p>
         <p><li><strong><a href="#">click to view</a></strong></li></p>
+            </nav>
     </section>
 
     <section class="container2" id="spotlight3">
@@ -313,9 +316,8 @@ NEWHTML;
         <p><li><strong><a href="#">click to view</a></strong></li></p>
         <img src="assets/manchester.jpg" id="img2">
         <p>Manchester, England</p>
-
         <p><li><strong><a href="#">click to view</a></strong></li></p>
-</nav>
+        </nav>
     </section>
 
 
