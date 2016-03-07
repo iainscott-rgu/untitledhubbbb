@@ -370,10 +370,7 @@ ul#tabs {
     list-style-type: none;
     margin: 30px 0 0 0;
     padding: 0 0 0.3em 0;
-    -moz-border-radius: 0px 10px 10px 10px !important;
-    -webkit-border-radius: 0px 10px 10px 10px !important;
-    -khtml-border-radius: 0px 10px 10px 10px !important;
-    border-radius: 0px 10px 10px 10px !important;
+
 }
 ul#tabs li {
     display: inline;
@@ -403,10 +400,10 @@ div.tabContent {
     border: 1px solid orange;
     padding: 0.5em;
     background-color: #f1f0ee;
-    -moz-border-radius:10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
+    -moz-border-radius: 0px 10px 10px 10px !important;
+    -webkit-border-radius: 0px 10px 10px 10px !important;
+    -khtml-border-radius: 0px 10px 10px 10px !important;
+    border-radius: 0px 10px 10px 10px !important;
 }
 div.tabContent.hide {
     display: none;
