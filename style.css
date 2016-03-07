@@ -427,22 +427,7 @@ div.panel {
     border-left: 1px solid orange;
 }
 
-#foo {
-    padding: 0 12px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: 0.6s ease-in-out;
-    opacity: 0;
-    -moz-border-radius:10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-    border-top: 1px solid orange;
-    border-right: 1px solid orange;
-    border-left: 1px solid orange;
-    border-bottom: 1px solid orange;
-}
+
 
 div.panel.show {
     opacity: 1;
