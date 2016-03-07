@@ -417,6 +417,7 @@ button.accordion.active:after {
 }
 
 div.panel {
+    font-family: 'Roboto', sans-serif;
     padding: 0 12px;
     background-color: white;
     max-height: 0;
