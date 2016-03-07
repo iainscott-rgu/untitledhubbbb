@@ -59,6 +59,14 @@
     <div class="centre">
         <p>Here are your search results...</p>
 
+</div>
+    </section>
+
+
+<section class="container" id="content2">
+
+
+    <div class="main">
 
 
     <?php
@@ -95,9 +103,9 @@ NEWHTML;
     {print"$e";}
     ?>
 
-
 </div>
     </section>
+
 
 <section class="spacer" id="spacer">
 
