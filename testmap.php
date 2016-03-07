@@ -1,21 +1,14 @@
 <html>
 <head>
 
-
-
-
     <?php
 
     $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-    try{
-    $st = $conn-> query("SELECT * FROM [B&B] WHERE [city] = 'Aberdeen'");
 
+        $st = $conn->query("SELECT * FROM [B&B] WHERE [city] = 'Aberdeen'");
 
     foreach($st->fetchAll() as $row)
-
-
-
 
     $maplocation = array();
     $maplocation [] = array(
@@ -57,17 +50,6 @@
     echo $doc->saveXML();
 
     ?>
-
-
-
-
-
-
-
-
-
-
-
 
 </head>
 
