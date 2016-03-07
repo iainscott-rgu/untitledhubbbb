@@ -436,6 +436,7 @@ div.panel {
     border-bottom: 1px solid orange !important;
     border-right: 1px solid orange;
     border-left: 1px solid orange;
+    border-top: none !important;
 
 
 }
