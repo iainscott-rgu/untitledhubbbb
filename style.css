@@ -291,7 +291,19 @@ nav[role="sub"] ul li a{
 nav[role="sub"] li a:HOVER{
 
     color:darkslategrey;
+}
 
+nav[role="sub2"] li a{
+
+    text-decoration: none;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav[role="sub2"] li a:HOVER{
+
+    text-decoration: none;
+    color: #666699;
 }
 
 nav[role="main"] li a:HOVER{
