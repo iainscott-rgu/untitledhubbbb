@@ -42,7 +42,7 @@
 <section class="container" id="featured">
     <div class="centre">
 
-        <p>You're almost there... please enter your details to complete your booking</p>
+        <p>That's you all signed up!</p>
     </div>
 </section>
 
@@ -111,7 +111,7 @@ NEWHTML;
 
         print($newhtml);
     }
-    echo "That's you all signed up";
+    echo "";
 }
 catch(PDOException $e)
 {print"$e";}
