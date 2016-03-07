@@ -40,7 +40,7 @@ session_start();
     </div>
 </section>
 
-<section class="container" id="navigation">
+<section class="container" id="navigation2">
     <div>
         <nav role="main">
             <ul>
@@ -53,7 +53,10 @@ session_start();
     </div>
 </section>
 
+<section class="spacer" id="spacer">
 
+
+</section>
 
 
 <section class="container" id="content2">
@@ -126,7 +129,10 @@ session_start();
         </table></form>
 
 </section>
+<section class="spacer" id="spacer">
 
+
+</section>
 <section class="container" id="foot">
 
     <div id="footernav">
