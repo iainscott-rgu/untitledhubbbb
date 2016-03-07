@@ -396,7 +396,7 @@ button.accordion {
 }
 
 .lastaccordion{
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid orange !important ;
 }
 
 button.accordion.active, button.accordion:hover {
