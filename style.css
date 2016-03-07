@@ -296,7 +296,6 @@ nav[role="sub"] li a:HOVER{
 nav[role="sub2"] ul li a{
 
     text-decoration: none;
-    display: inline-block;
     color: orange;
     font-family: 'Roboto', sans-serif;
 }
