@@ -2,52 +2,53 @@
 <head>
 
 
-<?php
+    <?php
+    $employees = array();
+    $employees [] = array(
+        'name' => 'Albert',
+        'age' => '34',
+        'salary' => "$10000"
+    );
+    $employees [] = array(
+        'name' => 'Claud',
+        'age' => '20',
+        'salary' => "$2000"
+    );
 
-function parseToXML($htmlStr)
-{
-$xmlStr=str_replace('<','&lt;',$htmlStr);
-$xmlStr=str_replace('>','&gt;',$xmlStr);
-$xmlStr=str_replace('"','&quot;',$xmlStr);
-$xmlStr=str_replace("'",'&#39;',$xmlStr);
-$xmlStr=str_replace("&",'&amp;',$xmlStr);
-return $xmlStr;
-}
-$conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
-$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+    $doc = new DOMDocument();
+    $doc->formatOutput = true;
 
+    $r = $doc->createElement( "employees" );
+    $doc->appendChild( $r );
 
+    foreach( $employees as $employee )
+    {
+        $b = $doc->createElement( "employee" );
 
+        $name = $doc->createElement( "name" );
+        $name->appendChild(
+            $doc->createTextNode( $employee['name'] )
+        );
+        $b->appendChild( $name );
 
-// Select all the rows in the markers table
-$query = "SELECT * FROM [B&B] WHERE [city] = 'Aberdeen'";
-$result = sql_query($query);
-if (!$result) {
-    die('Invalid query: ' . sql_error());
-}
+        $age = $doc->createElement( "age" );
+        $age->appendChild(
+            $doc->createTextNode( $employee['age'] )
+        );
+        $b->appendChild( $age );
 
-header("Content-type: text/xml");
+        $salary = $doc->createElement( "salary" );
+        $salary->appendChild(
+            $doc->createTextNode( $employee['salary'] )
+        );
+        $b->appendChild( $salary );
 
-// Start XML file, echo parent node
-echo '<markers>';
+        $r->appendChild( $b );
+    }
 
-// Iterate through the rows, printing XML nodes for each
-while ($row = @sql_fetch_assoc($result)){
-    // ADD TO XML DOCUMENT NODE
-    echo '<marker ';
-    echo 'name="' . parseToXML($row['bbname']) . '" ';
-    echo 'address="' . parseToXML($row['address']) . '" ';
-    echo 'lat="' . $row['latitude'] . '" ';
-    echo 'lng="' . $row['longitude'] . '" ';
-    echo 'type="' . $row['pets'] . '" ';
-    echo '/>';
-}
-
-// End XML file
-echo '</markers>';
-
-?>
-
+    echo $doc->saveXML();
+    $doc->save("write.xml")
+    ?>
 
 here is some text
 </head>
