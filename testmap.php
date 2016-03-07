@@ -3,17 +3,17 @@
 
 
     <?php
-    $city = $_POST['location'];
+
     $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
     try{
-        $st = $conn-> query("SELECT * FROM [B&B] WHERE [city] = '$city'");
+        $st = $conn-> query("SELECT * FROM [B&B] WHERE [city] = 'Aberdeen'");
 
 
         foreach($st->fetchAll() as $row) {
             $newhtml =
                 <<<NEWHTML
-                    <div class="table4">
+                    <div class="">
     <p>According to our database, your search of: <strong>{$row[city]}</strong> has returned the following results: </p>
     <p><strong>{$row[city]}</strong></p>
     <p><strong>{$row[bbname]}</strong></p>
