@@ -366,7 +366,7 @@ h5{
 
     font-family: 'Roboto', sans-serif;
     color: orange;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 li a{
@@ -384,7 +384,7 @@ button.accordion {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 12px;
+    font-size: 13px;
     transition: 0.4s;
 }
 
@@ -394,7 +394,7 @@ button.accordion.active, button.accordion:hover {
 
 button.accordion:after {
     content: '\02795';
-    font-size: 12px;
+    font-size: 13px;
     color: #777;
     float: left;
     margin-left: 5px;
