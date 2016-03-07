@@ -124,7 +124,7 @@ session_start();
             </tr>
 
             <tr><td></td>
-                <td><p align="right" ><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
+                <td><p align="center" ><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
             </tr>
         </table></form>
 
