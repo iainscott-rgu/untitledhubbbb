@@ -427,7 +427,7 @@ div.panel {
     border-left: 1px solid orange;
 }
 
-#mycontainer{
+body{
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
