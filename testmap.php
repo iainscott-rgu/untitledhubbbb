@@ -47,7 +47,7 @@
     }
 
     echo $doc->saveXML();
-    $doc->save("write.xml")
+
     ?>
 
 here is some text
