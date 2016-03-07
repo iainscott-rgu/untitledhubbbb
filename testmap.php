@@ -23,22 +23,6 @@
     <p><strong>{$row[longitude]}</strong></p>
 
 
-
-    $dom = new DOMDocument("1.0");
-    $node = $dom->createElement("markers");
-    $parnode = $dom->appendChild($node);
-
-    header("Content-type: text/xml");
-
-
-    echo $dom->saveXML();
-
-
-
-
-
-
-
     <p><a href="Customerinfo.html"><input type="submit" value="BOOK" /></a></p>
 
 
