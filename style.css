@@ -381,10 +381,10 @@ button.accordion {
     cursor: pointer;
     padding: 12px;
     width: 100%;
-    border: none;
+    /*border: none;*/
     text-align: left;
     outline: none;
-    font-size: 14px;
+    font-size: 15px;
     transition: 0.4s;
     border-top: 1px solid orange;
     border-right: 1px solid orange;
@@ -405,7 +405,7 @@ button.accordion.active, button.accordion:hover {
 
 button.accordion:after {
     content: '\02795';
-    font-size: 14px;
+    font-size: 15px;
     color: #777;
     float: left;
     margin-left: 5px;
