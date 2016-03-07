@@ -56,7 +56,19 @@ h1{
     margin-left: auto;
 }
 
+.table4{
 
+    padding: 25px;
+    background-color: #ccc;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    color: darkslategrey;
+    margin: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 
 .tablesearch {

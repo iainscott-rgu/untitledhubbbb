@@ -73,7 +73,7 @@
         foreach($st->fetchAll() as $row) {
             $newhtml =
                 <<<NEWHTML
-                    <div class="table3">
+                    <div class="table4">
     <p>According to our database, your search of: <strong>{$row[city]}</strong> has returned the following results: </p>
     <p><strong>{$row[city]}</strong></p>
     <p><strong>{$row[bbname]}</strong></p>
