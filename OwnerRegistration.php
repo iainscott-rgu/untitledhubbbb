@@ -64,7 +64,7 @@ session_start();
 <section class="container" id="featured">
     <div class="centre">
 
-        <p>Register to List your Property</p>
+        <p>Register to list your Property</p>
     </div>
 </section>
 
