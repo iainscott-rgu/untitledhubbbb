@@ -8,7 +8,7 @@
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <title>Search Results: theB&Bhub!</title>
+    <title>Search Results: theB&Bhub</title>
 </head>
 <body>
 
