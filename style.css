@@ -431,12 +431,6 @@ div.panel {
     border-left: 1px solid orange;
 }
 
-div.lastpanel {
-
-    border-bottom: 1px solid orange !important;
-}
-
-
 
 body{
     max-width: 1500px;
