@@ -22,6 +22,19 @@
     <p><strong>{$row[latitude]}</strong></p>
     <p><strong>{$row[longitude]}</strong></p>
 
+     // Start XML file, create parent node
+
+    $dom = new DOMDocument("1.0");
+    $node = $dom->createElement("markers");
+    $parnode = $dom->appendChild($node);
+
+    header("Content-type: text/xml");
+
+
+    echo $dom->saveXML();
+
+
+
 
 
 
@@ -40,10 +53,6 @@ NEWHTML;
     ?>
 
 
-
-
-
-
 </head>
 
 <body>
@@ -52,60 +61,6 @@ here is some text
 
 </body>
 </html>
-
-
-
-
-<?php
-
-require("phpsqlajax_dbinfo.php");
-
-// Start XML file, create parent node
-
-$dom = new DOMDocument("1.0");
-$node = $dom->createElement("markers");
-$parnode = $dom->appendChild($node);
-
-// Opens a connection to a MySQL server
-
-$connection = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
-$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-
-
-//$connection=sql_connect ('localhost', $username, $password);
-//if (!$connection) {  die('Not connected : ' . sql_error());}
-
-// Set the active MySQL database
-
-$db_selected = sql_select_db($database, $connection);
-if (!$db_selected) {
-    die ('Can\'t use db : ' . sql_error());
-}
-
-// Select all the rows in the markers table
-
-$query = "SELECT * FROM [B&B] WHERE 1";
-$result = sql_query($query);
-if (!$result) {
-    die('Invalid query: ' . sql_error());
-}
-
-header("Content-type: text/xml");
-
-// Iterate through the rows, adding XML nodes for each
-
-while ($row = @sql_fetch_assoc($result)){
-    // ADD TO XML DOCUMENT NODE
-    $node = $dom->createElement("marker");
-    $newnode = $parnode->appendChild($node);
-    $newnode->setAttribute("name",$row['bbname']);
-    $newnode->setAttribute("address", $row['address']);
-    $newnode->setAttribute("lat", $row['latitude']);
-    $newnode->setAttribute("lng", $row['longitude']);
-
-}
-
-echo $dom->saveXML();
 
 ?>
 <!DOCTYPE html >
