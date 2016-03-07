@@ -427,7 +427,7 @@ div.panel {
     border-left: 1px solid orange;
 }
 
-div.panel2 {
+#foo {
     padding: 0 12px;
     background-color: white;
     max-height: 0;
