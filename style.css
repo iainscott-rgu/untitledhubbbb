@@ -431,7 +431,14 @@ div.panel {
     border-left: 1px solid orange;
 }
 
+.lastpanel{
 
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+    border-left: 1px solid orange;
+
+
+}
 body{
     max-width: 1500px;
     margin-left: auto;
