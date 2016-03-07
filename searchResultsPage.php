@@ -55,17 +55,11 @@
 </section>
 
 
-<section class="container" id="featured">
-    <div class="centre">
-        <p>Search for a bed and breakfast by region</p>
-    </div>
-
-</section>
-<section class="container" id="content2">
+< class="container" id="featured">
+    < class="centre">
+        <p>Here are your search results...</p>
 
 
-    <div class="main">
-        <h3 class="pagetitle" >Here are your search results...</h3>
 
     <?php
     $city = $_POST['location'];
