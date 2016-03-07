@@ -22,7 +22,7 @@
     <p><strong>{$row[latitude]}</strong></p>
     <p><strong>{$row[longitude]}</strong></p>
 
-     // Start XML file, create parent node
+
 
     $dom = new DOMDocument("1.0");
     $node = $dom->createElement("markers");
