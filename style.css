@@ -377,6 +377,10 @@ ul#tabs {
 }
 ul#tabs li {
     display: inline;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
 }
 ul#tabs li a {
     color: #42454a;
