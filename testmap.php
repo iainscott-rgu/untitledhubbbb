@@ -48,45 +48,39 @@ NEWHTML;
 
 
 
-    $employees = array();
-    $employees [] = array(
-        'name' => 'Albert',
-        'age' => '34',
-        'salary' => "$10000"
+    $maplocation = array();
+    $maplocation [] = array(
+        'lat' => '$row[latitude]',
+        'lng' => '$row[longitude]',
+
     );
-    $employees [] = array(
-        'name' => 'Claud',
-        'age' => '20',
-        'salary' => "$2000"
+    $maplocation [] = array(
+        'lat' => '$row[latitude]',
+        'lng' => '$row[longitude]',
+
     );
 
     $doc = new DOMDocument();
     $doc->formatOutput = true;
 
-    $r = $doc->createElement( "employees" );
+    $r = $doc->createElement( "maplocation" );
     $doc->appendChild( $r );
 
-    foreach( $employees as $employee )
+    foreach( $maplocation as $maplocation )
     {
-        $b = $doc->createElement( "employee" );
+        $b = $doc->createElement( "location" );
 
-        $name = $doc->createElement( "name" );
-        $name->appendChild(
-            $doc->createTextNode( $employee['name'] )
+        $lat = $doc->createElement( "lat" );
+        $lat->appendChild(
+            $doc->createTextNode( $location['lat'] )
         );
-        $b->appendChild( $name );
+        $b->appendChild( $lat );
 
-        $age = $doc->createElement( "age" );
-        $age->appendChild(
-            $doc->createTextNode( $employee['age'] )
+        $lng = $doc->createElement( "lng" );
+        $lng->appendChild(
+            $doc->createTextNode( $location['lng'] )
         );
-        $b->appendChild( $age );
-
-        $salary = $doc->createElement( "salary" );
-        $salary->appendChild(
-            $doc->createTextNode( $employee['salary'] )
-        );
-        $b->appendChild( $salary );
+        $b->appendChild( $lng );
 
         $r->appendChild( $b );
     }
