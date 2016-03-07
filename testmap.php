@@ -26,25 +26,25 @@ if (!$db_selected) {
 
 // Select all the rows in the markers table
 
-$query = "SELECT * FROM markers WHERE 1";
-$result = mysql_query($query);
+$query = "SELECT * FROM [B&B] WHERE 1";
+$result = sql_query($query);
 if (!$result) {
-    die('Invalid query: ' . mysql_error());
+    die('Invalid query: ' . sql_error());
 }
 
 header("Content-type: text/xml");
 
 // Iterate through the rows, adding XML nodes for each
 
-while ($row = @mysql_fetch_assoc($result)){
+while ($row = @sql_fetch_assoc($result)){
     // ADD TO XML DOCUMENT NODE
     $node = $dom->createElement("marker");
     $newnode = $parnode->appendChild($node);
-    $newnode->setAttribute("name",$row['name']);
+    $newnode->setAttribute("name",$row['bbname']);
     $newnode->setAttribute("address", $row['address']);
-    $newnode->setAttribute("lat", $row['lat']);
-    $newnode->setAttribute("lng", $row['lng']);
-    $newnode->setAttribute("type", $row['type']);
+    $newnode->setAttribute("lat", $row['latitude']);
+    $newnode->setAttribute("lng", $row['longitude']);
+
 }
 
 echo $dom->saveXML();
