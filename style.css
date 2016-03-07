@@ -377,10 +377,7 @@ ul#tabs {
 }
 ul#tabs li {
     display: inline;
-    -moz-border-radius:10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
+
 }
 ul#tabs li a {
     color: #42454a;
@@ -389,6 +386,10 @@ ul#tabs li a {
     border-bottom: none;
     padding: 0.3em;
     text-decoration: none;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
 }
 ul#tabs li a:hover {
     background-color: #f1f0ee;
