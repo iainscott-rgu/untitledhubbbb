@@ -107,10 +107,7 @@ session_start();
 
 </section>
 
-<section class="spacer" id="spacer">
 
-
-</section>
 
 <section class="container" id="spotlight">
 <div>
@@ -202,10 +199,6 @@ HTMLPAGE;
 </section>
 
 
-<section class="spacer" id="spacer">
-
-
-</section>
 <section class="container" id="spotlight">
 <div>
     <p>Welcome to the Members Area.</p><p> If you have already registered then please sign in, otherwise click the 'Register' button to register with us.
