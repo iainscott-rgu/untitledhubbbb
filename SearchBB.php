@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="icon"
@@ -314,7 +314,7 @@ NEWHTML;
         <img src="assets/manchester.jpg" id="img2">
         <p>Manchester, England</p>
 
-        <p><li><a href="#">click to view</a></li></p>
+        <p><ul></ul><li><a href="#">click to view</a></li></ul></p>
 
     </section>
 
