@@ -2,60 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Register: theB&Bhub</title>
     <link rel="icon"
           type="image/png"
           href="assets/b&bicon.png">
     <link type="text/css" rel="stylesheet" href="style.css"/>
-
-    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-
-
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>Booking: theB&Bhub</title>
 </head>
+<body>
 
-<header>
-    <section class="right">
-        <div class="left">
-            <img src = "assets/bnblogocroporange.png" id="img">
-
-
-        </div>
-        <div class="rightside">
+<section class="container" id="banner">
+    <div class="floatleft">
+        <img src = "assets/bnblogocroporange.png" id="img">
     </div>
-        </section>
+    <div class="floatright">
+    </div>
+</section>
+
+<section class="container" id="navigation2">
+    <div>
+        <nav role="main">
+            <ul>
+                <li><a href="B&Bregistration.html">Contact</a></li>
+                <li><a href="B&Bregistration.html">Register</a></li>
+                <li><a href="OwnerSignIn.php">Member Area</a></li>
+                <li><a href="SearchBB.php">Search</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+<section class="spacer" id="spacer">
+
+
+</section>
 
 
 
+<section class="container" id="featured">
+    <div class="centre">
 
+        <p>You're almost there... please enter your details to complete your booking</p>
+    </div>
+</section>
 
-</header>
-<div class="nav">
-
-    <nav>
-
-
-
-        <ul class="moveright">
-
-            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
-            <li><a href="B&Bregistration.html">Register</a></li>
-            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
-            <li><a href="OwnerSignIn.php">Owner's Page</a></li>
-            <li><a href="Home.php">Search</a></li>
-
-
-        </ul>
-
-    </nav>
-
-
-
-
-</div>
-<hr width="100%" align="left" size="1" color="#d3d3d3">
 
 <body>
+
+
 
 
 <main>
