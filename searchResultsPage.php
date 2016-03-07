@@ -55,12 +55,11 @@
 </section>
 
 
-< class="container" id="featured">
-    < class="centre">
+<section class="container" id="featured">
+    <div class="centre">
         <p>Here are your search results...</p>
 
-</div>
-</section>
+
 
     <?php
     $city = $_POST['location'];
@@ -97,7 +96,8 @@ NEWHTML;
     ?>
 
 
-
+</div>
+    </section>
 
 <section class="spacer" id="spacer">
 
