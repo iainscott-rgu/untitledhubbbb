@@ -84,7 +84,7 @@
         foreach($st->fetchAll() as $row) {
             $newhtml =
                 <<<NEWHTML
-                    <div class="table4">
+                    <div class="table5">
 
 
 <table>

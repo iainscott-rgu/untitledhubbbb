@@ -57,7 +57,7 @@ h1{
 }
 
 .table4{
-    border: 1px solid orange;
+
     padding: 25px;
     background-color: snow;
     -moz-border-radius:10px;
@@ -69,6 +69,20 @@ h1{
     margin-right: auto;
     margin-left: auto;
 }
+
+.table5{
+    border: 1px solid orange;
+    padding: 25px;
+    background-color: snow;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    color: darkslategrey;
+    margin-left: 5%;
+    width: 600px;
+}
+
 
 
 .tablesearch {
