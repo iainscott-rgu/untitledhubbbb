@@ -89,24 +89,27 @@
 
 <table>
 <tr>
-<td><p><strong>B&B Name: {$row[bbname]}</strong></p></td>
-<td><p><strong>Location: {$row[city]}</strong></p></td>
+<td><strong>{$row[imageurl]}</strong></td>
+<td><strong>B&B Name: {$row[bbname]}</strong></td>
 </tr>
 <tr>
-<td><p><strong>B&B Description: {$row[bbdescription]}</strong></p></td>
+<td><strong>B&B Description: {$row[bbdescription]}</strong></td>
 </tr>
 <tr>
-<td><p><strong>Address: {$row[address]}</strong></p></td>
+<td><strong>Address: {$row[address]}</strong></td>
 </tr>
 <tr>
-<td><p><strong>Postcode: {$row[postcode]}</strong></p></td>
+<td><strong>Location: {$row[city]}</strong></td>
 </tr>
 <tr>
-<td><p><strong>Check-in: {$row[checkin]}</strong></p></td>
-<td><p><strong>Check-out: {$row[checkout]}</strong></p></td>
+<td><strong>Postcode: {$row[postcode]}</strong></td>
 </tr>
 <tr>
-<td><p><strong>Pets allowed: {$row[pets]}</strong></td>
+<td><strong>Check-in: {$row[checkin]}</strong></td>
+<td><strong>Check-out: {$row[checkout]}</strong></td>
+</tr>
+<tr>
+<td><strong>Pets allowed: {$row[pets]}</strong></td>
 </tr>
 
 </table>
