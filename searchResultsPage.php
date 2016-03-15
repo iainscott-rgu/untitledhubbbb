@@ -88,8 +88,14 @@
 
 
 <table>
+<colgroup>
+    <col span="1" style="background-color:red">
+    <col span="2" style="background-color:yellow">
+  </colgroup>
 <tr>
 <td><strong><img src="{$row[imageurl]}"></strong></td>
+</tr>
+<tr>
 <td><strong>B&B Name: {$row[bbname]}</strong></td>
 </tr>
 <tr>
