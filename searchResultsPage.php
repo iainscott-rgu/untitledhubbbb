@@ -94,11 +94,11 @@
   </colgroup>
 <tr>
 <td><strong><img src="{$row[imageurl]}"></strong></td>
-</tr>
-<tr>
+
+
 <td><strong>B&B Name: {$row[bbname]}</strong></td>
-</tr>
-<tr>
+
+
 <td><strong>B&B Description: {$row[bbdescription]}</strong></td>
 </tr>
 <tr>
