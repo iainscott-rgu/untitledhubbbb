@@ -88,35 +88,37 @@
 
 
 <table>
-<colgroup>
-    <col span="1" style="background-color:red">
-    <col span="1" style="background-color:yellow">
-  </colgroup>
 <tr>
 <td><strong><img src="{$row[imageurl]}"></strong></td>
-</tr>
 
+<td>
+<table>
+<tr>
 <td><strong>B&B Name: {$row[bbname]}</strong></td>
-
-
+</tr>
+<tr>
 <td><strong>B&B Description: {$row[bbdescription]}</strong></td>
-
-
+</tr>
+<tr>
 <td><strong>Address: {$row[address]}</strong></td>
-
-
+</tr>
+<tr>
 <td><strong>Location: {$row[city]}</strong></td>
-
-
+</tr>
+<tr>
 <td><strong>Postcode: {$row[postcode]}</strong></td>
+</tr>
+<tr>
 
 <td><strong>Check-in: {$row[checkin]}</strong></td>
 <td><strong>Check-out: {$row[checkout]}</strong></td>
-
-
+</tr>
+<tr>
 <td><strong>Pets allowed: {$row[pets]}</strong></td>
-
-
+</tr>
+</table>
+</td>
+</tr>
 </table>
 
 
