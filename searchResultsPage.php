@@ -95,7 +95,7 @@
 <tr>
 <td><strong><img src="{$row[imageurl]}"></strong></td>
 </tr>
-<tr>
+
 <td><strong>B&B Name: {$row[bbname]}</strong></td>
 
 
@@ -115,7 +115,7 @@
 
 
 <td><strong>Pets allowed: {$row[pets]}</strong></td>
-</tr>
+
 
 </table>
 
