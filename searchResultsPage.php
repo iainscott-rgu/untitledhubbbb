@@ -76,6 +76,7 @@
     $city = $_POST['location'];
     $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+
     try{
         $st = $conn-> query("SELECT * FROM [B&B] WHERE [city] = '$city'");
 
@@ -86,14 +87,14 @@
                     <div class="table4">
 
 
-
+<table>
 <tr><td>
     <p><strong>{$row[city]}</strong></p></td><td>
     <p><strong>{$row[bbname]}</strong></p></td></tr><tr><td>
     <p><strong>{$row[address]}</strong></p></td></tr><tr><td>
     <p><strong>{$row[email]}</strong></p></td></tr>
 
-
+</table>
 
 
 
