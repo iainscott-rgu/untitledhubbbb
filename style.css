@@ -57,7 +57,7 @@ h1{
 }
 
 .table4{
-
+    border: 1px solid orange;
     padding: 25px;
     background-color: snow;
     -moz-border-radius:10px;
@@ -240,7 +240,7 @@ main{
 #img2{
 
     height: 150px;
-    border: 1px solid #666699;
+    border: 1px solid orange;
     -moz-border-radius:5px;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
