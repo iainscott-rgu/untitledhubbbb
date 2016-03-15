@@ -65,7 +65,7 @@
 </div>
     </section>
 
-
+<p>According to our database, your search of: <strong>{$row[city]}</strong> has returned the following results: </p>
 <section class="container" id="content2">
 
 
@@ -87,11 +87,11 @@
 
 
 
-
-    <p><strong>{$row[city]}</strong></p>
-    <p><strong>{$row[bbname]}</strong></p>
-    <p><strong>{$row[address]}</strong></p>
-    <p><strong>{$row[email]}</strong></p>
+<tr><td>
+    <p><strong>{$row[city]}</strong></p></td><td>
+    <p><strong>{$row[bbname]}</strong></p></td></tr><tr><td>
+    <p><strong>{$row[address]}</strong></p></td></tr><tr><td>
+    <p><strong>{$row[email]}</strong></p></td></tr>
 
 
 
