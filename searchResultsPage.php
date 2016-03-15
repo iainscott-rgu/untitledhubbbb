@@ -88,15 +88,26 @@
 
 
 <table>
-<tr><td>
-    <p><strong>B&B Name: {$row[bbname]}</strong></p></td><td>
-    <p><strong>Location: {$row[city]}</strong></p></td></tr><tr><td>
-    <p><strong>B&B Description: {$row[bbdescription]}</strong></p></td></tr><tr><td>
-    <p><strong>Address: {$row[address]}</strong></p></td></tr><tr><td>
-    <p><strong>Postcode: {$row[postcode]}</strong></p></td></tr>
-    <p><strong>Check-in: {$row[checkin]}</strong></p></td><td>
-    <p><strong>Check-out: {$row[checkout]}</strong></p></td>
-    <p><strong>Pets allowed: {$row[pets]}</strong></tr><tr><td>
+<tr>
+<td><p><strong>B&B Name: {$row[bbname]}</strong></p></td>
+<td><p><strong>Location: {$row[city]}</strong></p></td>
+</tr>
+<tr>
+<td><p><strong>B&B Description: {$row[bbdescription]}</strong></p></td>
+</tr>
+<tr>
+<td><p><strong>Address: {$row[address]}</strong></p></td>
+</tr>
+<tr>
+<td><p><strong>Postcode: {$row[postcode]}</strong></p></td>
+</tr>
+<tr>
+<td><p><strong>Check-in: {$row[checkin]}</strong></p></td>
+<td><p><strong>Check-out: {$row[checkout]}</strong></p></td>
+</tr>
+<tr>
+<td><p><strong>Pets allowed: {$row[pets]}</strong></td>
+</tr>
 
 </table>
 
