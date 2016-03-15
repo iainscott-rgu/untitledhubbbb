@@ -90,18 +90,18 @@
 <table>
 <colgroup>
     <col span="1" style="background-color:red">
-    <col span="2" style="background-color:yellow">
+    <col span="1" style="background-color:yellow">
   </colgroup>
-<tr>
-<td><strong><img src="{$row[imageurl]}"></strong></td>
 
+<td><strong><img src="{$row[imageurl]}"></strong></td>
+<tr>
 
 <td><strong>B&B Name: {$row[bbname]}</strong></td>
 
-
-<td><strong>B&B Description: {$row[bbdescription]}</strong></td>
 </tr>
+<td><strong>B&B Description: {$row[bbdescription]}</strong></td>
 <tr>
+</tr>
 <td><strong>Address: {$row[address]}</strong></td>
 </tr>
 <tr>
