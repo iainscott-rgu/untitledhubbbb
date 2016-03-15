@@ -99,11 +99,20 @@
 
 
 
+
+
     <p><a href="Customerinfo.html"><input type="submit" value="BOOK" /></a></p>
 
 
 
 </div>
+
+ <section class="spacer" id="spacer">
+
+
+    </section>
+
+
 NEWHTML;
             print($newhtml);
         }
