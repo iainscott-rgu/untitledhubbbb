@@ -245,8 +245,41 @@ NEWHTML;
     <div class="tabContent" id="about">
 
         <div>
-            <p>JavaScript tabs partition your Web page content into tabbed sections. Only one section at a time is visible.</p>
-            <p>The code is written in such a way that the page degrades gracefully in browsers that don't support JavaScript or CSS.</p>
+            <p>Looking for a B&B in a Region of the UK but not sure where to stay?</p>
+            <p>
+                <table>
+                <tr>
+                    <td>East</td>
+                    <td>East Midlands</td>
+                    <td>London</td>
+                    <td>North East</td>
+                </tr>
+                <tr>
+                    <td>North West</td>
+                    <td>Northern Ireland</td>
+                    <td>Scotland</td>
+                    <td>South East</td>
+
+                </tr>
+                <tr>
+                    <td>South West</td>
+                    <td>Wales</td>
+                    <td>West Midlands</td>
+                    <td>Yorkshire and the Humber</td>
+
+
+                </tr>
+
+               </table>
+
+
+
+
+
+
+
+
+
         </div>
     </div>
 
