@@ -284,15 +284,70 @@ NEWHTML;
     <div class="tabContent" id="advantages">
 
         <div>
-            <p>JavaScript tabs are great if your Web page contains a large amount of content.</p>
-            <p>They're also good for things like multi-step Web forms.</p>
+            <p>Looking for a B&B in a Region of the UK but not sure where to stay?</p>
+            <p>
+
+            <table border="0" class="tablejava">
+                <tr>
+                    <td>East</td>
+                    <td>East Midlands</td>
+                    <td>London</td>
+                    <td>North East</td>
+                </tr>
+                <tr>
+                    <td>North West</td>
+                    <td>Northern Ireland</td>
+                    <td>Scotland</td>
+                    <td>South East</td>
+
+                </tr>
+                <tr>
+                    <td>South West</td>
+                    <td>Wales</td>
+                    <td>West Midlands</td>
+                    <td>Yorkshire and the Humber</td>
+
+
+                </tr>
+
+            </table>
+
+
         </div>
     </div>
 
     <div class="tabContent" id="usage">
 
         <div>
-            <p>Click a tab to view the tab's content. Using tabs couldn't be easier!</p>
+            <p>Looking for a B&B in a Region of the UK but not sure where to stay?</p>
+            <p>
+
+            <table border="0" class="tablejava">
+                <tr>
+                    <td>East</td>
+                    <td>East Midlands</td>
+                    <td>London</td>
+                    <td>North East</td>
+                </tr>
+                <tr>
+                    <td>North West</td>
+                    <td>Northern Ireland</td>
+                    <td>Scotland</td>
+                    <td>South East</td>
+
+                </tr>
+                <tr>
+                    <td>South West</td>
+                    <td>Wales</td>
+                    <td>West Midlands</td>
+                    <td>Yorkshire and the Humber</td>
+
+
+                </tr>
+
+            </table>
+
+
         </div>
     </div>
 
