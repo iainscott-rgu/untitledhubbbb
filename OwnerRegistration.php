@@ -108,7 +108,7 @@ session_start();
 
             <tr><td>
                     <label for="postcode">Postcode: *</label></td>
-                <td><input type="text" class="inputform" id="postcode" name="postcode" placeholder=" Enter your postcode" size="8" maxlength="8" required /></td>
+                <td><input type="text" class="inputform" id="postcode" name="postcode" placeholder=" Enter postcode" size="8" maxlength="8" required /></td>
             </tr>
 
             <tr><td>
@@ -128,7 +128,7 @@ session_start();
 
             <tr><td>
                 <label for="email">Email: *</label></td>
-                <td><input type="text" class="inputform" id="email" name="email" placeholder="email" size="30" maxlength="50" required /></td>
+                <td><input type="text" class="inputform" id="email" name="email" placeholder="Enter Email" size="30" maxlength="50" required /></td>
             </tr>
             <tr>
                 <td><label for="password">Password: *</label></td>
@@ -142,7 +142,7 @@ session_start();
                 </td>
             </tr>
 
-            <tr><td><a href="help.html">need help?</a></td>
+            <tr><td><a href="help.html" id="textlink">need help?</a></td>
                 <td><p><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
             </tr>
         </table></form>
