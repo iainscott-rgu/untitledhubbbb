@@ -94,7 +94,7 @@
 <td>
 <table>
 
-<tr valign="top" padding="20">
+<tr valign="top" margin="20">
 <td><strong>B&B Name: {$row[bbname]}</strong></td>
 </tr>
 <tr>
