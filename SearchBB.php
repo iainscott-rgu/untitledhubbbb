@@ -272,7 +272,7 @@ NEWHTML;
 
                </table>
 
-            <nav role="sub3456">
+            <nav role="sub30">
                 <ul>
                     <li><a href="B&Bregistration.html">Contact</a></li>
                     <li><a href="B&Bregistration.html">Register</a></li>
