@@ -271,7 +271,7 @@ NEWHTML;
                 </tr>
 
                </table>
-            <div id="footernav">
+
             <nav role="sub30">
                 <ul>
                     <li><a href="B&Bregistration.html">Contact</a></li>
@@ -280,7 +280,7 @@ NEWHTML;
                     <li><a href="SearchBB.php">Search</a></li>
                 </ul>
             </nav>
-                </div>
+
 
 
 
