@@ -71,9 +71,9 @@ session_start();
 
 
 <section class="container" id="content2">
-    <table id="table5">
+    <table class="table5">
+<tr><td> Contact email address:</td></tr>
 
-        Contact email address:
 
     </table>
 
@@ -82,7 +82,10 @@ session_start();
 </section>
 
 
+<section class="spacer" id="spacer">
 
+
+</section>
 
 
 
