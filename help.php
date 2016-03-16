@@ -71,7 +71,11 @@ session_start();
 
 
 <section class="container" id="content2">
-    <form action="ownerRegistrationResultPage.php" method="post" id="form">
+    <table id="table5">
+
+        Contact email address:
+
+    </table>
 
 
 
