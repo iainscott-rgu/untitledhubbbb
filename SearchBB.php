@@ -245,7 +245,7 @@ NEWHTML;
     <div class="tabContent" id="regions">
 
         <div>
-            <p>Looking for a B&B in a Region of the UK but not sure where to stay? Find all B&B's by Region</p>
+            <p>Looking for a B&B in a Region of the UK but not sure where to stay? Find all B&B's by Region...</p>
             <p>
 
             <table border="0" class="tablejava">
