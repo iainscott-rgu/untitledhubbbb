@@ -147,7 +147,7 @@ session_start();
             </tr>
 
             <tr>
-                <td id="linkright"><a href="help.html" id="textlink"><strong>need help?</strong></a></td>
+                <td><a href="help.html" id="textlink">need help?</a></td>
             </tr>
         </table></form>
 
