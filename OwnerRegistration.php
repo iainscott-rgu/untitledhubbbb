@@ -146,7 +146,7 @@ session_start();
                 <td><p><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
             </tr>
 
-            <tr>
+            <tr><td></td>
                 <td><a href="help.html" id="textlink">need help?</a></td>
             </tr>
         </table></form>
