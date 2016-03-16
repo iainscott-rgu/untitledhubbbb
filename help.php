@@ -72,7 +72,7 @@ session_start();
 
 <section class="container" id="content2">
     <table class="table5">
-<tr><td> Contact email address:</td></tr>
+<tr><td> Contact email address: theBnBhub@gmail.com</td></tr>
 
 
     </table>
