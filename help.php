@@ -72,7 +72,7 @@ session_start();
 
 <section class="container" id="content2">
     <table class="table6">
-        <tr><td><p>If you have a problem... if nobody else can help... and if you can find us... maybe you can hire... The A-Team.</p></td></tr>
+        <tr><td colspan="2"><p>If you have a problem... if nobody else can help... and if you can find us... maybe you can hire... The A-Team.</p></td></tr>
 <tr><td><p>Contact Email Address: </p></td><td><p>theBnBhub@gmail.com</p></td></tr>
         <tr><td valign="top"><p>Incorporated Business Address:</p></td><td valign="top"><p>
                 <br>School of Computing Science and Digital Media
