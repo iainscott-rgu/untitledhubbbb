@@ -83,7 +83,7 @@ h1{
 
 .tablejava td{
 
-    padding-right: 50px;
+    padding-right: 75px;
 }
 
 
@@ -547,16 +547,3 @@ div.panel.show {
     height: 200px;
 }
 
-nav[role="sub30"] ul li a{
-    display: inline-block;
-    float: left;
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    padding: 10px;
-}
-
-nav[role="sub30"] li a:HOVER{
-
-    color:darkslategrey;
-}

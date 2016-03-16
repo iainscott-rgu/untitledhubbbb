@@ -248,17 +248,31 @@ NEWHTML;
             <p>Looking for a B&B in a Region of the UK but not sure where to stay?</p>
             <p>
 
+            <table border="0" class="tablejava">
+                <tr>
+                    <td>East</td>
+                    <td>East Midlands</td>
+                    <td>London</td>
+                    <td>North East</td>
+                </tr>
+                <tr>
+                    <td>North West</td>
+                    <td>Northern Ireland</td>
+                    <td>Scotland</td>
+                    <td>South East</td>
+
+                </tr>
+                <tr>
+                    <td>South West</td>
+                    <td>Wales</td>
+                    <td>West Midlands</td>
+                    <td>Yorkshire and the Humber</td>
 
 
+                </tr>
 
-            <nav role="sub30">
-                <ul>
-                    <li><a href="B&Bregistration.html">Contact</a></li>
-                    <li><a href="B&Bregistration.html">Register</a></li>
-                    <li><a href="OwnerSignIn.php">Member Area</a></li>
-                    <li><a href="SearchBB.php">Search</a></li>
-                </ul>
-            </nav>
+            </table>
+
 
 
 
