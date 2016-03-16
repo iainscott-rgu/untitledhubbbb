@@ -101,20 +101,20 @@
 <td colspan="2">B&B Description: <strong>{$row[bbdescription]}</strong></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Address: {$row[address]}</strong></td>
+<td colspan="2">Address: <strong>{$row[address]}</strong></td>
 </tr>
 <tr>
-<td><strong>Location: {$row[city]}</strong></td>
+<td>Location: <strong>{$row[city]}</strong></td>
 
-<td><strong>Postcode: {$row[postcode]}</strong></td>
+<td>Postcode: <strong>{$row[postcode]}</strong></td>
 </tr>
 <tr>
 
-<td><strong>Check-in: {$row[checkin]}</strong></td>
-<td><strong>Check-out: {$row[checkout]}</strong></td>
+<td>Check-in: <strong>{$row[checkin]}</strong></td>
+<td>Check-out: <strong>{$row[checkout]}</strong></td>
 </tr>
 <tr>
-<td><strong>Pets allowed: {$row[pets]}</strong></td>
+<td>Pets allowed: <strong>{$row[pets]}</strong></td>
 </tr>
 </h6>
 </table>
