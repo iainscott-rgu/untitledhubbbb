@@ -72,7 +72,7 @@ session_start();
             </ul>
         </nav>
     </div>
-
+</section>
 <section class="container" id="content3">
 
    <table class='table2'>
