@@ -60,9 +60,9 @@ session_start();
 
 </section>
 
-<a name="contactsection"></a>
 
-<section class="container" id="featured">
+
+<section class="container" id="featured"><a name="contactsection"></a>
     <div class="centre">
 
         <p>Contact Section</p>
