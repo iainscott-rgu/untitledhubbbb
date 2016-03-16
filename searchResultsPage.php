@@ -93,8 +93,8 @@
 
 <td>
 <table>
-<h6>
-<tr>
+
+<tr valign="top">
 <td><strong>B&B Name: {$row[bbname]}</strong></td>
 </tr>
 <tr>
