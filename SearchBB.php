@@ -247,7 +247,7 @@ NEWHTML;
         <div>
             <p>Looking for a B&B in a Region of the UK but not sure where to stay?</p>
             <p>
-                <table border="1" padding-right="50">
+                <table border="1" class="tablejava">
                 <tr>
                     <td>East</td>
                     <td>East Midlands</td>
