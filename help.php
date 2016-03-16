@@ -74,12 +74,10 @@ session_start();
     <table class="table6">
 <tr><td> Contact Email Address: </td><td>theBnBhub@gmail.com</td></tr>
         <tr><td>Incorporated Business Address:</td><td>
-                <br>School of Computing Science and Digital Media</br>
-                <br>The Sir Ian Wood Building</br>
-                <br>Robert Gordon University</br>
-                <br>Garthdee Road</br>
-                <br>Aberdeen</br>
-                <br>AB10 7GJ</br>
+                <br>School of Computing Science and Digital Media
+                <br>The Sir Ian Wood Building
+                <br>Robert Gordon University
+                <br>Garthdee Road, Aberdeen, AB10 7GJ
 
             </td></tr>
 
