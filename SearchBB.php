@@ -247,8 +247,8 @@ NEWHTML;
         <div>
             <p>Looking for a B&B in a Region of the UK but not sure where to stay?</p>
             <p>
-                <table>
-                <tr cellpadding="50">
+                <table border="1">
+                <tr>
                     <td>East</td>
                     <td>East Midlands</td>
                     <td>London</td>
