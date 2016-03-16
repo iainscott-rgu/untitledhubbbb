@@ -138,7 +138,7 @@ session_start();
 
             <tr>
                 <td><label for="password2">Retype Password: *</label></td>
-                <td>    <input type="password" class="inputform" id="password2" name="password2" placeholder="enter password again" required>
+                <td><input type="password" class="inputform" id="password2" name="password2" placeholder="enter password again" required>
                 </td>
             </tr>
 
@@ -147,7 +147,7 @@ session_start();
             </tr>
 
             <tr><td></td>
-                <td><p><a href="help.html" id="textlink"><strong>need help?</strong></a></p></td>
+                <td><a href="help.html" id="textlink"><strong>need help?</strong></a></td>
             </tr>
         </table></form>
 
