@@ -65,7 +65,7 @@ session_start();
 <section class="container" id="featured">
     <div class="centre">
 
-        <p>Help & Contact Section</p>
+        <p>Contact Section</p>
     </div>
 </section>
 
@@ -76,10 +76,107 @@ session_start();
 
 
 </section>
+
+
+
+
+
+
+
+
+
+<section class="container" id="featured">
+    <div class="centre">
+
+        <p>Help Section</p>
+    </div>
+</section>
+
+
+<section id="mycontainer">
+
+    <button class="accordion">Adding you bed and breakfast name</button>
+    <div class="panel">
+        <p>Enter the name of your bed and breakfast as you want it displayed on the site. This will be the name returned in the search results. Maximum number of characters is 50.</p>
+    </div>
+
+    <button class="accordion">Address?</button>
+    <div class="panel">
+        <p>Enter the address of your bed and breakfast including the city and postcode.  </div>
+
+    <button class="accordion">City?</button>
+    <div class="panel">
+        <p>Blah... Blah... Blah...</p>
+    </div>
+
+
+    <button class="accordion">Telephone?</button>
+    <div class="panel">
+        <p>Blah... Blah... Blah...</p>
+    </div>
+
+
+    <button class="accordion">Email?</button>
+    <div class="panel">
+        <p>Blah... Blah... Blah...</p>
+    </div>
+
+    <button class="accordion">B&B Description?</button>
+    <div class="panel">
+        <p>Blah... Blah... Blah... </div>
+
+
+    <button class="accordion">Room Description?</button>
+    <div class="panel">
+        <p>Blah... Blah... Blah...</p>
+    </div>
+
+    <button class="accordion">Check In Time</button>
+    <div class="panel">
+        <p>Blah... Blah... Blah... </p></div>
+
+
+    <button class="accordion">Check Out Time?</button>
+    <div class="panel">
+        <p>Blah... Blah... Blah...</p>
+    </div>
+
+    <button class="accordion">Upload Picture?</button>
+    <div class="panel">
+        <p>Blah... Blah... Blah...</p> </div>
+
+
+
+
+    <button class="accordion lastaccordion">Pets Allowed?</button>
+    <div id="foo" class="panel lastpanel">
+        <p>Blah... Blah... Blah...</p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function(){
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+    </script>
+
+
+</section>
+
+
+
+
 <section class="spacer" id="spacer">
 
 
 </section>
+
+
 <section class="container" id="foot">
 
     <div id="footernav">
