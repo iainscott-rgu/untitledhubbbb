@@ -81,6 +81,21 @@ h1{
     width: 600px;
 }
 
+.table6{
+    border: 1px solid orange;
+    padding: 25px;
+    background-color: snow;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    color: darkslategrey;
+    margin-left: 5%;
+    width: 800px;
+}
+
+
+
 .tablejava td{
 
     padding-right: 75px;
