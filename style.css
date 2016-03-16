@@ -92,7 +92,7 @@ h1{
     font-family: 'Roboto', sans-serif;
     color: orange;
     font-size: 15px;
-    align: right;
+    float: right;
 }
 
 .tablesearch {
