@@ -245,7 +245,7 @@ NEWHTML;
     <div class="tabContent" id="regions">
 
         <div>
-            <p>Looking for a B&B in a Region of the UK but not sure where to stay?</p>
+            <p>Looking for a B&B in a Region of the UK but not sure where to stay? Find all B&B's by Region</p>
             <p>
 
             <table border="0" class="tablejava">
@@ -284,7 +284,7 @@ NEWHTML;
     <div class="tabContent" id="cities">
 
         <div>
-            <p>Looking for a B&B in a City of the UK but not sure where to stay?</p>
+            <p>Looking for a B&B in a City of the UK but not sure where to stay? Find all B&B's by City...</p>
             <p>
 
             <table border="0" class="tablejava">
@@ -319,7 +319,7 @@ NEWHTML;
     <div class="tabContent" id="areas">
 
         <div>
-            <p>Looking for a B&B in a Area of the UK but not sure where to stay?</p>
+            <p>Looking for a B&B in a Area of the UK but not sure where to stay? Find all B&B's by Area...</p>
             <p>
 
             <table border="0" class="tablejava">
