@@ -237,12 +237,12 @@ NEWHTML;
 
 
     <ul id="tabs">
-        <li><a href="#about">Regional Area's</a></li>
-        <li><a href="#advantages">Town's & City's</a></li>
-        <li><a href="#usage">Most Popular</a></li>
+        <li><a href="#regions">Regional Area's</a></li>
+        <li><a href="#cities">Town's & City's</a></li>
+        <li><a href="#areas">Most Popular</a></li>
     </ul>
 
-    <div class="tabContent" id="about">
+    <div class="tabContent" id="regions">
 
         <div>
             <p>Looking for a B&B in a Region of the UK but not sure where to stay?</p>
@@ -281,31 +281,31 @@ NEWHTML;
         </div>
     </div>
 
-    <div class="tabContent" id="advantages">
+    <div class="tabContent" id="cities">
 
         <div>
-            <p>Looking for a B&B in a Region of the UK but not sure where to stay?</p>
+            <p>Looking for a B&B in a City of the UK but not sure where to stay?</p>
             <p>
 
             <table border="0" class="tablejava">
                 <tr>
-                    <td>East</td>
-                    <td>East Midlands</td>
+                    <td>Aberdeen</td>
+                    <td>Edinburgh</td>
                     <td>London</td>
-                    <td>North East</td>
+                    <td>Glasgow</td>
                 </tr>
                 <tr>
-                    <td>North West</td>
-                    <td>Northern Ireland</td>
-                    <td>Scotland</td>
-                    <td>South East</td>
+                    <td>Dundee</td>
+                    <td>Newcastle</td>
+                    <td>Liverpool</td>
+                    <td>Leeds</td>
 
                 </tr>
                 <tr>
-                    <td>South West</td>
-                    <td>Wales</td>
-                    <td>West Midlands</td>
-                    <td>Yorkshire and the Humber</td>
+                    <td>Manchester</td>
+                    <td>Chester</td>
+                    <td>York</td>
+                    <td>Bristol</td>
 
 
                 </tr>
@@ -316,31 +316,31 @@ NEWHTML;
         </div>
     </div>
 
-    <div class="tabContent" id="usage">
+    <div class="tabContent" id="areas">
 
         <div>
-            <p>Looking for a B&B in a Region of the UK but not sure where to stay?</p>
+            <p>Looking for a B&B in a Area of the UK but not sure where to stay?</p>
             <p>
 
             <table border="0" class="tablejava">
                 <tr>
-                    <td>East</td>
-                    <td>East Midlands</td>
-                    <td>London</td>
-                    <td>North East</td>
+                    <td>Cornwall</td>
+                    <td>Dorset</td>
+                    <td>Devon</td>
+                    <td>Berkshire</td>
                 </tr>
                 <tr>
-                    <td>North West</td>
-                    <td>Northern Ireland</td>
-                    <td>Scotland</td>
-                    <td>South East</td>
+                    <td>Cumbria</td>
+                    <td>Derbyshire</td>
+                    <td>Somerset</td>
+                    <td>Loch Lomond</td>
 
                 </tr>
                 <tr>
-                    <td>South West</td>
-                    <td>Wales</td>
-                    <td>West Midlands</td>
-                    <td>Yorkshire and the Humber</td>
+                    <td>Loch Ness</td>
+                    <td>Cairngorms</td>
+                    <td>Ben Nevis</td>
+                    <td>Isle of Skye</td>
 
 
                 </tr>
