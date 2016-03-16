@@ -54,7 +54,7 @@ session_start();
     </div>
 </section>
 
-
+<a name="contactsection"></a>
 <section class="spacer" id="spacer">
 
 
@@ -65,7 +65,7 @@ session_start();
 <section class="container" id="featured">
     <div class="centre">
 
-        <p>Contact Section</p><a name="contactsection"></a>
+        <p>Contact Section</p>
     </div>
 </section>
 
