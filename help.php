@@ -72,7 +72,17 @@ session_start();
 
 <section class="container" id="content2">
     <table class="table5">
-<tr><td> Contact email address: theBnBhub@gmail.com</td></tr>
+<tr><td> Contact Email Address: </td><td>theBnBhub@gmail.com</td></tr>
+        <tr><td>Incorporated Business Address:</td><td>
+                <br>School of Computing Science and Digital Media</br>
+                The Sir Ian Wood Building
+                Robert Gordon University
+                Garthdee Road
+                Aberdeen
+                AB10 7GJ
+
+            </td></tr>
+
 
 
     </table>
