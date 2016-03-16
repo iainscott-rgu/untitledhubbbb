@@ -53,7 +53,7 @@ session_start();
         </nav>
     </div>
 
-
+</section>
 
 <section class="spacer" id="spacer">
 

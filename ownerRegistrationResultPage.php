@@ -31,7 +31,7 @@
             </ul>
         </nav>
     </div>
-
+</section>
 
 <section class="spacer" id="spacer">
 
