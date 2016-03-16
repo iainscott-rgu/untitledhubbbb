@@ -94,14 +94,14 @@
 <td>
 <table border="1">
 
-<tr valign="top">
-<td><strong>B&B Name: {$row[bbname]}</strong></td>
+<tr>
+<td colspan="2"><strong>B&B Name: {$row[bbname]}</strong></td>
 </tr>
 <tr>
-<td><strong>B&B Description: {$row[bbdescription]}</strong></td>
+<td colspan="2"><strong>B&B Description: {$row[bbdescription]}</strong></td>
 </tr>
 <tr>
-<td><strong>Address: {$row[address]}</strong></td>
+<td colspan="2"><strong>Address: {$row[address]}</strong></td>
 </tr>
 <tr>
 <td><strong>Location: {$row[city]}</strong></td>
