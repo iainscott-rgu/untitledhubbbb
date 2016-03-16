@@ -142,15 +142,7 @@ session_start();
                 </td>
             </tr>
 
-
-
-
-
-
-
-
-
-            <tr><td></td>
+            <tr><td><a href="help.html">need help?</a></td>
                 <td><p><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
             </tr>
         </table></form>
