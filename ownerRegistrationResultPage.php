@@ -62,23 +62,13 @@
                     <label for="numberofadults">Nbr. of Adults: *</label></td>
                 <td><input type="text" id="numberofadults" class="inputform" name="numberofadults" placeholder=" Enter your telephone number" size="20" maxlength="20" required /></td>
 
-
             </tr>
             <tr>
                 <td><label for="roomname">Room Name: *</label></td>
                 <td><input type="text" id="roomname" class="inputform" name="roomname" value="Enter your First Name" required /></td>
 
-
-
-                <td>
-                    <label for="numberofchildren">Nbr. of Children: *</label></td>
-                <td><input type="text" id="numberofchildren" class="inputform" name="numberofchildren" placeholder=" Enter first line of your address" size="30" maxlength="50" required /></td>
-
-
             </tr>
             <tr>
-
-
 
                 <td><label for="roomdescription">Room Description: *</label></td>
                 <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" value="Enter your First Name" required /></td>
@@ -87,35 +77,22 @@
                     <label for="imageurl">Image URL: *</label></td>
                 <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder=" Enter first line of your address" size="30" maxlength="50" required /></td>
 
-
             </tr>
             <tr>
-
-
-
                 <td><label for="price">Price: *</label></td>
                 <td><input type="text" id="price" class="inputform" name="price" value="Enter your Surname" required /></td>
 
-
-
-
-
             </tr>
-
-
-
-
-
             <tr>
                 <td colspan="4"><p align="right" ><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
             </tr>
         </table></form>
 
-
+</section>
+<section class="spacer" id="spacer">
 
 
 </section>
-
 <section class="container" id="featured">
     <div class="centre">
 
