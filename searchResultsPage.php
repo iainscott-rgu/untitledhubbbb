@@ -94,7 +94,7 @@
 <td>
 <table>
 <tr>
-<td><strong>B&B Name: {$row[bbname]}</strong></td>
+<td><strong><h6>B&B Name: </h6>{$row[bbname]}</strong></td>
 </tr>
 <tr>
 <td><strong>B&B Description: {$row[bbdescription]}</strong></td>
