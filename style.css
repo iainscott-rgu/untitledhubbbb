@@ -390,7 +390,7 @@ nav[role="sub2"] li a:HOVER{
 
 nav[role="main"] li a:HOVER{
     background-color: snow;
-    color: darkslategrey;
+    color: orange;
     padding: 10px;
     transition: 0.4s;
 }
