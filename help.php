@@ -78,7 +78,9 @@ session_start();
                 School of Computing Science and Digital Media
                 <br>The Sir Ian Wood Building
                 <br>Robert Gordon University
-                <br>Garthdee Road, Aberdeen, AB10 7GJ
+                <br>Garthdee Road
+                <br>Aberdeen
+                <br>AB10 7GJ
 
             </p></td></tr>
 
