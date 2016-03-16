@@ -147,7 +147,7 @@ session_start();
             </tr>
 
             <tr><td></td>
-                <td><a href="help.html" id="textlink">need help?</a></td>
+                <td><a href="help.php" id="textlink">need help?</a></td>
             </tr>
         </table></form>
 
