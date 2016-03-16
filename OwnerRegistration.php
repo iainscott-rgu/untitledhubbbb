@@ -75,9 +75,56 @@ session_start();
         <table class="table1">
 
             <tr><td class="smallfont"><p>* Required Fields</p></td></tr>
+            <tr><td>
+                    <label for="title">Title: *</label></td>
+                <td><select class="inputform" id="title" name="title">
+                        <option value="">Select Title</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                        <option value="Miss">Miss</option>
+                        <option value="Ms">Ms</option>
+                    </select>
+                </td>
+            </tr>
 
+            <tr>
+                <td><label for="firstname">First Name: *</label></td>
+                <td><input type="text" class="inputform" id="firstname" name="firstname" placeholder="Enter your First Name" required /></td>
+            </tr>
+            <tr>
+                <td><label for="surname">Surname: *</label></td>
+                <td><input type="text" class="inputform" id="surname" name="surname" placeholder="Enter your Surname" required /></td>
+            </tr>
 
+            <tr><td>
+                    <label for="address">Address: *</label></td>
+                <td><input type="text" class="inputform" id="address" name="address" placeholder=" Enter first line of your address" size="30" maxlength="50" required /></td>
+            </tr>
 
+            <tr><td>
+                    <label for="address2">Address Line 2: *</label></td>
+                <td><input type="text" class="inputform" id="address2" name="address2" placeholder=" Enter second line of your address" size="30" maxlength="50" required /></td>
+            </tr>
+
+            <tr><td>
+                    <label for="postcode">Postcode: *</label></td>
+                <td><input type="text" class="inputform" id="postcode" name="postcode" placeholder=" Enter your postcode" size="8" maxlength="8" required /></td>
+            </tr>
+
+            <tr><td>
+                    <label for="city">City: *</label></td>
+                <td><input type="text" class="inputform" id="city" name="city" placeholder=" Enter city" size="30" maxlength="50" required /></td>
+            </tr>
+
+            <tr><td>
+                    <label for="telephone">Telephone: *</label></td>
+                <td><input type="text" class="inputform" id="telephone" name="telephone" placeholder=" Enter your telephone number" size="20" maxlength="20" required /></td>
+            </tr>
+
+            <tr><td>
+                    <label for="mobile">Mobile Telephone: *</label></td>
+                <td><input type="text" class="inputform" id="mobile" name="mobile" placeholder=" Enter your mobile telephone number" size="20" maxlength="20" required /></td>
+            </tr>
 
             <tr><td>
                 <label for="email">Email: *</label></td>
@@ -93,45 +140,15 @@ session_start();
                 <td><label for="password2">Retype Password: *</label></td>
                 <td>    <input type="password" class="inputform" id="password2" name="password2" placeholder="enter password again" required>
                 </td>
-            </tr><tr><td>
-            <label for="title">Title: *</label></td>
-            <td><select class="inputform" id="title" name="title">
-                <option value="">Select Title</option>
-                <option value="Mr">Mr</option>
-                <option value="Mrs">Mrs</option>
-                <option value="Miss">Miss</option>
-                <option value="Ms">Ms</option>
-            </select>
-            </td>
-</tr>
-
-            <tr>
-                <td><label for="firstname">First Name: *</label></td>
-                <td><input type="text" class="inputform" id="firstname" name="firstname" placeholder="Enter your First Name" required /></td>
-            </tr>
-            <tr>
-                <td><label for="surname">Surname: *</label></td>
-                <td><input type="text" class="inputform" id="surname" name="surname" placeholder="Enter your Surname" required /></td>
-            </tr>
-            <tr>
-
-
-
-            <tr><td>
-                <label for="address">Address: *</label></td>
-                <td><input type="text" class="inputform" id="address" name="address" placeholder=" Enter first line of your address" size="30" maxlength="50" required /></td>
-            </tr>
-
-            <tr><td>
-                <label for="address2">Address Line 2: *</label></td>
-                <td><input type="text" class="inputform" id="address2" name="address2" placeholder=" Enter second line of your address" size="30" maxlength="50" required /></td>
             </tr>
 
 
-            <tr><td>
-                <label for="telephone">Telephone: *</label></td>
-                <td><input type="text" class="inputform" id="telephone" name="telephone" placeholder=" Enter your telephone number" size="20" maxlength="20" required /></td>
-            </tr>
+
+
+
+
+
+
 
             <tr><td></td>
                 <td><p><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
