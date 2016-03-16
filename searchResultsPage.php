@@ -93,8 +93,9 @@
 
 <td>
 <table>
+<h6>
 <tr>
-<td><h6><strong>B&B Name: {$row[bbname]}</strong></td>
+<td><strong>B&B Name: {$row[bbname]}</strong></td>
 </tr>
 <tr>
 <td><strong>B&B Description: {$row[bbdescription]}</strong></td>
@@ -113,8 +114,9 @@
 <td><strong>Check-out: {$row[checkout]}</strong></td>
 </tr>
 <tr>
-<td><strong>Pets allowed: {$row[pets]}</strong></h6></td>
+<td><strong>Pets allowed: {$row[pets]}</strong></td>
 </tr>
+</h6>
 </table>
 </td>
 </tr>
