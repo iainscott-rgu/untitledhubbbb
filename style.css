@@ -261,6 +261,19 @@ main{
     border-radius: 5px;
 }
 
+
+#img2{
+
+
+    border: 1px solid orange;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+
 #spacer{
 
     height: 50px;

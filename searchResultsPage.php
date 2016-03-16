@@ -89,7 +89,7 @@
 
 <table>
 <tr>
-<td><strong><img src="{$row[imageurl]}"></strong></td>
+<td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
 
 <td>
 <table>
