@@ -87,14 +87,14 @@
                     <div class="table5">
 
 
-<table>
+<table border="1">
 <tr>
 <td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
 
 <td>
-<table>
+<table border="1">
 
-<tr valign="top" margin="20">
+<tr valign="top">
 <td><strong>B&B Name: {$row[bbname]}</strong></td>
 </tr>
 <tr>
