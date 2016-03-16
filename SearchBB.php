@@ -129,7 +129,7 @@
             </ul>
         </nav>
     </div>
-
+</section>
 
 <section class="container" id="content">
     <form action="searchResultsPage.php" method="post">
