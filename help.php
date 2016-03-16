@@ -44,8 +44,8 @@ session_start();
     <div>
         <nav role="main">
             <ul>
-                <li><a href="help.php">Help</a></li>
-                <li><a href="help.php">Contact</a></li>
+                <li><a href="help.php#helpsection">Help</a></li>
+                <li><a href="help.php#contactsection">Contact</a></li>
                 <li><a href="B&Bregistration.html">Register</a></li>
                 <li><a href="OwnerSignIn.php">Member Area</a></li>
                 <li><a href="SearchBB.php">Search</a></li>
@@ -65,7 +65,7 @@ session_start();
 <section class="container" id="featured">
     <div class="centre">
 
-        <p>Contact Section</p>
+        <p>Contact Section</p><a name="contactsection"></a>
     </div>
 </section>
 
@@ -103,7 +103,7 @@ session_start();
 
 
 
-<section class="container" id="featured">
+<section class="container" id="featured"><a name="helpsection"></a>
     <div class="centre">
 
         <p>Help Section</p>
