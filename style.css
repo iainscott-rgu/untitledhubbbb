@@ -392,6 +392,7 @@ nav[role="main"] li a:HOVER{
     background-color: snow;
     color: darkslategrey;
     padding: 10px;
+    transition: 0.4s;
 }
 
 #img{
