@@ -72,15 +72,15 @@ session_start();
 
 <section class="container" id="content2">
     <table class="table6">
-        <tr>If you have a problem... if nobody else can help... and if you can find us... maybe you can hire... The A-Team.</tr>
-<tr><td> Contact Email Address: </td><td>theBnBhub@gmail.com</td></tr>
-        <tr><td valign="top">Incorporated Business Address:</td><td>
+        <tr><td><p>If you have a problem... if nobody else can help... and if you can find us... maybe you can hire... The A-Team.</p></td></tr>
+<tr><td><p>Contact Email Address: </p></td><td><p>theBnBhub@gmail.com</p></td></tr>
+        <tr><td valign="top"><p>Incorporated Business Address:</p></td><td valign="top"><p>
                 <br>School of Computing Science and Digital Media
                 <br>The Sir Ian Wood Building
                 <br>Robert Gordon University
                 <br>Garthdee Road, Aberdeen, AB10 7GJ
 
-            </td></tr>
+            </p></td></tr>
 
 
 
