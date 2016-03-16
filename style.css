@@ -90,8 +90,9 @@ h1{
     -khtml-border-radius: 10px;
     border-radius: 10px;
     color: darkslategrey;
-    margin-left: 5%;
-    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
 }
 
 
