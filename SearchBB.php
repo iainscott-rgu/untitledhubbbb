@@ -271,21 +271,7 @@ NEWHTML;
                 </tr>
 
                </table>
-
-            <nav role="sub">
-                <ul>
-                    <li><a href="B&Bregistration.html">Contact</a></li>
-                    <li><a href="B&Bregistration.html">Register</a></li>
-                    <li><a href="OwnerSignIn.php">Member Area</a></li>
-                    <li><a href="SearchBB.php">Search</a></li>
-                </ul>
-            </nav>
-
-
-
-
-
-
+fffffffffffffffffffffffffffffffffffffffffffff
 
         </div>
     </div>
