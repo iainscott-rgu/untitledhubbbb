@@ -22,14 +22,14 @@ h1{
 }
 
 .table1{
-    border: 1px solid darkslategrey;
+    border: 1px solid #666699;
     padding: 25px;
     background-color: #f8f8ff;
     -moz-border-radius:10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-    color: darkslategrey;
+    color: #666699;
     margin: 0%;
     }
 
@@ -41,14 +41,14 @@ h1{
 }
 
 .table3{
-    border: 1px solid darkslategrey;
+    border: 1px solid #666699;
     padding: 25px;
     background-color: #f8f8ff;
     -moz-border-radius:10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-    color: darkslategrey;
+    color: #666699;
     margin: 0%;
     margin-right: auto;
     margin-left: auto;
@@ -62,7 +62,7 @@ h1{
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-    color: darkslategrey;
+    color: #666699;
     margin-left: 5%;
     margin-right: auto;
     margin-left: auto;
@@ -76,7 +76,7 @@ h1{
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-    color: darkslategrey;
+    color: #666699;
     margin-left: 5%;
     width: 600px;
 }
@@ -89,13 +89,11 @@ h1{
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-    color: darkslategrey;
+    color: #666699;
     margin-left: auto;
     margin-right: auto;
     width: 960px;
 }
-
-
 
 .tablejava td{
 
@@ -155,14 +153,14 @@ h2{
 .resultdisplay{
     float: left;
     border-style: solid;
-    border-color: darkslategrey;
+    border-color: #666699;
 }
 
 .loader {
-    border: 16px solid darkslategrey;
+    border: 16px solid #666699;
     border-radius: 50%;
-    border-top: 16px solid darkslategrey;
-    border-bottom: 16px solid darkslategrey;
+    border-top: 16px solid #666699;
+    border-bottom: 16px solid #666699;
     width: 50px;
     height: 50px;
     -webkit-animation: spin 2s linear infinite;
@@ -192,7 +190,7 @@ h2{
     background-color: snow;
     font-family: 'Roboto', sans-serif;
     height: 80px;
-    color: darkslategrey;
+    color: #666699;
 
 }
 
@@ -373,7 +371,7 @@ nav[role="sub"] ul li a{
 
 nav[role="sub"] li a:HOVER{
 
-    color:darkslategrey;
+    color: orange;
 }
 
 nav[role="sub2"] li a{
