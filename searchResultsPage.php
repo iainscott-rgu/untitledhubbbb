@@ -95,10 +95,10 @@
 <table border="0" cellpadding="5">
 
 <tr>
-<td colspan="2">B&B Name: <strong id="h6">{$row[bbname]}</strong></td>
+<td colspan="2">B&B Name: <strong>{$row[bbname]}</strong></td>
 </tr>
 <tr>
-<td colspan="2"><strong>B&B Description: {$row[bbdescription]}</strong></td>
+<td colspan="2">B&B Description: <strong>{$row[bbdescription]}</strong></td>
 </tr>
 <tr>
 <td colspan="2"><strong>Address: {$row[address]}</strong></td>
