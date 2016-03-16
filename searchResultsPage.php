@@ -104,8 +104,7 @@
 </tr>
 <tr>
 <td><strong>Location: {$row[city]}</strong></td>
-</tr>
-<tr>
+
 <td><strong>Postcode: {$row[postcode]}</strong></td>
 </tr>
 <tr>
