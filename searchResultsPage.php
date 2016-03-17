@@ -188,21 +188,21 @@
 
 
     <ul id="tabs">
-        <li><a href="#regions">Regional Area's</a></li>
-        <li><a href="#cities">Town's & City's</a></li>
-        <li><a href="#areas">Most Popular</a></li>
+        <li><a href="#details">B&B Details</a></li>
+        <li><a href="#description">B&B Description</a></li>
+        <li><a href="#rooms">B&B Rooms</a></li>
     </ul>
 
-    <div class="tabContent" id="regions">
+    <div class="tabContent" id="details">
 <div>
 
 B&B Name: <strong>{$row[bbname]}</strong>
 <br>B&B Description: <strong>{$row[bbdescription]}</strong>
 <br>Address: <strong>{$row[address]}</strong>
 <br>Location: <strong>{$row[city]}</strong>
-<br>Postcode: <strong>{$row[postcode]}</strong>
+Postcode: <strong>{$row[postcode]}</strong>
 <br>Check-in: <strong>{$row[checkin]}</strong>
-<br>Check-out: <strong>{$row[checkout]}</strong>
+Check-out: <strong>{$row[checkout]}</strong>
 <br>Pets allowed: <strong>{$row[pets]}</strong>
 
         </div>
