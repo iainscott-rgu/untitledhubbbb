@@ -180,7 +180,7 @@
 <tr>
 <td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
 <td>
-<table border="0" cellpadding="5">
+<table border="0" cellpadding="5" valign="top">
 
 
 
