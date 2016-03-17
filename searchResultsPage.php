@@ -210,7 +210,7 @@ Check-out: <strong>{$row[checkout]}</strong>
     <div class="tabContent" id="description">
 
         <div>
-            <br>B&B Description: <strong>{$row[bbdescription]}</strong>
+            B&B Description: <strong>{$row[bbdescription]}</strong>
 
         </div>
     </div>
@@ -218,25 +218,13 @@ Check-out: <strong>{$row[checkout]}</strong>
     <div class="tabContent" id="rooms">
 
         <div>
-            <p>Looking for a B&B in a Area of the UK but not sure where to stay? Find all B&B's by Area...</p>
-            <p>
 
-            <table border="0" class="tablejava">
-                <tr>
+
+            Rooms in the hotel details
 
 
 
 
-
-
-
-
-
-
-
-                </tr>
-
-            </table>
 
 
         </div>
