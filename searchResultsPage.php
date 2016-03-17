@@ -180,7 +180,7 @@
 <tr>
 <td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
 <td>
-<table border="1" cellpadding="5" align="top">
+
 
 
 
@@ -231,7 +231,7 @@ Check-out: <strong>{$row[checkout]}</strong>
     </div>
 
 
-</table>
+
 </td>
 </tr>
 </table>
