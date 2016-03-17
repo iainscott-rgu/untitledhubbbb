@@ -203,7 +203,7 @@
 
 
 
-
+<div>
 
 
 <td colspan="2">B&B Name: <strong>{$row[bbname]}</strong></td>
