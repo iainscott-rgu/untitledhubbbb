@@ -56,31 +56,31 @@
             <tr>
 
                 <td><label for="bbid">B&B ID: *</label></td>
-                <td><input type="text" id="bbid" class="inputform" name="bbid" value="Enter your First Name" required /></td>
+                <td><input type="text" id="bbid" class="inputform" name="bbid" value="Enter your B&B ID" required /></td>
 
                 <td>
                     <label for="numberofadults">Nbr. of Adults: *</label></td>
-                <td><input type="text" id="numberofadults" class="inputform" name="numberofadults" placeholder=" Enter your telephone number" size="20" maxlength="20" required /></td>
+                <td><input type="text" id="numberofadults" class="inputform" name="numberofadults" placeholder=" How many Adults" size="20" maxlength="20" required /></td>
 
             </tr>
             <tr>
                 <td><label for="roomname">Room Name: *</label></td>
-                <td><input type="text" id="roomname" class="inputform" name="roomname" value="Enter your First Name" required /></td>
+                <td><input type="text" id="roomname" class="inputform" name="roomname" value="Enter a name for your room" required /></td>
 
             </tr>
             <tr>
 
                 <td><label for="roomdescription">Room Description: *</label></td>
-                <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" value="Enter your First Name" required /></td>
+                <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" value="Enter a room description" required /></td>
 
                 <td>
                     <label for="imageurl">Image URL: *</label></td>
-                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder=" Enter first line of your address" size="30" maxlength="50" required /></td>
+                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder=" Enter image url" size="30" maxlength="50" required /></td>
 
             </tr>
             <tr>
                 <td><label for="price">Price: *</label></td>
-                <td><input type="text" id="price" class="inputform" name="price" value="Enter your Surname" required /></td>
+                <td><input type="text" id="price" class="inputform" name="price" value="Enter price per night" required /></td>
 
             </tr>
             <tr>
