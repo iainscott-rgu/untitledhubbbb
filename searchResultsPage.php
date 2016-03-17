@@ -199,9 +199,9 @@
 B&B Name: <strong>{$row[bbname]}</strong>
 <br>Address: <strong>{$row[address]}</strong>
 <br>Location: <strong>{$row[city]}</strong>
-<br>Postcode: <strong>{$row[postcode]}</strong>
+Postcode: <strong>{$row[postcode]}</strong>
 <br>Check-in: <strong>{$row[checkin]}</strong>
-<br>Check-out: <strong>{$row[checkout]}</strong>
+Check-out: <strong>{$row[checkout]}</strong>
 <br>Pets allowed: <strong>{$row[pets]}</strong>
 
         </div>
