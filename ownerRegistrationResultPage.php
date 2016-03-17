@@ -60,7 +60,7 @@
 
 
                 <td><label for="price">Price: *</label></td>
-                <td><input type="text" id="price" class="inputform" name="price" value="Enter price per night" required /></td>
+                <td><input type="text" id="price" class="inputform" name="price" value="Enter price per night" size="30" required /></td>
 
             </tr>
             <tr>
@@ -69,7 +69,7 @@
 
                 <td>
                     <label for="numberofpeople">Nbr. of People: *</label></td>
-                <td><input type="text" id="numberofpeople" class="inputform" name="numberofpeople" placeholder=" How many Adults" size="20" maxlength="20" required /></td>
+                <td><input type="text" id="numberofpeople" class="inputform" name="numberofpeople" placeholder=" How many people room sleeps" size="30" maxlength="20" required /></td>
 
             </tr>
             <tr>
