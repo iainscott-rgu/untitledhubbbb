@@ -58,12 +58,12 @@
                 <td><label for="bbid">B&B ID: *</label></td>
                 <td><input type="text" id="bbid" class="inputform" name="bbid" value="DB insert B&B ID read only" size="20" maxlength="10" readonly /></td>
                 <td><label for="price">Price: *</label></td>
-                <td><input type="text" id="price" class="inputform" name="price" placeholder="Enter price per night" size="20" maxlength="10" required /></td>
+                <td><input type="text" id="price" class="inputform" name="price" placeholder="Enter Price Per\Night" size="20" maxlength="10" required /></td>
 
             </tr>
             <tr>
                 <td><label for="roomname">Room Name: *</label></td>
-                <td><input type="text" id="roomname" class="inputform" name="roomname" placeholder="Enter a Room Name" size="20" maxlength="25" required /></td>
+                <td><input type="text" id="roomname" class="inputform" name="roomname" placeholder="Enter Room Name" size="20" maxlength="25" required /></td>
 
                 <td>
                     <label for="nbrofpeople">Room Sleeps: *</label></td>
