@@ -204,20 +204,16 @@ abc
 xyz
 
 
-<td colspan="2">B&B Name: <strong>{$row[bbname]}</strong></td>
-</tr>
-<tr>
-<td colspan="2">B&B Description: <strong>{$row[bbdescription]}</strong></td>
-</tr>
-<tr>
-<td colspan="2">Address: <strong>{$row[address]}</strong></td>
-</tr>
-<tr>
-<td>Location: <strong>{$row[city]}</strong></td>
+B&B Name: <strong>{$row[bbname]}</strong>
 
-<td>Postcode: <strong>{$row[postcode]}</strong></td>
-</tr>
-<tr>
+B&B Description: <strong>{$row[bbdescription]}</strong>
+
+Address: <strong>{$row[address]}</strong>
+
+Location: <strong>{$row[city]}</strong>
+
+Postcode: <strong>{$row[postcode]}</strong>
+
 
 <td>Check-in: <strong>{$row[checkin]}</strong></td>
 <td>Check-out: <strong>{$row[checkout]}</strong></td>
