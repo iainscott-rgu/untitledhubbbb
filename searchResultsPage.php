@@ -197,7 +197,7 @@
 <div>
 
 B&B Name: <strong>{$row[bbname]}</strong>
-<br>B&B Description: <strong>{$row[bbdescription]}</strong>
+
 <br>Address: <strong>{$row[address]}</strong>
 <br>Location: <strong>{$row[city]}</strong>
 Postcode: <strong>{$row[postcode]}</strong>
@@ -211,25 +211,7 @@ Check-out: <strong>{$row[checkout]}</strong>
     <div class="tabContent" id="cities">
 
         <div>
-            <p>Looking for a B&B in a City of the UK but not sure where to stay? Find all B&B's by City...</p>
-            <p>
-
-            <table border="0" class="tablejava">
-                <tr>
-
-
-
-
-
-
-
-
-
-
-                </tr>
-
-            </table>
-
+            <br>B&B Description: <strong>{$row[bbdescription]}</strong>
 
         </div>
     </div>
