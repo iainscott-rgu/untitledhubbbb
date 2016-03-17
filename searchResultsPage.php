@@ -198,7 +198,7 @@
 ertrr
 <div>
 abc
-            <table border="0" class="tablejava">
+            <table border="0" class="">
                 <tr>
 
 
