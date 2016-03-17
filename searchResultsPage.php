@@ -194,19 +194,11 @@
     </ul>
 
     <div class="tabContent" id="regions">
-
-ertrr
 <div>
-abc
 
+<p>B&B Name: <strong>{$row[bbname]}</strong></p>
 
-
-xyz
-
-
-B&B Name: <strong>{$row[bbname]}</strong>
-
-B&B Description: <strong>{$row[bbdescription]}</strong>
+<p>B&B Description: <strong>{$row[bbdescription]}</strong></p>
 
 Address: <strong>{$row[address]}</strong>
 
@@ -215,11 +207,10 @@ Location: <strong>{$row[city]}</strong>
 Postcode: <strong>{$row[postcode]}</strong>
 
 
-<td>Check-in: <strong>{$row[checkin]}</strong></td>
-<td>Check-out: <strong>{$row[checkout]}</strong></td>
-</tr>
-<tr>
-<td>Pets allowed: <strong>{$row[pets]}</strong></td>
+Check-in: <strong>{$row[checkin]}</strong>
+Check-out: <strong>{$row[checkout]}</strong>
+
+Pets allowed: <strong>{$row[pets]}</strong>
 
 
 
