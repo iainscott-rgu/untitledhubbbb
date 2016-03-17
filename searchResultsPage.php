@@ -207,7 +207,7 @@ B&B Name: <strong>{$row[bbname]}</strong>
         </div>
     </div>
 
-    <div class="tabContent" id="cities">
+    <div class="tabContent" id="description">
 
         <div>
             <br>B&B Description: <strong>{$row[bbdescription]}</strong>
@@ -215,7 +215,7 @@ B&B Name: <strong>{$row[bbname]}</strong>
         </div>
     </div>
 
-    <div class="tabContent" id="areas">
+    <div class="tabContent" id="rooms">
 
         <div>
             <p>Looking for a B&B in a Area of the UK but not sure where to stay? Find all B&B's by Area...</p>
