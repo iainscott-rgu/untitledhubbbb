@@ -104,7 +104,7 @@ session_start();
 
             <tr><td>
                     <label for="address2">Address Line 2: *</label></td>
-                <td><input type="text" class="inputform" id="address2" name="address2" placeholder=" Enter the second line of your Address" size="30" maxlength="50" required /></td>
+                <td><input type="text" class="inputform" id="address2" name="address2" placeholder="Enter the second line of your Address" size="30" maxlength="50" required /></td>
             </tr>
 
             <tr><td>
