@@ -176,10 +176,10 @@
                     <div class="table5">
 
 
-<table border="1" cellpadding="5" align="top">
+<table border="1" cellpadding="5">
 <tr>
 <td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
-<td>
+<td align="top">
 
 
 
