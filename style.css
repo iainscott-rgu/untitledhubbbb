@@ -467,6 +467,7 @@ div.tabContent {
     -webkit-border-radius: 0px 10px 10px 10px !important;
     -khtml-border-radius: 0px 10px 10px 10px !important;
     border-radius: 0px 10px 10px 10px !important;
+    height: 300px;
 }
 div.tabContent.hide {
     display: none;
