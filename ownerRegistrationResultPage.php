@@ -81,7 +81,7 @@
             <tr>
 
                 <td><label for="roomdescription">Room Description: *</label></td>
-                <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" value="Enter Room Description" size="30" maxlength="50" required /></td>
+                <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" placeholder="Enter Room Description" size="30" maxlength="50" required /></td>
 
                 <td>
                     <label for="imageurl">Image URL: *</label></td>
