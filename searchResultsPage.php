@@ -209,7 +209,7 @@ Check-out: <strong>{$row[checkout]}</strong></p>
     <div class="tabContent" id="description">
 
         <div>
-            B&B Description bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb: <strong>{$row[bbdescription]}</strong>
+            B&B Description bb bbbbbb bbbb bbbb bbb bbb vvvv vvv vvvv vvv v vvvvv vvv vvv : <strong>{$row[bbdescription]}</strong>
 
         </div>
     </div>
