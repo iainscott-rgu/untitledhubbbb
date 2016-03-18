@@ -66,7 +66,7 @@
             for ( var id in contentDivs ) {
                 if ( id == selectedId ) {
                     tabLinks[id].className = 'selected';
-                    contentDivs[id].className = 'tabContent';
+                    contentDivs[id].className = 'tabContent hide';
                 } else {
                     tabLinks[id].className = '';
                     contentDivs[id].className = 'tabContent hide';
@@ -74,7 +74,7 @@
             }
 
             // Stop the browser following the link
-            return true;
+            return false;
         }
 
         function getFirstChildWithTagName( element, tagName ) {
