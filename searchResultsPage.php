@@ -245,7 +245,7 @@ Check-out: <strong>{$row[checkout]}</strong></p>
 
 
 
-    <p><a href="Customerinfo.html" align-"right"><input type="submit" value="BOOK" align="right" /></a></p>
+    <p align="right"><a href="Customerinfo.html"><input type="submit" value="BOOK" /></a></p>
 
 
 
