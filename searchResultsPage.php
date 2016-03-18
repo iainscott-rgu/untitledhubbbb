@@ -190,14 +190,13 @@
     <ul id="tabs">
         <li><a href="#details">B&B Details</a></li>
         <li><a href="#description">B&B Description</a></li>
-        <li><a href="#rooms">B&B Rooms</a></li>
+        <li><a href="#address">B&B Address</a></li>
     </ul>
 
     <div class="tabContent" id="details">
 <div>
 
 <p>B&B Name: <strong>{$row[bbname]}</strong></p>
-<p>Address: <strong>{$row[address]}</strong></p>
 <p>Location: <strong>{$row[city]}</strong>&nbsp;&nbsp;
 Postcode: <strong>{$row[postcode]}</strong></p>
 <p>Check-in: <strong>{$row[checkin]}</strong>&nbsp;&nbsp;
@@ -215,12 +214,12 @@ Check-out: <strong>{$row[checkout]}</strong></p>
         </div>
     </div>
 
-    <div class="tabContent" id="rooms">
+    <div class="tabContent" id="address">
 
         <div>
 
 
-            Rooms in the hotel details
+            <p>Address: <strong>{$row[address]}</strong></p>
 
 
 
