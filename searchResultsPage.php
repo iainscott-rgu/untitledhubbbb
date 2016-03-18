@@ -200,7 +200,7 @@ Check-out: <strong>{$row[checkout]}</strong></p>
 
 
 
-
+</div>
 
 
 
@@ -277,7 +277,7 @@ Check-out: <strong>{$row[checkout]}</strong></p>
     </script>
 
 
-</div>
+
 
 
 
