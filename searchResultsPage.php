@@ -176,7 +176,7 @@
                     <div class="table5">
 
 
-<table>
+<table cellpadding="10">
 <tr>
 <td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
 <td valign="top">
