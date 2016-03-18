@@ -209,7 +209,7 @@ Check-out: <strong>{$row[checkout]}</strong></p>
     <div class="tabContent" id="description">
 
         <div>
-            B&B Description bb bbbbbb bbbb bbbb bbb bbb vvvv vvv vvvv vvv v vvvvv vvv vvv : <strong>{$row[bbdescription]}</strong>
+            B&B Description: <strong>{$row[bbdescription]}</strong>
 
         </div>
     </div>
@@ -220,6 +220,12 @@ Check-out: <strong>{$row[checkout]}</strong></p>
 
 
             <p>Address: <strong>{$row[address]}</strong></p>
+            <p><strong>{$row[address2]}</strong></p>
+            <p>Postcode: <strong>{$row[postcode]}</strong></p>
+            <p>Location: <strong>{$row[city]}</strong></P>
+
+
+
 
 
 
