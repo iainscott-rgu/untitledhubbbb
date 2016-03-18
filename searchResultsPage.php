@@ -222,6 +222,7 @@ Check-out: <strong>{$row[checkout]}</strong></p>
             <p>Address: <strong>{$row[address]}, {$row[addressline2]}</strong></p>
             <p>Postcode: <strong>{$row[postcode]}</strong></p>
             <p>Location: <strong>{$row[city]}</strong></P>
+            <p>Region: <strong>{$row[region]}</strong></P>
 
 
 
