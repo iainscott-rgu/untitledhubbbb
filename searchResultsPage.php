@@ -158,7 +158,7 @@
 <section class="container" id="content2">
 
 
-    <div class="main">
+    <!--div class="main"-->
 
 
     <?php
@@ -254,7 +254,7 @@ Check-out: <strong>{$row[checkout]}</strong></p>
 
 
 
-</div>
+<!--/div-->
 
 
 
