@@ -173,13 +173,8 @@
         foreach($st->fetchAll() as $row) {
             $newhtml =
                 <<<NEWHTML
-                    <div class="table55">
 
 
-<table cellpadding="15">
-<tr>
-<td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
-<td valign="top">
 
 
 
@@ -236,18 +231,6 @@ Check-out: <strong>{$row[checkout]}</strong></p>
     </div>
 
 
-
-</td>
-
-<td>
-
-
-    <a href="Customerinfo.html"><input type="submit" value="BOOK" /></a>
-
-</td>
-
-</tr>
-</table>
 
 
 
