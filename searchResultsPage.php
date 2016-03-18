@@ -256,10 +256,7 @@ Check-out: <strong>{$row[checkout]}</strong></p>
 
 </div>
 
- <section class="spacer" id="spacer">
 
-
-    </section>
 
 
 NEWHTML;
