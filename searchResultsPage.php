@@ -196,13 +196,13 @@
     <div class="tabContent" id="details">
 <div>
 
-B&B Name: <strong>{$row[bbname]}</strong>
-<br>Address: <strong>{$row[address]}</strong>
-<br>Location: <strong>{$row[city]}</strong>
-Postcode: <strong>{$row[postcode]}</strong>
-<br>Check-in: <strong>{$row[checkin]}</strong>
-Check-out: <strong>{$row[checkout]}</strong>
-<br>Pets allowed: <strong>{$row[pets]}</strong>
+<p>B&B Name: <strong>{$row[bbname]}</strong></p>
+<p>Address: <strong>{$row[address]}</strong></p>
+<p>Location: <strong>{$row[city]}</strong>&nbsp;&nbsp;
+Postcode: <strong>{$row[postcode]}</strong></p>
+<p>Check-in: <strong>{$row[checkin]}</strong>&nbsp;&nbsp;
+Check-out: <strong>{$row[checkout]}</strong></p>
+<p>Pets allowed: <strong>{$row[pets]}</strong></p>
 
         </div>
     </div>
