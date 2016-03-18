@@ -53,7 +53,7 @@
             var i = 0;
 
             for ( var id in contentDivs ) {
-                if ( i != 1 ) contentDivs[id].className = 'tabContent hide';
+                if ( i != 0 ) contentDivs[id].className = 'tabContent hide';
                 i++;
             }
         }
@@ -74,7 +74,7 @@
             }
 
             // Stop the browser following the link
-            return false;
+            return true;
         }
 
         function getFirstChildWithTagName( element, tagName ) {
