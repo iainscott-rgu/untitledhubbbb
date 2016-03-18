@@ -220,7 +220,7 @@ Check-out: <strong>{$row[checkout]}</strong></p>
 
 
             <p>Address: <strong>{$row[address]}</strong></p>
-            <p><strong>{$row[address2]}</strong></p>
+            <p><strong>{$row[addressline2]}</strong></p>
             <p>Postcode: <strong>{$row[postcode]}</strong></p>
             <p>Location: <strong>{$row[city]}</strong></P>
 
