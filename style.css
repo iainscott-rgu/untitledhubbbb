@@ -77,8 +77,9 @@ h1{
     -khtml-border-radius: 10px;
     border-radius: 10px;
     color: #666699;
-    margin-left: 3%;
-    width: 725px;
+    margin-left: 5%;
+    width: 700px;
+    text-decoration: none;
 }
 
 .table6{
@@ -415,7 +416,7 @@ body{
 
 #map{
 
-    margin-right: 25px;
+    margin-right: 50px;
     border: 5px solid #666699;
     margin-top: 100px;
 }
