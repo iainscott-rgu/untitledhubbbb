@@ -158,7 +158,7 @@
 <section class="container" id="content2">
 
 
-    <!--div class="main"-->
+    <div class="main">
 
 
     <?php
@@ -173,7 +173,7 @@
         foreach($st->fetchAll() as $row) {
             $newhtml =
                 <<<NEWHTML
-                    <div class="table5">
+                    <div class="table55">
 
 
 <table cellpadding="15">
@@ -254,7 +254,7 @@ Check-out: <strong>{$row[checkout]}</strong></p>
 
 
 
-<!--/div-->
+</div>
 
 
 
